@@ -104,12 +104,11 @@ solving	B-Skill	O
 business	I-Skill	O
 problems	I-Skill	O
 through	O	O
-innovation	O	B-Knowledge
-and	O	I-Knowledge
-engineering	O	I-Knowledge
-practices	O	I-Knowledge
+innovation	O	O
+and	O	O
+engineering	O	O
+practices	O	O
 .	O	O
-
 
 You'll	O	O
 be	O	O
@@ -150,7 +149,6 @@ on	I-Skill	O
 common	I-Skill	O
 goals	I-Skill	O
 .	O	O
-
 
 We	O	O
 embrace	O	O
@@ -307,11 +305,11 @@ across	O	O
 lines	O	O
 of	O	O
 business	O	O
-Product	O	O
-Development	O	O
+Product	O	B-Knowledge
+Development	O	I-Knowledge
 and	O	O
-Quantitative	O	O
-Research	O	O
+Quantitative	O	B-Knowledge
+Research	O	I-Knowledge
 to	O	O
 build	O	O
 a	O	O
@@ -350,11 +348,11 @@ Advanced	O	O
 knowledge	O	O
 of	O	O
 application	O	B-Knowledge
-data	O	I-Knowledge
-and	O	I-Knowledge
-infrastructure	O	I-Knowledge
+data	O	B-Knowledge
+and	O	O
+infrastructure	O	B-Knowledge
 architecture	O	I-Knowledge
-disciplines	O	I-Knowledge
+disciplines	O	O
 
 *	O	O
 •	O	O
@@ -372,8 +370,8 @@ systems	O	O
 Working	O	O
 proficiency	O	O
 in	O	O
-developmental	B-Skill	O
-toolsets	I-Skill	O
+developmental	B-Skill	B-Knowledge
+toolsets	I-Skill	I-Knowledge
 
 *	O	O
 •	O	O
@@ -414,9 +412,9 @@ in	O	O
 one	O	O
 or	O	O
 more	O	O
-modern	O	O
-programming	O	O
-languages	O	O
+modern	O	B-Knowledge
+programming	O	I-Knowledge
+languages	O	I-Knowledge
 -	O	O
 Java	O	B-Knowledge
 and	O	O
@@ -457,18 +455,17 @@ concurrent	I-Skill	O
 applications	I-Skill	O
 .	O	O
 
-
 *	O	O
 •	O	O
 Node	O	B-Knowledge
 JS	O	I-Knowledge
-(	O	I-Knowledge
-server	O	I-Knowledge
+(	O	O
+server	O	B-Knowledge
 side	O	I-Knowledge
 and	O	I-Knowledge
 tooling	O	I-Knowledge
-)	O	I-Knowledge
-*	O	I-Knowledge
+)	O	O
+*	O	O
 •	O	O
 React	O	B-Knowledge
 or	O	O
@@ -761,12 +758,11 @@ solving	B-Skill	O
 business	I-Skill	O
 problems	I-Skill	O
 through	O	O
-innovation	O	B-Knowledge
-and	O	I-Knowledge
-engineering	O	I-Knowledge
-practices	O	I-Knowledge
+innovation	O	O
+and	O	O
+engineering	O	O
+practices	O	O
 .	O	O
-
 
 You'll	O	O
 be	O	O
@@ -807,7 +803,6 @@ on	I-Skill	O
 common	I-Skill	O
 goals	I-Skill	O
 .	O	O
-
 
 We	O	O
 embrace	O	O
@@ -877,7 +872,7 @@ Spring	O	B-Knowledge
 Boot	O	I-Knowledge
 NoSQL	O	B-Knowledge
 Message	O	B-Knowledge
-Cloud	O	B-Knowledge
+Cloud	O	I-Knowledge
 CI/CD	O	B-Knowledge
 Experience	O	O
 
@@ -886,11 +881,11 @@ Advanced	O	O
 knowledge	O	O
 of	O	O
 application	O	B-Knowledge
-data	O	I-Knowledge
-and	O	I-Knowledge
-infrastructure	O	I-Knowledge
+data	O	B-Knowledge
+and	O	O
+infrastructure	O	B-Knowledge
 architecture	O	I-Knowledge
-disciplines	O	I-Knowledge
+disciplines	O	O
 
 *	O	O
 Understanding	O	O
@@ -960,11 +955,11 @@ such	O	O
 as	O	O
 business	O	B-Knowledge
 analysis	O	I-Knowledge
-development	B-Skill	O
-maintenance	B-Skill	O
+development	B-Skill	B-Knowledge
+maintenance	B-Skill	B-Knowledge
 and	O	O
-software	B-Skill	O
-improvement	I-Skill	O
+software	B-Skill	B-Knowledge
+improvement	I-Skill	I-Knowledge
 
 <ORGANIZATION>	O	O
 <ORGANIZATION>	O	O
@@ -1213,7 +1208,7 @@ azure	O	B-Knowledge
 net	O	I-Knowledge
 asp.net-web-api	O	B-Knowledge
 powershell	O	B-Knowledge
-json.net	O	B-Knowledge
+json.net	O	I-Knowledge
 
 Job	O	O
 description:	O	O
@@ -1262,7 +1257,7 @@ azure	O	B-Knowledge
 net	O	I-Knowledge
 asp.net-web-api	O	B-Knowledge
 powershell	O	B-Knowledge
-json.net	O	B-Knowledge
+json.net	O	I-Knowledge
 
 Job	O	O
 description	O	O
@@ -1335,14 +1330,14 @@ proven	O	O
 experience	O	O
 with	O	O
 Azure	O	B-Knowledge
-PaaS	O	I-Knowledge
+PaaS	O	B-Knowledge
 microservices	O	B-Knowledge
 .	O	B-Knowledge
-NET	O	I-Knowledge
+NET	O	B-Knowledge
 PowerShell	O	B-Knowledge
 and	O	O
 MS	O	B-Knowledge
-SQL	O	I-Knowledge
+SQL	O	B-Knowledge
 you	O	O
 will	O	O
 enable	O	O
@@ -1376,8 +1371,8 @@ CI	I-Skill	B-Knowledge
 infrastructure	I-Skill	O
 pipelines	I-Skill	O
 and	I-Skill	O
-Azure	I-Skill	B-Knowledge
-PaaS	I-Skill	I-Knowledge
+Azure	I-Skill	O
+PaaS	I-Skill	B-Knowledge
 environments	I-Skill	O
 
 Ensure	B-Skill	O
@@ -1394,16 +1389,16 @@ environments	I-Skill	O
 Administrate	B-Skill	O
 and	I-Skill	O
 manage	I-Skill	O
-Azure	I-Skill	B-Knowledge
+Azure	I-Skill	O
 resources	I-Skill	O
 such	O	O
 as	O	O
-subscriptions	O	B-Knowledge
-resource	O	B-Knowledge
-groups	O	I-Knowledge
+subscriptions	O	O
+resource	O	O
+groups	O	O
 and	O	O
 other	O	O
-DevOps	O	B-Knowledge
+DevOps	O	O
 services	O	O
 such	O	O
 as	O	O
@@ -1431,14 +1426,14 @@ pipelines	I-Skill	O
 and	O	O
 usage	B-Skill	O
 of	I-Skill	O
-static	I-Skill	O
-analysis	I-Skill	O
-tools	I-Skill	O
+static	I-Skill	B-Knowledge
+analysis	I-Skill	I-Knowledge
+tools	I-Skill	I-Knowledge
 (	O	O
 SonarQube	O	B-Knowledge
 .	O	B-Knowledge
-NET	O	I-Knowledge
-Analyzers	O	I-Knowledge
+NET	O	B-Knowledge
+Analyzers	O	B-Knowledge
 Infer#	O	B-Knowledge
 etc.	O	O
 )	O	O
@@ -1459,24 +1454,24 @@ and	I-Skill	O
 deployment	I-Skill	O
 pipelines	I-Skill	O
 for	I-Skill	O
-web	I-Skill	O
-applications	I-Skill	O
-and	I-Skill	O
-services	I-Skill	O
+web	I-Skill	B-Knowledge
+applications	I-Skill	I-Knowledge
+and	I-Skill	I-Knowledge
+services	I-Skill	I-Knowledge
 (	O	O
 Azure	O	B-Knowledge
-AppService	O	I-Knowledge
+AppService	O	B-Knowledge
 IIS	O	B-Knowledge
-)	O	I-Knowledge
+)	O	O
 and	O	O
 SQL	O	B-Knowledge
-DBs	O	I-Knowledge
+DBs	O	B-Knowledge
 
 Ability	O	O
 to	O	O
 troubleshoot	B-Skill	O
-Azure	I-Skill	B-Knowledge
-AppService	I-Skill	I-Knowledge
+Azure	I-Skill	O
+AppService	I-Skill	O
 hosted	I-Skill	O
 websites	I-Skill	O
 and	I-Skill	O
@@ -1500,16 +1495,16 @@ in	O	O
 automation	O	B-Knowledge
 (	O	O
 e.g.:	O	O
-PowerShell	O	B-Knowledge
+PowerShell	O	O
 Azure	O	B-Knowledge
-CLI	O	I-Knowledge
+CLI	O	B-Knowledge
 json	O	B-Knowledge
 
--	O	O
+-	O	B-Knowledge
 and	O	O
 yaml	O	B-Knowledge
 
--	O	O
+-	O	B-Knowledge
 based	O	B-Knowledge
 templates	O	I-Knowledge
 etc.	O	O
@@ -1518,7 +1513,7 @@ Familiarity	O	O
 with	O	O
 the	O	O
 following	O	O
-Azure	O	O
+Azure	O	B-Knowledge
 services	O	O
 (	O	O
 or	O	O
@@ -1538,7 +1533,7 @@ ServiceBus	O	B-Knowledge
 Api	O	B-Knowledge
 Management	O	I-Knowledge
 CosmosDB	O	B-Knowledge
-KeyVault	O	B-Knowledge
+KeyVault	O	O
 
 Basic	O	O
 knowledge	O	O
@@ -1556,10 +1551,10 @@ experience	O	O
 with	O	O
 Azure	O	B-Knowledge
 DevOps	O	I-Knowledge
-(	O	I-Knowledge
-cloud	O	I-Knowledge
-and	O	I-Knowledge
-server	O	I-Knowledge
+(	O	O
+cloud	O	B-Knowledge
+and	O	O
+server	O	B-Knowledge
 )	O	I-Knowledge
 is	O	O
 a	O	O
@@ -1571,8 +1566,8 @@ experience	O	O
 with	O	O
 Docker	O	B-Knowledge
 Containers	O	I-Knowledge
-/	O	O
-K8s	O	B-Knowledge
+/	O	B-Knowledge
+K8s	O	I-Knowledge
 are	O	O
 a	O	O
 clear	O	O
@@ -1884,12 +1879,11 @@ solving	B-Skill	O
 business	I-Skill	O
 problems	I-Skill	O
 through	O	O
-innovation	O	B-Knowledge
-&	O	I-Knowledge
-engineering	O	I-Knowledge
-practices	O	I-Knowledge
+innovation	O	O
+&	O	O
+engineering	O	O
+practices	O	O
 .	O	O
-
 
 You	O	O
 will	O	O
@@ -1931,7 +1925,6 @@ on	I-Skill	O
 common	I-Skill	O
 goals	I-Skill	O
 .	O	O
-
 
 We	O	O
 embrace	O	O
@@ -2055,9 +2048,9 @@ Strong	O	O
 knowledge	O	O
 of	O	O
 application	O	B-Knowledge
-data	O	I-Knowledge
-and	O	I-Knowledge
-infrastructure	O	I-Knowledge
+data	O	B-Knowledge
+and	O	O
+infrastructure	O	B-Knowledge
 architecture	O	I-Knowledge
 disciplines	O	O
 
@@ -2066,18 +2059,18 @@ Expert	O	O
 understanding	O	O
 of	O	O
 architecture	O	B-Knowledge
-and	O	O
+and	O	I-Knowledge
 design	O	B-Knowledge
-across	O	O
-all	O	O
-systems	O	O
+across	O	I-Knowledge
+all	O	I-Knowledge
+systems	O	I-Knowledge
 
 •	O	O
 Successful	O	O
 contribution	O	O
 to	O	O
-software	O	B-Knowledge
-systems	O	I-Knowledge
+software	O	O
+systems	O	O
 
 •	O	O
 Working	O	O
@@ -2150,13 +2143,13 @@ in	O	O
 one	O	O
 or	O	O
 more	O	O
-modern	O	O
-programming	O	O
-languages	O	O
+modern	O	B-Knowledge
+programming	O	I-Knowledge
+languages	O	I-Knowledge
 i.e	O	O
 .	O	O
 
-Java/J2EE	O	O
+Java/J2EE	O	B-Knowledge
 Python	O	B-Knowledge
 Go	O	B-Knowledge
 React	O	B-Knowledge
@@ -2168,7 +2161,7 @@ Cloud	O	B-Knowledge
 Technologies	O	I-Knowledge
 including	O	O
 AWS	O	B-Knowledge
-containers	O	B-Knowledge
+containers	O	I-Knowledge
 and	O	O
 Kubernetes	O	B-Knowledge
 
@@ -2178,8 +2171,8 @@ experience	O	O
 of	O	O
 performing	O	O
 DevOps	O	B-Knowledge
-for	O	I-Knowledge
-platforms	O	I-Knowledge
+for	O	O
+platforms	O	O
 
 •	O	O
 Experience	O	O
@@ -2188,12 +2181,12 @@ Automated	O	B-Knowledge
 testing	O	I-Knowledge
 
 •	O	O
-Resource	O	B-Knowledge
-management	O	I-Knowledge
+Resource	O	O
+management	O	O
 preferred	O	O
 
-Banking	O	O
-Technology	O	O
+Banking	O	B-Knowledge
+Technology	O	I-Knowledge
 Engineering	O	O
 &	O	O
 Architecture	O	O
@@ -2403,11 +2396,11 @@ main	O	O
 domains:	O	O
 functional	O	O
 architecture	O	O
-information	O	O
-architecture	O	O
-technical	O	O
-architecture	O	O
-infrastructure	O	O
+information	O	B-Knowledge
+architecture	O	I-Knowledge
+technical	O	B-Knowledge
+architecture	O	I-Knowledge
+infrastructure	O	B-Knowledge
 architecture	O	O
 security	O	O
 architecture	O	O
@@ -3164,9 +3157,9 @@ get	O	O
 immediate	O	O
 experience	O	O
 in	O	O
-research	O	O
-and	O	O
-development	O	O
+research	O	B-Knowledge
+and	O	I-Knowledge
+development	O	I-Knowledge
 while	O	O
 having	O	O
 the	O	O
@@ -3203,8 +3196,8 @@ PROFILE	O	O
 You	O	O
 have	O	O
 a	O	O
-degree	O	O
-Computer	O	B-Knowledge
+degree	O	B-Knowledge
+Computer	O	I-Knowledge
 Science	O	I-Knowledge
 or	O	O
 equivalent	O	O
@@ -3257,9 +3250,9 @@ NumPy	O	B-Knowledge
 Shapely	O	B-Knowledge
 /	O	O
 Pyhon	O	B-Knowledge
-Multithreading	O	I-Knowledge
-and	O	I-Knowledge
-Multiprocessing	O	I-Knowledge
+Multithreading	O	B-Knowledge
+and	O	O
+Multiprocessing	O	B-Knowledge
 AWS/Azure	O	B-Knowledge
 or	O	O
 in	O	O
@@ -3493,9 +3486,9 @@ type:	O	O
 
 Technologies:	O	O
 
-e-commerce	O	B-Knowledge
-open-source	O	B-Knowledge
-ruby-on-rails	O	B-Knowledge
+e-commerce	O	O
+open-source	O	O
+ruby-on-rails	O	O
 sql	O	B-Knowledge
 heroku	O	B-Knowledge
 
@@ -3520,9 +3513,9 @@ Full-time	O	O
 
 Technologies	O	O
 
-e-commerce	O	B-Knowledge
-open-source	O	B-Knowledge
-ruby-on-rails	O	B-Knowledge
+e-commerce	O	O
+open-source	O	O
+ruby-on-rails	O	O
 sql	O	B-Knowledge
 heroku	O	B-Knowledge
 
@@ -3675,12 +3668,11 @@ and	O	O
 promote	B-Skill	O
 .	O	O
 
-
 We	O	O
 believe	O	O
 in	O	O
 
-TDD	O	B-Knowledge
+TDD	O	O
 
 ,	O	O
 
@@ -3694,14 +3686,14 @@ teamwork	B-Skill	O
 -	O	O
 automated	O	B-Knowledge
 testing	O	I-Knowledge
-code	B-Skill	O
-reviews	I-Skill	O
-pair	B-Skill	O
-programming	I-Skill	O
+code	B-Skill	I-Knowledge
+reviews	I-Skill	I-Knowledge
+pair	B-Skill	B-Knowledge
+programming	I-Skill	I-Knowledge
 professional	O	O
-QA	B-Skill	O
+QA	B-Skill	B-Knowledge
 and	O	O
-PM	B-Skill	O
+PM	B-Skill	B-Knowledge
 support	I-Skill	O
 for	O	O
 our	O	O
@@ -3715,7 +3707,7 @@ touch	I-Skill	O
 using	O	O
 slack	O	O
 or	O	O
-Jira	O	O
+Jira	O	B-Knowledge
 .	O	O
 
 This	O	O
@@ -3794,9 +3786,9 @@ for	O	O
 international	O	O
 clients	O	O
 
-Agile	O	O
-project	O	O
-management	O	O
+Agile	O	B-Knowledge
+project	O	I-Knowledge
+management	O	I-Knowledge
 
 Feedback	O	O
 sessions	O	O
@@ -3809,12 +3801,12 @@ Open	O	O
 source	O	O
 work	O	O
 
-MacBook	O	O
-Pro	O	O
+MacBook	O	B-Knowledge
+Pro	O	I-Knowledge
 or	O	O
-Linux	O	O
-laptop	O	O
-+	O	O
+Linux	O	B-Knowledge
+laptop	O	I-Knowledge
++	O	I-Knowledge
 all	O	O
 the	O	O
 accessories	O	O
@@ -3999,7 +3991,7 @@ want	O	O
 to	O	O
 cooperate	O	O
 under	O	O
-B2B	O	O
+B2B	O	B-Knowledge
 contract	O	O
 data	O	O
 will	O	O
@@ -4340,7 +4332,7 @@ least	O	O
 years	O	O
 
 practice	O	O
-TDD	O	B-Knowledge
+TDD	O	O
 
 deploy	B-Skill	O
 apps	I-Skill	O
@@ -4386,8 +4378,8 @@ Nice	O	O
 to	O	O
 haves:	O	O
 
-Spree	O	B-Knowledge
-Commerce	O	I-Knowledge
+Spree	O	O
+Commerce	O	O
 -	O	O
 our	O	O
 E-Commerce	O	O
@@ -4409,8 +4401,8 @@ team	I-Skill	O
 
 Contributions	B-Skill	O
 to	I-Skill	O
-open	I-Skill	O
-source	I-Skill	O
+open	I-Skill	B-Knowledge
+source	I-Skill	I-Knowledge
 projects	I-Skill	O
 
 E-commerce	O	B-Knowledge
@@ -4701,12 +4693,11 @@ a	I-Skill	O
 mix	I-Skill	O
 of	I-Skill	O
 front-end	I-Skill	O
-back-end	I-Skill	O
+back-end	I-Skill	B-Knowledge
 and	I-Skill	O
 cloud	I-Skill	O
 technologies	I-Skill	O
 .	O	O
-
 
 Requirements:	O	O
 
@@ -4717,14 +4708,14 @@ with	O	O
 running	B-Skill	O
 with	I-Skill	O
 a	I-Skill	O
-full	I-Skill	O
-stack	I-Skill	O
+full	I-Skill	B-Knowledge
+stack	I-Skill	I-Knowledge
 development	I-Skill	O
 :	O	O
 Java	O	B-Knowledge
 Python	O	B-Knowledge
 React	O	B-Knowledge
-JS	O	I-Knowledge
+JS	O	B-Knowledge
 Redux	O	B-Knowledge
 
 2	O	O
@@ -4740,7 +4731,7 @@ offerings	O	I-Knowledge
 3	O	O
 )	O	O
 Data	O	B-Knowledge
-warehousing/ETL	O	I-Knowledge
+warehousing/ETL	O	B-Knowledge
 experience	O	O
 would	O	O
 be	O	O
@@ -5147,13 +5138,13 @@ in	O	O
 the	O	O
 fields	O	O
 of	O	O
-frontend	O	O
-development	O	O
-machine	O	O
-learning	O	O
+frontend	O	B-Knowledge
+development	O	I-Knowledge
+machine	O	B-Knowledge
+learning	O	I-Knowledge
 and	O	O
-data	O	O
-engineering	O	O
+data	O	B-Knowledge
+engineering	O	I-Knowledge
 .	O	O
 
 We	O	O
@@ -5252,19 +5243,19 @@ enterprise	O	B-Knowledge
 resource	O	I-Knowledge
 planning	O	I-Knowledge
 (	O	I-Knowledge
-ERP	O	I-Knowledge
-)	O	I-Knowledge
+ERP	O	B-Knowledge
+)	O	O
 and	O	O
 point-of-sales	O	B-Knowledge
 (	O	I-Knowledge
-POS	O	I-Knowledge
+POS	O	B-Knowledge
 )	O	I-Knowledge
 systems	O	O
 .	O	O
 
 That's	O	O
 why	O	O
-data	O	O
+data	O	B-Knowledge
 integration	O	O
 is	O	O
 critical	O	O
@@ -5320,7 +5311,6 @@ to	I-Skill	O
 production	I-Skill	O
 .	O	O
 
-
 We’re	O	O
 continually	O	O
 adding	O	O
@@ -5344,16 +5334,16 @@ Integrate:	O	O
 Develop	B-Skill	O
 interfaces	I-Skill	O
 to	I-Skill	O
-ERP	I-Skill	O
+ERP	I-Skill	B-Knowledge
 and	I-Skill	O
-POS	I-Skill	O
+POS	I-Skill	B-Knowledge
 software	I-Skill	O
 providers	I-Skill	O
 and	O	O
 work	B-Skill	O
 on	I-Skill	O
 ETL	I-Skill	B-Knowledge
-pipelines	I-Skill	O
+pipelines	I-Skill	I-Knowledge
 to	O	O
 integrate	B-Skill	O
 our	I-Skill	O
@@ -5361,7 +5351,6 @@ customers	I-Skill	O
 data	I-Skill	O
 bases	I-Skill	O
 .	O	O
-
 
 Collaborate:	O	O
 
@@ -5377,7 +5366,6 @@ and	I-Skill	O
 frontend	I-Skill	O
 developers	I-Skill	O
 .	O	O
-
 
 We're	O	O
 a	O	O
@@ -5403,12 +5391,11 @@ software	I-Skill	O
 with	I-Skill	O
 emphasis	I-Skill	O
 on	I-Skill	O
-quality	I-Skill	O
-testability	I-Skill	O
+quality	I-Skill	B-Knowledge
+testability	I-Skill	I-Knowledge
 and	I-Skill	O
-automation	I-Skill	O
+automation	I-Skill	B-Knowledge
 .	O	O
-
 
 You	O	O
 have	O	O
@@ -5424,7 +5411,6 @@ using	O	O
 Python	O	B-Knowledge
 .	O	O
 
-
 You	O	O
 have	O	O
 experience	O	O
@@ -5439,24 +5425,23 @@ Nice-to-haves:	O	O
 Pandas	O	B-Knowledge
 Celery	O	B-Knowledge
 Django	O	B-Knowledge
-Channels	O	I-Knowledge
+Channels	O	B-Knowledge
 Django	O	B-Knowledge
-REST	O	I-Knowledge
+REST	O	B-Knowledge
 Framework	O	I-Knowledge
 Redis	O	B-Knowledge
 Nginx	O	B-Knowledge
 GitLab	O	B-Knowledge
-CI	O	I-Knowledge
+CI	O	B-Knowledge
 PostgreSQL	O	B-Knowledge
 
 You	O	O
 master	O	O
 English	O	B-Knowledge
-on	O	I-Knowledge
-level	O	I-Knowledge
-C1	O	I-Knowledge
+on	O	O
+level	O	O
+C1	O	O
 .	O	O
-
 
 We’re	O	O
 in	O	O
@@ -5474,7 +5459,6 @@ that	O	O
 communicates	B-Skill	O
 openly	I-Skill	O
 .	O	O
-
 
 Benefits	O	O
 
@@ -5788,17 +5772,16 @@ and	O	O
 analytics	O	O
 solutions	O	O
 -	O	O
-Power	O	B-Knowledge
-BI	O	I-Knowledge
-reports	O	I-Knowledge
-DAX	O	B-Knowledge
-queries	O	I-Knowledge
-Azure	O	B-Knowledge
-Analysis	O	I-Knowledge
-Services	O	I-Knowledge
-models	O	I-Knowledge
+Power	O	O
+BI	O	O
+reports	O	O
+DAX	O	O
+queries	O	O
+Azure	O	O
+Analysis	O	O
+Services	O	O
+models	O	O
 .	O	O
-
 
 Troubleshoot	B-Skill	O
 issues	I-Skill	O
@@ -5812,7 +5795,6 @@ for	I-Skill	O
 better	I-Skill	O
 performance	I-Skill	O
 .	O	O
-
 
 Participate	O	O
 in	O	O
@@ -5838,12 +5820,12 @@ practical	O	O
 experience	O	O
 with	O	O
 
-Power	O	B-Knowledge
-BI	O	I-Knowledge
+Power	O	O
+BI	O	O
 
 and	O	O
 
-DAX	O	B-Knowledge
+DAX	O	O
 
 (	O	O
 or	O	O
@@ -5860,7 +5842,7 @@ Modeling	O	I-Knowledge
 
 .	O	O
 
-Cloud	O	B-Knowledge
+Cloud	O	O
 
 understanding	O	O
 (	O	O
@@ -5881,21 +5863,21 @@ CICD	O	O
 
 /	O	O
 
-DevOps	O	B-Knowledge
+DevOps	O	O
 
 /	O	O
 
 Agile	O	B-Knowledge
 
-concept	O	O
-understanding	O	O
+concept	O	B-Knowledge
+understanding	O	I-Knowledge
 (	O	O
 basic	O	O
 is	O	O
 enough)	O	O
 .	O	O
 
-English	O	O
+English	O	B-Knowledge
 proficiency	O	O
 and	O	O
 at	O	O
@@ -5905,7 +5887,6 @@ Bachelor's	O	B-Knowledge
 degree	O	I-Knowledge
 .	O	O
 
-
 Nice	O	O
 to	O	O
 have:	O	O
@@ -5913,9 +5894,9 @@ have:	O	O
 Knowledge	O	O
 of	O	O
 
-Azure	O	B-Knowledge
-Analysis	O	I-Knowledge
-Services	O	I-Knowledge
+Azure	O	O
+Analysis	O	O
+Services	O	O
 
 .	O	O
 
@@ -6355,7 +6336,7 @@ type:	O	O
 Technologies:	O	O
 
 agile	O	B-Knowledge
-architecture	O	B-Knowledge
+architecture	O	I-Knowledge
 
 Job	O	O
 description:	O	O
@@ -6392,7 +6373,7 @@ Private	O	O
 Technologies	O	O
 
 agile	O	B-Knowledge
-architecture	O	B-Knowledge
+architecture	O	I-Knowledge
 
 Job	O	O
 description	O	O
@@ -6537,7 +6518,7 @@ achieve	O	O
 shared	O	O
 understanding	O	O
 of	O	O
-system	O	O
+system	O	B-Knowledge
 design?	O	O
 
 Would	O	O
@@ -6769,19 +6750,19 @@ Architect	O	O
 can	O	O
 work	B-Skill	O
 in	I-Skill	O
-Delivery	I-Skill	B-Knowledge
-to	I-Skill	I-Knowledge
-business	I-Skill	I-Knowledge
-(	I-Skill	I-Knowledge
-D2B	I-Skill	I-Knowledge
-)	I-Skill	I-Knowledge
+Delivery	I-Skill	O
+to	I-Skill	O
+business	I-Skill	O
+(	I-Skill	O
+D2B	I-Skill	B-Knowledge
+)	I-Skill	O
 or	I-Skill	O
-Service	I-Skill	B-Knowledge
-to	I-Skill	I-Knowledge
-deliver	I-Skill	I-Knowledge
-(	I-Skill	I-Knowledge
-S2D	I-Skill	I-Knowledge
-)	I-Skill	I-Knowledge
+Service	I-Skill	O
+to	I-Skill	O
+deliver	I-Skill	O
+(	I-Skill	O
+S2D	I-Skill	B-Knowledge
+)	I-Skill	O
 context	I-Skill	O
 
 In	O	O
@@ -6830,8 +6811,8 @@ focused	O	O
 on	O	O
 software/system	O	B-Knowledge
 design	O	I-Knowledge
-and	O	I-Knowledge
-architecture	O	I-Knowledge
+and	O	O
+architecture	O	B-Knowledge
 in	O	O
 a	O	O
 complex	O	O
@@ -6840,8 +6821,8 @@ environment	O	O
 Architectural	O	O
 skills	O	O
 incl.:	O	O
-Design	B-Skill	O
-Modelling	B-Skill	O
+Design	B-Skill	B-Knowledge
+Modelling	B-Skill	B-Knowledge
 Documentation;	B-Skill	O
 Solution	O	B-Knowledge
 architecture	O	I-Knowledge
@@ -6851,8 +6832,8 @@ in	O	O
 one	O	O
 or	O	O
 more	O	O
-major	O	O
-programming	O	B-Knowledge
+major	O	B-Knowledge
+programming	O	I-Knowledge
 languages	O	I-Knowledge
 
 Experience	O	O
@@ -6866,7 +6847,6 @@ specific	I-Skill	O
 goals	I-Skill	O
 .	O	O
 
-
 Translating	O	O
 these	O	O
 goals	O	O
@@ -6875,10 +6855,10 @@ architecture	O	O
 &	O	O
 design	O	O
 
-IT	O	B-Knowledge
-or	O	I-Knowledge
-Engineering	O	I-Knowledge
-Bachelor	O	I-Knowledge
+IT	O	O
+or	O	O
+Engineering	O	B-Knowledge
+Bachelor	O	B-Knowledge
 /	O	I-Knowledge
 Master	O	I-Knowledge
 degree	O	I-Knowledge
@@ -6887,10 +6867,10 @@ a	O	O
 highly	O	O
 recommended	O	O
 
-Scaled	O	B-Knowledge
-Agile	O	I-Knowledge
-(	O	I-Knowledge
-SAFe	O	I-Knowledge
+Scaled	O	O
+Agile	O	B-Knowledge
+(	O	O
+SAFe	O	B-Knowledge
 )	O	I-Knowledge
 expertise	O	O
 is	O	O
@@ -6952,7 +6932,6 @@ and	I-Skill	O
 group	I-Skill	O
 decision-making	I-Skill	O
 .	O	O
-
 
 Presentation	B-Skill	O
 skills;	I-Skill	O
@@ -7306,7 +7285,7 @@ type:	O	O
 
 Technologies:	O	O
 
-c#	O	B-Knowledge
+c#	O	O
 f#	O	B-Knowledge
 typescript	O	B-Knowledge
 
@@ -7352,7 +7331,7 @@ Private	O	O
 
 Technologies	O	O
 
-c#	O	B-Knowledge
+c#	O	O
 f#	O	B-Knowledge
 typescript	O	B-Knowledge
 
@@ -7619,12 +7598,11 @@ into	O	O
 
 You'll	O	O
 use	O	O
-modern	O	B-Knowledge
-workflows	O	I-Knowledge
-and	O	I-Knowledge
-tooling	O	I-Knowledge
+modern	O	O
+workflows	O	O
+and	O	O
+tooling	O	O
 .	O	O
-
 
 Our	O	O
 staff	O	O
@@ -7692,11 +7670,11 @@ alongside	O	O
 frontend	O	O
 developers	O	O
 using	O	O
-React	O	O
+React	O	B-Knowledge
 and	O	O
 the	O	O
 latest	O	O
-JavaScript	O	O
+JavaScript	O	B-Knowledge
 frameworks	O	O
 .	O	O
 
@@ -7708,8 +7686,8 @@ opportunity	O	O
 to	O	O
 work	B-Skill	O
 with	I-Skill	O
-AWS	I-Skill	O
-infrastructure	I-Skill	O
+AWS	I-Skill	B-Knowledge
+infrastructure	I-Skill	I-Knowledge
 and	O	O
 get	O	O
 to	O	O
@@ -7720,7 +7698,6 @@ cloud	I-Skill	O
 native	I-Skill	O
 software	I-Skill	O
 .	O	O
-
 
 Our	O	O
 principles	O	O
@@ -7743,24 +7720,22 @@ excellence	O	O
 We	O	O
 believe	O	O
 in	O	O
-continuous	O	B-Knowledge
-integration	O	I-Knowledge
+continuous	O	O
+integration	O	O
 and	O	O
-automated	O	B-Knowledge
-testing	O	I-Knowledge
+automated	O	O
+testing	O	O
 .	O	O
-
 
 We	O	O
 believe	O	O
 in	O	O
-domain	O	B-Knowledge
-modelling	O	I-Knowledge
+domain	O	O
+modelling	O	O
 and	O	O
-ubiquitous	O	B-Knowledge
-language	O	I-Knowledge
+ubiquitous	O	O
+language	O	O
 .	O	O
-
 
 We	O	O
 believe	O	O
@@ -7786,9 +7761,8 @@ containerisation	O	I-Knowledge
 and	O	O
 dev/prod	O	B-Knowledge
 environment	O	I-Knowledge
-parity	O	I-Knowledge
+parity	O	O
 .	O	O
-
 
 We	O	O
 believe	O	O
@@ -7832,7 +7806,7 @@ At	O	O
 the	O	O
 moment	O	O
 it’s	O	O
-C#	O	B-Knowledge
+C#	O	O
 F#	O	B-Knowledge
 and	O	O
 TypeScript	O	B-Knowledge
@@ -7879,10 +7853,9 @@ equally	O	O
 are	O	O
 effusive	O	O
 about	O	O
-functional	O	B-Knowledge
-programming	O	I-Knowledge
+functional	O	O
+programming	O	O
 .	O	O
-
 
 Generally	O	O
 speaking	O	O
@@ -7926,23 +7899,22 @@ like	O	O
 to	O	O
 experiment	O	O
 with	O	O
-test	O	O
-frameworks	O	O
+test	O	B-Knowledge
+frameworks	O	I-Knowledge
 and	O	O
 our	O	O
 current	O	O
 suite	O	O
 includes	O	O
-Cypress	O	B-Knowledge
-Jest	O	B-Knowledge
-Nunit	O	B-Knowledge
-SpecFlow	O	B-Knowledge
-Expecto	O	B-Knowledge
-FsCheck	O	B-Knowledge
+Cypress	O	O
+Jest	O	O
+Nunit	O	O
+SpecFlow	O	O
+Expecto	O	O
+FsCheck	O	O
 &	O	O
-Canopy	O	B-Knowledge
+Canopy	O	O
 .	O	O
-
 
 Our	O	O
 build	O	O
@@ -7965,29 +7937,28 @@ cloud	O	O
 services	O	O
 provided	O	O
 by	O	O
-AWS	O	O
+AWS	O	B-Knowledge
 including	O	O
 but	O	O
 not	O	O
 limited	O	O
 to	O	O
-functions	O	B-Knowledge
-as	O	I-Knowledge
-a	O	I-Knowledge
-service	O	I-Knowledge
-hosting	O	B-Knowledge
-messaging	O	B-Knowledge
-relational	O	B-Knowledge
-and	O	I-Knowledge
-non-relational	O	I-Knowledge
-databases	O	I-Knowledge
+functions	O	O
+as	O	O
+a	O	O
+service	O	O
+hosting	O	O
+messaging	O	O
+relational	O	O
+and	O	O
+non-relational	O	O
+databases	O	O
 .	O	O
-
 
 We	O	O
 rely	O	O
 on	O	O
-Loggly	O	B-Knowledge
+Loggly	O	O
 to	O	O
 trace	O	O
 application	O	O
@@ -8049,7 +8020,7 @@ manager	O	O
 We	O	O
 loosely	O	O
 follow	O	O
-Agile	O	O
+Agile	O	B-Knowledge
 processes	O	O
 with	O	O
 boards	O	O
@@ -8076,12 +8047,12 @@ good	O	O
 XP	O	O
 practices	O	O
 like	O	O
-TDD	O	O
-BDD	O	O
-integration	O	O
-testing	O	O
-continuous	O	O
-integration	O	O
+TDD	O	B-Knowledge
+BDD	O	B-Knowledge
+integration	O	B-Knowledge
+testing	O	I-Knowledge
+continuous	O	B-Knowledge
+integration	O	I-Knowledge
 and	O	O
 so	O	O
 on	O	O
@@ -8101,7 +8072,6 @@ and/or	O	O
 Typescript	O	B-Knowledge
 .	O	O
 
-
 You’re	O	O
 a	O	O
 problem	B-Skill	O
@@ -8112,7 +8082,6 @@ about	I-Skill	O
 new	I-Skill	O
 technology	I-Skill	O
 .	O	O
-
 
 You're	O	O
 aligned	O	O
@@ -8129,14 +8098,13 @@ functional	O	B-Knowledge
 programming	O	I-Knowledge
 .	O	O
 
-
 You're	O	O
 aware	O	O
 of	O	O
 the	O	O
 12-Factor	O	B-Knowledge
-App	O	I-Knowledge
-approach	O	I-Knowledge
+App	O	O
+approach	O	O
 and	O	O
 want	O	O
 to	O	O
@@ -8164,7 +8132,6 @@ as	I-Skill	O
 possible	I-Skill	O
 .	O	O
 
-
 You're	O	O
 both	O	O
 a	O	O
@@ -8186,7 +8153,6 @@ improving	I-Skill	O
 yourself	I-Skill	O
 .	O	O
 
-
 You're	O	O
 able	O	O
 to	O	O
@@ -8204,7 +8170,6 @@ your	I-Skill	O
 daily	I-Skill	O
 workflow	I-Skill	O
 .	O	O
-
 
 You're	O	O
 lazy	B-Skill	O
@@ -8225,7 +8190,6 @@ to	I-Skill	O
 the	I-Skill	O
 compiler	I-Skill	O
 .	O	O
-
 
 You	O	O
 won't	O	O
@@ -8255,7 +8219,6 @@ yourself	I-Skill	O
 to	I-Skill	O
 learning	I-Skill	O
 .	O	O
-
 
 Above	O	O
 all	O	O
@@ -8784,7 +8747,7 @@ owner	O	O
 We	O	O
 loosely	O	O
 follow	O	O
-Agile	O	O
+Agile	O	B-Knowledge
 processes	O	O
 with	O	O
 boards	O	O
@@ -8811,12 +8774,12 @@ good	O	O
 XP	O	O
 practices	O	O
 like	O	O
-TDD	O	O
-BDD	O	O
-integration	O	O
-testing	O	O
-continuous	O	O
-integration	O	O
+TDD	O	B-Knowledge
+BDD	O	B-Knowledge
+integration	O	B-Knowledge
+testing	O	I-Knowledge
+continuous	O	B-Knowledge
+integration	O	I-Knowledge
 and	O	O
 so	O	O
 on	O	O
@@ -8934,7 +8897,7 @@ type:	O	O
 
 Technologies:	O	O
 
-qa	O	B-Knowledge
+qa	O	O
 testing	O	B-Knowledge
 cypress	O	B-Knowledge
 mocha.js	O	B-Knowledge
@@ -8966,7 +8929,7 @@ Developer	O	O
 
 Technologies	O	O
 
-qa	O	B-Knowledge
+qa	O	O
 testing	O	B-Knowledge
 cypress	O	B-Knowledge
 mocha.js	O	B-Knowledge
@@ -9117,7 +9080,6 @@ and	I-Skill	O
 strategies	I-Skill	O
 .	O	O
 
-
 You	O	O
 will	O	O
 create	B-Skill	O
@@ -9132,7 +9094,6 @@ test	I-Skill	O
 cases	I-Skill	O
 .	O	O
 
-
 You	O	O
 will	O	O
 design	B-Skill	O
@@ -9143,14 +9104,12 @@ automatic	I-Skill	O
 tests	I-Skill	O
 .	O	O
 
-
 You	O	O
 will	O	O
 conduct	B-Skill	O
 exploratory/manual	I-Skill	O
 tests	I-Skill	O
 .	O	O
-
 
 You	O	O
 will	O	O
@@ -9162,7 +9121,6 @@ and	I-Skill	O
 track	I-Skill	O
 bugs	I-Skill	O
 .	O	O
-
 
 You	O	O
 will	O	O
@@ -9184,7 +9142,6 @@ update	B-Skill	O
 product	I-Skill	O
 information	I-Skill	O
 .	O	O
-
 
 You	O	O
 will	O	O
@@ -9224,11 +9181,10 @@ of	O	O
 software	O	B-Knowledge
 QA	O	I-Knowledge
 methodologies	O	I-Knowledge
-tools	O	I-Knowledge
+tools	O	B-Knowledge
 and	O	I-Knowledge
 processes	O	I-Knowledge
 .	O	O
-
 
 Hands-on	O	O
 experience	O	O
@@ -9238,22 +9194,21 @@ testing	O	I-Knowledge
 tools	O	I-Knowledge
 .	O	O
 
-
 (	O	O
-Cypress	O	B-Knowledge
+Cypress	O	O
 for	O	O
 frontend	O	O
 is	O	O
 a	O	O
 must	O	O
 have	O	O
-pytest	O	B-Knowledge
+pytest	O	O
 for	O	O
 backend	O	O
 and	O	O
-truffle	O	B-Knowledge
+truffle	O	O
 for	O	O
-Solidity	O	B-Knowledge
+Solidity	O	O
 is	O	O
 a	O	O
 good	O	O
@@ -9272,8 +9227,8 @@ environments	I-Skill	O
 (	O	O
 we	O	O
 use	O	O
-CircleCI	O	B-Knowledge
-Docker)	O	B-Knowledge
+CircleCI	O	O
+Docker)	O	O
 .	O	O
 
 Eagerness	O	O
@@ -9288,11 +9243,9 @@ startup	I-Skill	O
 environment	I-Skill	O
 .	O	O
 
-
 Fluent	O	O
 English	O	B-Knowledge
 .	O	O
-
 
 What	O	O
 we	O	O
@@ -9607,7 +9560,7 @@ our	O	O
 technology	O	O
 stack	O	O
 on	O	O
-GitHub	O	O
+GitHub	O	B-Knowledge
 
 Quality	O	O
 Engineer	O	O
@@ -9647,7 +9600,7 @@ Senior	O	O
 
 Industry:	O	O
 Collaboration	O	B-Knowledge
-Tools	O	I-Knowledge
+Tools	O	B-Knowledge
 Computer	O	B-Knowledge
 Software	O	I-Knowledge
 Open-Source	O	B-Knowledge
@@ -9662,11 +9615,11 @@ type:	O	O
 
 Technologies:	O	O
 
-testing	O	B-Knowledge
-qa	O	B-Knowledge
-automation	O	B-Knowledge
-software-quality	O	B-Knowledge
-automated-tests	O	B-Knowledge
+testing	O	O
+qa	O	O
+automation	O	O
+software-quality	O	O
+automated-tests	O	O
 
 Job	O	O
 description:	O	O
@@ -9694,7 +9647,7 @@ Collaboration	O	B-Knowledge
 Tools	O	I-Knowledge
 Computer	O	B-Knowledge
 Software	O	I-Knowledge
-Open-Source	O	B-Knowledge
+Open-Source	O	O
 
 Company	O	O
 size:	O	O
@@ -9710,11 +9663,11 @@ Funded	O	O
 
 Technologies	O	O
 
-testing	O	B-Knowledge
-qa	O	B-Knowledge
-automation	O	B-Knowledge
-software-quality	O	B-Knowledge
-automated-tests	O	B-Knowledge
+testing	O	O
+qa	O	O
+automation	O	O
+software-quality	O	O
+automated-tests	O	O
 
 Job	O	O
 description	O	O
@@ -9863,11 +9816,11 @@ Experience	O	O
 with	O	O
 agile	O	B-Knowledge
 approaches	O	I-Knowledge
-to	O	I-Knowledge
-software	O	I-Knowledge
-testing	I-Skill	O
-and	I-Skill	O
-development	I-Skill	O
+to	O	O
+software	O	B-Knowledge
+testing	I-Skill	I-Knowledge
+and	I-Skill	I-Knowledge
+development	I-Skill	I-Knowledge
 
 Knowledge	O	O
 of	O	O
@@ -9877,7 +9830,7 @@ and	O	I-Knowledge
 programming	O	I-Knowledge
 languages	O	I-Knowledge
 for	O	I-Knowledge
-test	O	I-Knowledge
+test	O	B-Knowledge
 automation	O	I-Knowledge
 is	O	O
 required	O	O
@@ -9905,9 +9858,9 @@ handling	B-Skill	O
 and	I-Skill	O
 understanding	I-Skill	O
 of	I-Skill	O
-web-based	I-Skill	O
-applications	I-Skill	O
-APIs	I-Skill	O
+web-based	I-Skill	B-Knowledge
+applications	I-Skill	I-Knowledge
+APIs	I-Skill	I-Knowledge
 
 A	O	O
 good	B-Skill	O
@@ -10031,7 +9984,7 @@ courses	O	O
 e.g	O	O
 .	O	O
 
-German	O	O
+German	O	B-Knowledge
 English	O	O
 )	O	O
 Company	O	O
@@ -10074,13 +10027,13 @@ When	O	O
 it	O	O
 comes	O	O
 to	O	O
-open	O	O
-source	O	O
-communication	O	O
-office	O	O
-productivity	O	O
+open	O	B-Knowledge
+source	O	I-Knowledge
+communication	O	I-Knowledge
+office	O	B-Knowledge
+productivity	O	I-Knowledge
 and	O	O
-DNS-based	O	O
+DNS-based	O	B-Knowledge
 security	O	O
 software	O	O
 and	O	O
@@ -10304,7 +10257,6 @@ engineering	I-Skill	O
 practices	I-Skill	O
 .	O	O
 
-
 You'll	O	O
 be	O	O
 required	O	O
@@ -10321,9 +10273,9 @@ all	O	O
 aspects	O	O
 of	O	O
 the	O	O
-software	O	O
-development	O	O
-lifecycle	O	O
+software	O	B-Knowledge
+development	O	I-Knowledge
+lifecycle	O	I-Knowledge
 as	O	O
 well	O	O
 as	O	O
@@ -10344,7 +10296,6 @@ on	I-Skill	O
 common	I-Skill	O
 goals	I-Skill	O
 .	O	O
-
 
 We	O	O
 embrace	O	O
@@ -10412,11 +10363,11 @@ experience	O	O
 Expertise	O	O
 in	O	O
 application	O	B-Knowledge
-data	O	B-Knowledge
-and	O	O
-infrastructure	O	B-Knowledge
+data	O	I-Knowledge
+and	O	I-Knowledge
+infrastructure	O	I-Knowledge
 architecture	O	I-Knowledge
-disciplines	O	I-Knowledge
+disciplines	O	O
 
 *	O	O
 Advanced	O	O
@@ -10425,16 +10376,16 @@ of	O	O
 architecture	O	B-Knowledge
 and	O	I-Knowledge
 design	O	I-Knowledge
-across	O	O
-all	O	O
-systems	O	O
+across	O	I-Knowledge
+all	O	I-Knowledge
+systems	O	I-Knowledge
 
 *	O	O
 Proficiency	O	O
 in	O	O
 multiple	O	O
-modern	O	O
-programming	O	B-Knowledge
+modern	O	B-Knowledge
+programming	O	I-Knowledge
 languages	O	I-Knowledge
 
 *	O	O
@@ -10827,7 +10778,6 @@ engineering	I-Skill	O
 practices	I-Skill	O
 .	O	O
 
-
 You	O	O
 will	O	O
 be	O	O
@@ -10845,9 +10795,9 @@ all	O	O
 aspects	O	O
 of	O	O
 the	O	O
-software	O	O
-development	O	O
-lifecycle	O	O
+software	O	B-Knowledge
+development	O	I-Knowledge
+lifecycle	O	I-Knowledge
 as	O	O
 well	O	O
 as	O	O
@@ -10868,7 +10818,6 @@ on	I-Skill	O
 common	I-Skill	O
 goals	I-Skill	O
 .	O	O
-
 
 We	O	O
 embrace	O	O
@@ -10972,7 +10921,7 @@ edge	O	O
 technologies	O	O
 including	O	O
 JAVA	O	B-Knowledge
-frameworks	O	O
+frameworks	O	I-Knowledge
 REST/Web	O	B-Knowledge
 services	O	I-Knowledge
 R	O	B-Knowledge
@@ -11008,9 +10957,9 @@ integration	I-Skill	O
 across	O	O
 issue	O	B-Knowledge
 tracking	O	I-Knowledge
-version	O	O
-control	O	O
-deployment	O	B-Knowledge
+version	O	B-Knowledge
+control	O	I-Knowledge
+deployment	O	I-Knowledge
 and	O	O
 change	O	B-Knowledge
 management	O	I-Knowledge
@@ -11080,7 +11029,7 @@ infrastructure	O	I-Knowledge
 architecture	O	I-Knowledge
 &	O	I-Knowledge
 design	O	I-Knowledge
-disciplines	O	I-Knowledge
+disciplines	O	O
 
 *	O	O
 Ability	O	O
@@ -11100,7 +11049,7 @@ of	O	O
 cloud	O	B-Knowledge
 micro-service	O	I-Knowledge
 and	O	I-Knowledge
-container	O	I-Knowledge
+container	O	B-Knowledge
 deployment	O	I-Knowledge
 patterns	O	I-Knowledge
 
@@ -11138,11 +11087,11 @@ culture	I-Skill	O
 Proficiency	O	O
 in	O	O
 multiple	O	O
-modern	O	O
-programming	O	O
-languages	O	O
+modern	O	B-Knowledge
+programming	O	I-Knowledge
+languages	O	I-Knowledge
 Java	O	B-Knowledge
-R	O	B-Knowledge
+R	O	I-Knowledge
 
 *	O	O
 Experience	O	O
@@ -11150,7 +11099,7 @@ of	O	O
 Databases	O	B-Knowledge
 and	O	O
 ETL	O	B-Knowledge
-tools	O	I-Knowledge
+tools	O	O
 
 *	O	O
 Knowledge	O	O
@@ -11172,8 +11121,8 @@ plus	O	O
 *	O	O
 Knowledge	O	O
 of	O	O
-messaging	O	O
-brokers	O	O
+messaging	O	B-Knowledge
+brokers	O	I-Knowledge
 such	O	O
 as	O	O
 Qpid/MQ/Kafka/RabbitMQ	O	B-Knowledge
@@ -11182,7 +11131,7 @@ Qpid/MQ/Kafka/RabbitMQ	O	B-Knowledge
 Knowledge	O	O
 of	O	O
 Big	O	B-Knowledge
-Data/NoSql	O	O
+Data/NoSql	O	B-Knowledge
 solutions	O	O
 is	O	O
 beneficial	O	O
@@ -11195,8 +11144,8 @@ performance	O	I-Knowledge
 calculations	O	I-Knowledge
 including	O	O
 calculating	B-Skill	O
-benchmark	I-Skill	O
-blends	I-Skill	O
+benchmark	I-Skill	B-Knowledge
+blends	I-Skill	I-Knowledge
 
 Our	O	O
 
@@ -11697,7 +11646,7 @@ Mid-Level	O	O
 
 Industry:	O	O
 Entertainment	O	B-Knowledge
-Gaming	O	B-Knowledge
+Gaming	O	I-Knowledge
 Mobile	O	B-Knowledge
 Game	O	I-Knowledge
 
@@ -11720,7 +11669,7 @@ description:	O	O
 
 Compensation:	O	O
 
-DKK	O	O
+DKK	O	B-Knowledge
 420k	O	O
 -	O	O
 540k	O	O
@@ -11885,7 +11834,6 @@ and	I-Skill	O
 systems	I-Skill	O
 .	O	O
 
-
 Our	O	O
 games	O	O
 are	O	O
@@ -11912,7 +11860,6 @@ and	O	O
 C#	O	B-Knowledge
 .	O	O
 
-
 In	O	O
 your	O	O
 day-to-day	O	O
@@ -11932,8 +11879,8 @@ as	O	O
 end-of-content	O	O
 features	O	O
 the	O	O
-family	O	O
-system	O	O
+family	O	B-Knowledge
+system	O	I-Knowledge
 and	O	O
 tournaments	O	O
 and	O	O
@@ -12019,7 +11966,6 @@ to	O	O
 find	B-Skill	O
 solutions	I-Skill	O
 .	O	O
-
 
 This	O	O
 full-time	O	O
@@ -12107,10 +12053,10 @@ mobile	O	B-Knowledge
 games	O	I-Knowledge
 in	O	O
 Unity3D	O	B-Knowledge
-(	O	I-Knowledge
-iOS	O	I-Knowledge
-and/or	O	I-Knowledge
-Android	O	I-Knowledge
+(	O	O
+iOS	O	B-Knowledge
+and/or	O	O
+Android	O	B-Knowledge
 )	O	I-Knowledge
 Strong	O	O
 knowledge	O	O
@@ -12130,14 +12076,14 @@ interactive	I-Skill	O
 degree	I-Skill	O
 
 Excellent	O	O
-3D	B-Skill	O
-game	I-Skill	O
-programming	I-Skill	O
+3D	B-Skill	B-Knowledge
+game	I-Skill	I-Knowledge
+programming	I-Skill	I-Knowledge
 knowledge	O	O
 including	O	O
 math	O	B-Knowledge
-and	O	O
-dynamic	O	B-Knowledge
+and	O	I-Knowledge
+dynamic	O	I-Knowledge
 skills	O	I-Knowledge
 
 Good	O	O
@@ -12171,26 +12117,26 @@ a	O	O
 good	O	O
 sense	B-Skill	O
 of	I-Skill	O
-F2P	I-Skill	O
-game	I-Skill	O
-design	I-Skill	O
+F2P	I-Skill	B-Knowledge
+game	I-Skill	I-Knowledge
+design	I-Skill	I-Knowledge
 
 Experience	O	O
 with	O	O
 TDD	O	B-Knowledge
-(	O	I-Knowledge
-test	O	I-Knowledge
+(	O	O
+test	O	B-Knowledge
 driven	O	I-Knowledge
 development	O	I-Knowledge
-)	O	I-Knowledge
+)	O	O
 Knowledge	O	O
 of	O	O
 other	O	O
-analytics	O	O
-tools	O	O
-and	O	O
-programming	O	O
-languages	O	O
+analytics	O	B-Knowledge
+tools	O	I-Knowledge
+and	O	I-Knowledge
+programming	O	I-Knowledge
+languages	O	I-Knowledge
 especially	O	O
 Objective	O	B-Knowledge
 C	O	I-Knowledge
@@ -12524,7 +12470,7 @@ Senior	O	O
 Industry:	O	O
 Computer	O	B-Knowledge
 Software	O	I-Knowledge
-Databases	O	B-Knowledge
+Databases	O	I-Knowledge
 Information	O	B-Knowledge
 Technology	O	I-Knowledge
 
@@ -12563,7 +12509,7 @@ Industry:	O	O
 
 Computer	O	B-Knowledge
 Software	O	I-Knowledge
-Databases	O	B-Knowledge
+Databases	O	I-Knowledge
 Information	O	B-Knowledge
 Technology	O	I-Knowledge
 
@@ -12770,8 +12716,8 @@ system	O	B-Knowledge
 design	O	I-Knowledge
 data	O	B-Knowledge
 structures	O	I-Knowledge
-and	O	O
-algorithms	O	B-Knowledge
+and	O	I-Knowledge
+algorithms	O	I-Knowledge
 
 You	O	O
 are	O	O
@@ -13231,7 +13177,7 @@ Senior	O	O
 Industry:	O	O
 eCommerce	O	B-Knowledge
 Price	O	B-Knowledge
-Comparison	O	I-Knowledge
+Comparison	O	B-Knowledge
 Online	O	B-Knowledge
 Portal	O	I-Knowledge
 
@@ -13248,7 +13194,7 @@ Technologies:	O	O
 .	O	B-Knowledge
 net	O	I-Knowledge
 agile	O	B-Knowledge
-rest	O	B-Knowledge
+rest	O	I-Knowledge
 microservices	O	B-Knowledge
 
 Job	O	O
@@ -13277,11 +13223,11 @@ Developer	O	O
 
 Industry:	O	O
 
-eCommerce	O	B-Knowledge
-Price	O	B-Knowledge
-Comparison	O	I-Knowledge
-Online	O	B-Knowledge
-Portal	O	I-Knowledge
+eCommerce	O	O
+Price	O	O
+Comparison	O	O
+Online	O	O
+Portal	O	O
 
 Company	O	O
 size:	O	O
@@ -13299,7 +13245,7 @@ Technologies	O	O
 .	O	B-Knowledge
 net	O	I-Knowledge
 agile	O	B-Knowledge
-rest	O	B-Knowledge
+rest	O	I-Knowledge
 microservices	O	B-Knowledge
 
 Job	O	O
@@ -13397,8 +13343,8 @@ back-end	O	O
 web	O	O
 developer	O	O
 
-.	O	B-Knowledge
-NET	O	I-Knowledge
+.	O	O
+NET	O	O
 is	O	O
 your	O	O
 daily	O	O
@@ -13414,19 +13360,19 @@ development	B-Skill	O
 and	I-Skill	O
 implementation	I-Skill	O
 of	I-Skill	O
-REST	I-Skill	O
+REST	I-Skill	B-Knowledge
 API's	I-Skill	O
 
 background	O	O
 in	O	O
 web	O	B-Knowledge
 and/or	O	I-Knowledge
-e-commerce	O	I-Knowledge
-projects	O	O
+e-commerce	O	B-Knowledge
+projects	O	I-Knowledge
 
 Agile	O	B-Knowledge
 Method	O	I-Knowledge
-Practice	O	I-Knowledge
+Practice	O	O
 
 Fluent	O	O
 in	O	O
@@ -13438,7 +13384,7 @@ knowledge	O	O
 of	O	O
 the	O	O
 German	O	B-Knowledge
-language	O	O
+language	O	I-Knowledge
 is	O	O
 a	O	O
 plus	O	O
@@ -13508,7 +13454,7 @@ development	O	O
 (	O	O
 trainings	O	O
 coding	O	O
-dojos	O	O
+dojos	O	B-Knowledge
 etc.	O	O
 )	O	O
 
@@ -13934,12 +13880,12 @@ specialisations	O	O
 e.g	O	O
 .	O	O
 
-business	O	O
-analysis	O	O
-embedded	O	O
-development	O	O
-UX	O	O
-)	O	O
+business	O	B-Knowledge
+analysis	O	I-Knowledge
+embedded	O	B-Knowledge
+development	O	I-Knowledge
+UX	O	B-Knowledge
+)	O	I-Knowledge
 as	O	O
 well	O	O
 as	O	O
@@ -13985,7 +13931,6 @@ professional	I-Skill	O
 advice	I-Skill	O
 .	O	O
 
-
 You	O	O
 have	O	O
 the	O	O
@@ -14016,7 +13961,7 @@ technology	O	O
 camps	O	O
 .	O	O
 
-Continuous	O	O
+Continuous	O	B-Knowledge
 learning	O	O
 will	O	O
 be	O	O
@@ -14069,11 +14014,10 @@ experience	O	O
 working	O	O
 in	O	O
 an	O	O
-agile	B-Skill	O
+agile	B-Skill	B-Knowledge
 project	I-Skill	O
 team	I-Skill	O
 .	O	O
-
 
 Software	O	O
 development	O	O
@@ -14084,7 +14028,7 @@ the	O	O
 latest	O	O
 Java	O	B-Knowledge
 stack	O	I-Knowledge
-frameworks	O	I-Knowledge
+frameworks	O	O
 is	O	O
 your	O	O
 passion	O	O
@@ -14105,7 +14049,7 @@ when	O	O
 it	O	O
 comes	O	O
 to	O	O
-quality	O	B-Knowledge
+quality	O	O
 and	O	O
 you	O	O
 possess	O	O
@@ -14120,13 +14064,12 @@ various	I-Skill	O
 levels	I-Skill	O
 in	I-Skill	O
 an	I-Skill	O
-agile	I-Skill	O
-environment	I-Skill	O
+agile	I-Skill	B-Knowledge
+environment	I-Skill	I-Knowledge
 and	O	O
-test	B-Skill	O
-automation	I-Skill	O
+test	B-Skill	B-Knowledge
+automation	I-Skill	I-Knowledge
 .	O	O
-
 
 Clear	B-Skill	O
 easy-to-maintain	I-Skill	O
@@ -14144,8 +14087,8 @@ strong	O	O
 interest	O	O
 in	O	O
 the	O	O
-latest	O	B-Knowledge
-technologies	O	I-Knowledge
+latest	O	O
+technologies	O	O
 and	O	O
 ideally	O	O
 you	O	O
@@ -14156,7 +14099,7 @@ with	O	O
 back	O	B-Knowledge
 end	O	I-Knowledge
 development	O	I-Knowledge
-databases	O	B-Knowledge
+databases	O	I-Knowledge
 cloud	O	B-Knowledge
 computing	O	I-Knowledge
 RESTful	O	B-Knowledge
@@ -14186,7 +14129,6 @@ a	I-Skill	O
 system	I-Skill	O
 .	O	O
 
-
 You	O	O
 are	O	O
 also	O	O
@@ -14194,11 +14136,10 @@ familiar	O	O
 with	O	O
 architecture	O	B-Knowledge
 concepts	O	I-Knowledge
-and	O	O
-design	O	B-Knowledge
+and	O	I-Knowledge
+design	O	I-Knowledge
 patterns	O	I-Knowledge
 .	O	O
-
 
 Your	O	O
 profile	O	O
@@ -14217,7 +14158,6 @@ command	O	O
 of	O	O
 English	O	B-Knowledge
 .	O	O
-
 
 What	O	O
 we	O	O
@@ -14763,9 +14703,9 @@ Agency	O	I-Knowledge
 Software	O	B-Knowledge
 Development	O	I-Knowledge
 /	O	I-Knowledge
-Engineering	O	I-Knowledge
-User	O	B-Knowledge
-Experience	O	I-Knowledge
+Engineering	O	B-Knowledge
+User	O	O
+Experience	O	O
 
 Company	O	O
 size:	O	O
@@ -14816,9 +14756,9 @@ Agency	O	I-Knowledge
 Software	O	B-Knowledge
 Development	O	I-Knowledge
 /	O	I-Knowledge
-Engineering	O	I-Knowledge
-User	O	B-Knowledge
-Experience	O	I-Knowledge
+Engineering	O	B-Knowledge
+User	O	O
+Experience	O	O
 
 Company	O	O
 size:	O	O
@@ -14955,9 +14895,9 @@ Significant	O	O
 )	O	O
 experience	O	O
 with	O	O
-modern	O	O
+modern	O	B-Knowledge
 Javascript/Typescript	O	B-Knowledge
-development	O	O
+development	O	I-Knowledge
 especially	O	O
 Angular	O	B-Knowledge
 React	O	B-Knowledge
@@ -14974,13 +14914,13 @@ single	O	I-Knowledge
 page	O	I-Knowledge
 applications	O	I-Knowledge
 
-Accessibility	O	B-Knowledge
-usability	O	B-Knowledge
+Accessibility	O	O
+usability	O	O
 and	O	O
 the	O	O
-current	O	B-Knowledge
-web	O	I-Knowledge
-standards	O	I-Knowledge
+current	O	O
+web	O	O
+standards	O	O
 are	O	O
 important	O	O
 to	O	O
@@ -15235,7 +15175,7 @@ Technologies:	O	O
 c#	O	B-Knowledge
 typescript	O	B-Knowledge
 .	O	B-Knowledge
-net-core	O	I-Knowledge
+net-core	O	B-Knowledge
 less	O	B-Knowledge
 sql-server	O	B-Knowledge
 
@@ -15283,7 +15223,7 @@ Technologies	O	O
 c#	O	B-Knowledge
 typescript	O	B-Knowledge
 .	O	B-Knowledge
-net-core	O	I-Knowledge
+net-core	O	B-Knowledge
 less	O	B-Knowledge
 sql-server	O	B-Knowledge
 
@@ -15463,10 +15403,10 @@ all	O	O
 components	O	O
 of	O	O
 Microsoft	O	B-Knowledge
-/	O	O
-Web	O	B-Knowledge
+/	O	I-Knowledge
+Web	O	I-Knowledge
 development	O	I-Knowledge
-environment	O	O
+environment	O	I-Knowledge
 including:	O	O
 
 C#	O	B-Knowledge
@@ -15483,12 +15423,12 @@ SQL	O	B-Knowledge
 Server	O	I-Knowledge
 especially	O	O
 )	O	O
-TypeScript	O	O
+TypeScript	O	B-Knowledge
 &	O	O
 JavaScript	O	B-Knowledge
 
-ASP.NET	O	B-Knowledge
-Blazor	O	B-Knowledge
+ASP.NET	O	O
+Blazor	O	O
 
 One	O	O
 or	O	O
@@ -15505,9 +15445,9 @@ Vue	O	B-Knowledge
 
 HTML5	O	B-Knowledge
 CSS	O	B-Knowledge
-(	O	I-Knowledge
-LESS)	O	I-Knowledge
-Bootstrap	O	B-Knowledge
+(	O	O
+LESS)	O	O
+Bootstrap	O	O
 
 Experience	O	O
 in	O	O
@@ -15533,16 +15473,14 @@ development	O	I-Knowledge
 environment	O	I-Knowledge
 .	O	O
 
-
 Relevant	O	O
 Microsoft	O	B-Knowledge
 certifications	O	I-Knowledge
 .	O	O
 
-
-Degree	O	O
-level	O	O
-education	O	O
+Degree	O	B-Knowledge
+level	O	I-Knowledge
+education	O	I-Knowledge
 preferred	O	O
 
 Team	B-Skill	O
@@ -15936,7 +15874,6 @@ engineering	I-Skill	O
 practices	I-Skill	O
 .	O	O
 
-
 You	O	O
 will	O	O
 be	O	O
@@ -15977,7 +15914,6 @@ on	I-Skill	O
 common	I-Skill	O
 goals	I-Skill	O
 .	O	O
-
 
 We	O	O
 embrace	O	O
@@ -16080,10 +16016,10 @@ business	I-Skill	O
 to	O	O
 understand	O	O
 both	O	O
-functional	O	B-Knowledge
-and	O	I-Knowledge
-non-functional	O	I-Knowledge
-requirements	O	I-Knowledge
+functional	O	O
+and	O	O
+non-functional	O	O
+requirements	O	O
 and	O	O
 then	O	O
 help	O	O
@@ -16102,7 +16038,6 @@ and	I-Skill	O
 robust	I-Skill	O
 solutions	I-Skill	O
 .	O	O
-
 
 This	O	O
 role	O	O
@@ -16128,7 +16063,7 @@ Knowledge	O	O
 of	O	O
 deployment	O	B-Knowledge
 approaches	O	I-Knowledge
-considerations	O	B-Knowledge
+considerations	O	O
 and	O	O
 challenges	O	O
 of	O	O
@@ -16145,8 +16080,8 @@ industry	O	B-Knowledge
 wide	O	I-Knowledge
 technology	O	I-Knowledge
 strategies	O	I-Knowledge
-and	O	O
-best	O	B-Knowledge
+and	O	I-Knowledge
+best	O	I-Knowledge
 practices	O	I-Knowledge
 
 *	O	O
@@ -16174,12 +16109,12 @@ Strong	O	O
 skillset	O	O
 with	O	O
 Java	O	B-Knowledge
-(	O	I-Knowledge
-version	O	I-Knowledge
+(	O	O
+version	O	B-Knowledge
 8	O	I-Knowledge
-or	O	I-Knowledge
-higher	O	I-Knowledge
-)	O	I-Knowledge
+or	O	O
+higher	O	O
+)	O	O
 and	O	O
 ideally	O	O
 Spring	O	B-Knowledge
@@ -16191,9 +16126,9 @@ Hands	O	O
 on	O	O
 experience	O	O
 with	O	O
-modern	O	O
-testing	O	O
-frameworks	O	O
+modern	O	B-Knowledge
+testing	O	I-Knowledge
+frameworks	O	I-Knowledge
 (	O	O
 Performance	O	B-Knowledge
 Testing	O	I-Knowledge
@@ -16219,10 +16154,10 @@ work	O	O
 in	O	O
 a	O	O
 modern	O	O
-SRE	O	O
+SRE	O	B-Knowledge
 way	O	O
 with	O	O
-scalability	O	O
+scalability	O	B-Knowledge
 in	O	O
 mind	O	O
 
@@ -16230,14 +16165,14 @@ mind	O	O
 Experience	O	O
 working	O	O
 on	O	O
-high	O	B-Knowledge
-throughput	O	I-Knowledge
-mission	O	I-Knowledge
-critical	O	I-Knowledge
-high	O	I-Knowledge
-performance	O	I-Knowledge
-STP	O	I-Knowledge
-platforms	O	I-Knowledge
+high	O	O
+throughput	O	O
+mission	O	O
+critical	O	O
+high	O	O
+performance	O	O
+STP	O	O
+platforms	O	O
 
 *	O	O
 Experience	O	O
@@ -16284,7 +16219,7 @@ with	O	O
 Oracle	O	B-Knowledge
 or	O	O
 equivalent	O	O
-relational	O	O
+relational	O	B-Knowledge
 database	O	O
 
 <ORGANIZATION>	O	O
@@ -16520,7 +16455,7 @@ Services	O	I-Knowledge
 Information	O	B-Knowledge
 Technology	O	I-Knowledge
 Technology	O	B-Knowledge
-Consulting	O	I-Knowledge
+Consulting	O	B-Knowledge
 
 Company	O	O
 size:	O	O
@@ -16559,7 +16494,7 @@ Services	O	I-Knowledge
 Information	O	B-Knowledge
 Technology	O	I-Knowledge
 Technology	O	B-Knowledge
-Consulting	O	I-Knowledge
+Consulting	O	B-Knowledge
 
 Company	O	O
 size:	O	O
@@ -16785,7 +16720,7 @@ to	O	O
 the	O	O
 on-premise	O	O
 Dynamics	O	O
-CRM	O	O
+CRM	O	B-Knowledge
 solution	O	O
 being	O	O
 constructed	O	O
@@ -16821,7 +16756,6 @@ activities	O	O
 using	O	O
 C#	O	B-Knowledge
 .	O	O
-
 
 Work	B-Skill	O
 with	I-Skill	O
@@ -16861,10 +16795,10 @@ software	O	B-Knowledge
 development	O	I-Knowledge
 lifecycle	O	I-Knowledge
 –	O	O
-PMs	O	O
-Business	O	O
-Analysts	O	O
-testing	O	O
+PMs	O	B-Knowledge
+Business	O	B-Knowledge
+Analysts	O	I-Knowledge
+testing	O	B-Knowledge
 etc	O	O
 .	O	O
 
@@ -16872,20 +16806,20 @@ Qualifications	O	O
 
 Experience	O	O
 in	O	O
-design	B-Skill	O
-development	B-Skill	O
+design	B-Skill	B-Knowledge
+development	B-Skill	I-Knowledge
 and	O	O
-delivery	B-Skill	O
+delivery	B-Skill	B-Knowledge
 experience	O	O
 across	O	O
 the	O	O
 Dynamics	O	B-Knowledge
 365	O	I-Knowledge
-landscape	O	O
+landscape	O	I-Knowledge
 (	O	O
 historically	O	O
 Dynamics	O	B-Knowledge
-CRM	O	I-Knowledge
+CRM	O	B-Knowledge
 )	O	I-Knowledge
 Strong	O	O
 understanding	O	O
@@ -16893,7 +16827,7 @@ of	O	O
 the	O	O
 Dynamics	O	B-Knowledge
 365	O	I-Knowledge
-platform	O	O
+platform	O	I-Knowledge
 core	O	O
 modules	O	O
 and	O	O
@@ -16901,7 +16835,7 @@ technologies	O	O
 
 .	O	B-Knowledge
 NET	O	I-Knowledge
-development	O	O
+development	O	I-Knowledge
 experience	O	O
 within	O	O
 an	O	O
@@ -16936,7 +16870,7 @@ of	O	O
 the	O	O
 wider	O	O
 Microsoft	O	B-Knowledge
-stack	O	I-Knowledge
+stack	O	O
 how	O	O
 they	O	O
 integrate	O	O
@@ -16957,20 +16891,20 @@ customers	O	O
 
 Experience	O	O
 with	O	O
-development	O	O
-frameworks	O	O
+development	O	B-Knowledge
+frameworks	O	I-Knowledge
 (	O	O
 SCRUM/Agile	O	B-Knowledge
 )	O	I-Knowledge
 SC	O	B-Knowledge
 Clearance	O	I-Knowledge
-Eligible	O	I-Knowledge
+Eligible	O	O
 
 In	O	O
 addition	O	O
 .	O	B-Knowledge
-NET	O	I-Knowledge
-WebAPI	O	I-Knowledge
+NET	O	B-Knowledge
+WebAPI	O	B-Knowledge
 and	O	O
 SharePoint	O	B-Knowledge
 experience	O	O
@@ -17140,8 +17074,8 @@ Developer	O	O
 
 Industry:	O	O
 
-Vehicle	O	B-Knowledge
-Tracking	O	I-Knowledge
+Vehicle	O	O
+Tracking	O	O
 
 Company	O	O
 size:	O	O
@@ -17213,7 +17147,6 @@ unit	O	B-Knowledge
 tests	O	I-Knowledge
 .	O	O
 
-
 To	O	O
 perform	O	O
 this	O	O
@@ -17238,7 +17171,7 @@ modify	B-Skill	O
 NET	I-Skill	I-Knowledge
 services	I-Skill	O
 and	I-Skill	O
-APIs	I-Skill	B-Knowledge
+APIs	I-Skill	O
 according	O	O
 to	O	O
 
@@ -17249,7 +17182,7 @@ Ensure	O	O
 to	O	O
 maintain	B-Skill	O
 strong	I-Skill	O
-Backend	I-Skill	O
+Backend	I-Skill	B-Knowledge
 code	I-Skill	O
 quality	I-Skill	O
 with	O	O
@@ -17270,8 +17203,8 @@ and	O	O
 NET	O	I-Knowledge
 Core	O	I-Knowledge
 T-SQL	O	B-Knowledge
-(	O	I-Knowledge
-MS	O	I-Knowledge
+(	O	O
+MS	O	B-Knowledge
 SQL	O	I-Knowledge
 Server)	O	I-Knowledge
 Object-Oriented	O	B-Knowledge
@@ -17280,7 +17213,6 @@ RESTful	O	B-Knowledge
 Services	O	I-Knowledge
 .	O	O
 
-
 Nice	O	O
 to	O	O
 have:	O	O
@@ -17288,18 +17220,17 @@ have:	O	O
 Azure	O	B-Knowledge
 Storage	O	I-Knowledge
 Azure	O	B-Knowledge
-EventHub	O	I-Knowledge
+EventHub	O	B-Knowledge
 Azure	O	B-Knowledge
 Functions	O	I-Knowledge
 Azure	O	B-Knowledge
-Data	O	I-Knowledge
+Data	O	B-Knowledge
 Lake	O	I-Knowledge
 Azure	O	B-Knowledge
-CosmosDB	O	I-Knowledge
-Security	O	B-Knowledge
+CosmosDB	O	B-Knowledge
+Security	O	I-Knowledge
 Principles	O	I-Knowledge
 .	O	O
-
 
 Other	O	O
 valued	O	O
@@ -17341,7 +17272,6 @@ good	O	O
 communication	B-Skill	O
 skills	I-Skill	O
 .	O	O
-
 
 Verbal	O	O
 and	O	O
@@ -17402,11 +17332,11 @@ in	O	O
 areas	O	O
 such	O	O
 as	O	O
-Software	O	O
-Development	O	O
-Account	O	O
-Management	O	O
-Logistics	O	O
+Software	O	B-Knowledge
+Development	O	I-Knowledge
+Account	O	B-Knowledge
+Management	O	I-Knowledge
+Logistics	O	B-Knowledge
 Marketing	O	O
 and	O	O
 Administration	O	O
@@ -17591,7 +17521,7 @@ type:	O	O
 
 Technologies:	O	O
 
-qa	O	B-Knowledge
+qa	O	O
 automation	O	B-Knowledge
 testing	O	B-Knowledge
 
@@ -17615,7 +17545,7 @@ Developer	O	O
 
 Technologies	O	O
 
-qa	O	B-Knowledge
+qa	O	O
 automation	O	B-Knowledge
 testing	O	B-Knowledge
 
@@ -17747,14 +17677,14 @@ Minimum	O	O
 of	O	O
 3	O	O
 years	O	O
-automation	O	B-Knowledge
+automation	O	O
 experience	O	O
 
 Worked	O	O
 in	O	O
 a	O	O
-complex	O	B-Knowledge
-system	O	I-Knowledge
+complex	O	O
+system	O	O
 (	O	O
 nothing	O	O
 simple	O	O
@@ -17995,10 +17925,10 @@ expected	O	O
 to	O	O
 perform	O	O
 both	O	O
-Automation	B-Skill	O
-and	O	O
-Functional	B-Skill	O
-Testing	I-Skill	O
+Automation	B-Skill	B-Knowledge
+and	O	I-Knowledge
+Functional	B-Skill	I-Knowledge
+Testing	I-Skill	I-Knowledge
 for	O	O
 our	O	O
 Middle	O	O
@@ -18027,31 +17957,30 @@ both	O	O
 Continuous	O	B-Knowledge
 Delivery	O	I-Knowledge
 and	O	O
-Monthly	O	O
-Release	O	O
+Monthly	O	B-Knowledge
+Release	O	I-Knowledge
 phases	O	O
 .	O	O
 
 The	O	O
 role	O	O
 requires	O	O
-End	O	B-Knowledge
-to	O	I-Knowledge
-end	O	I-Knowledge
-automated	O	I-Knowledge
-testing	O	I-Knowledge
+End	O	O
+to	O	O
+end	O	O
+automated	O	O
+testing	O	O
 with	O	O
 particular	O	O
 focus	O	O
 on	O	O
 data	O	B-Knowledge
 integrity	O	I-Knowledge
-performance	O	B-Knowledge
+performance	O	I-Knowledge
 and	O	O
 presentation	O	B-Knowledge
 quality	O	I-Knowledge
 .	O	O
-
 
 The	O	O
 role	O	O
@@ -18089,9 +18018,9 @@ daily	O	O
 •	O	O
 Execution	B-Skill	O
 of	I-Skill	O
-Non-Functional	I-Skill	O
-regression	I-Skill	O
-testing	I-Skill	O
+Non-Functional	I-Skill	B-Knowledge
+regression	I-Skill	I-Knowledge
+testing	I-Skill	I-Knowledge
 to	O	O
 ensure	B-Skill	O
 the	I-Skill	O
@@ -18104,8 +18033,8 @@ system	I-Skill	O
 
 •	O	O
 Understand	O	O
-operational	O	B-Knowledge
-processes	O	I-Knowledge
+operational	O	O
+processes	O	O
 in	O	O
 order	O	O
 to	O	O
@@ -18126,14 +18055,13 @@ Agile	O	B-Knowledge
 environment	O	O
 participating	B-Skill	O
 in	I-Skill	O
-sprint	I-Skill	O
-planning	I-Skill	O
-backlog	I-Skill	O
-refinement	I-Skill	O
+sprint	I-Skill	B-Knowledge
+planning	I-Skill	I-Knowledge
+backlog	I-Skill	B-Knowledge
+refinement	I-Skill	I-Knowledge
 and	O	O
 retrospectives	O	B-Knowledge
 .	O	O
-
 
 •	O	O
 Ability	O	O
@@ -18146,9 +18074,9 @@ Defect	O	B-Knowledge
 management	O	I-Knowledge
 regular	O	O
 view	O	O
-of	O	B-Knowledge
-test	O	I-Knowledge
-coverage	O	I-Knowledge
+of	O	O
+test	O	O
+coverage	O	O
 to	O	O
 identify	B-Skill	O
 gaps	I-Skill	O
@@ -18172,8 +18100,8 @@ experience	O	O
 •	O	O
 Bachelor's	O	B-Knowledge
 degree	O	I-Knowledge
-in	O	O
-Computer	O	B-Knowledge
+in	O	I-Knowledge
+Computer	O	I-Knowledge
 Science	O	I-Knowledge
 or	O	O
 related	O	O
@@ -18192,15 +18120,15 @@ quality	O	B-Knowledge
 assurance	O	I-Knowledge
 /	O	O
 testing	O	B-Knowledge
-arena;	O	I-Knowledge
+arena;	O	O
 demonstrated	O	O
 skills	O	O
 in	O	O
 quality	O	B-Knowledge
 assurance	O	I-Knowledge
 methods/processes	O	I-Knowledge
-and	O	O
-practices	O	O
+and	O	I-Knowledge
+practices	O	I-Knowledge
 .	O	O
 
 •	O	O
@@ -18210,8 +18138,8 @@ and	O	O
 quality	O	B-Knowledge
 assurance	O	I-Knowledge
 processes	O	I-Knowledge
-and	O	O
-methodologies	O	O
+and	O	I-Knowledge
+methodologies	O	I-Knowledge
 .	O	O
 
 •	O	O
@@ -18227,15 +18155,14 @@ using	O	O
 Java	O	B-Knowledge
 .	O	O
 
-
 Python	O	O
 
 •	O	O
 Knowledge	O	O
 in	O	O
-testing	O	B-Knowledge
-of	O	I-Knowledge
-Mainframe	O	I-Knowledge
+testing	O	O
+of	O	O
+Mainframe	O	O
 and	O	O
 batch	O	O
 related	O	O
@@ -18253,7 +18180,6 @@ test	O	B-Knowledge
 automation	O	I-Knowledge
 frameworks	O	I-Knowledge
 .	O	O
-
 
 •	O	O
 Must	O	O
@@ -18291,7 +18217,6 @@ production	I-Skill	O
 services	I-Skill	O
 .	O	O
 
-
 •	O	O
 Must	O	O
 have	O	O
@@ -18310,7 +18235,6 @@ work	B-Skill	O
 independently	I-Skill	O
 .	O	O
 
-
 Technical	O	O
 Skills:	O	O
 
@@ -18319,13 +18243,11 @@ Core	O	B-Knowledge
 Java	O	I-Knowledge
 .	O	O
 
-
 •	O	O
 Basic	O	O
 UNIX	O	B-Knowledge
 scripting	O	I-Knowledge
 .	O	O
-
 
 •	O	O
 SQL	O	B-Knowledge
@@ -18341,7 +18263,7 @@ CI	O	I-Knowledge
 exposure	O	O
 to	O	O
 GIT	O	B-Knowledge
-Jenkins,	O	B-Knowledge
+Jenkins,	O	O
 
 •	O	O
 Mainframe/IBM	O	B-Knowledge
@@ -18355,18 +18277,18 @@ will	O	O
 deal	O	O
 with	O	O
 iSeries	O	B-Knowledge
-Menu/End	O	I-Knowledge
+Menu/End	O	B-Knowledge
 of	O	I-Knowledge
 day	O	I-Knowledge
-batches	O	O
+batches	O	I-Knowledge
 
 •	O	O
 Ability	O	O
 to	O	O
 read/publish	B-Skill	O
 on	I-Skill	O
-message	I-Skill	O
-bus	O	O
+message	I-Skill	B-Knowledge
+bus	O	I-Knowledge
 
 <ORGANIZATION>	O	O
 <ORGANIZATION>	O	O
@@ -18725,7 +18647,6 @@ engineering	I-Skill	O
 practices	I-Skill	O
 .	O	O
 
-
 You'll	O	O
 be	O	O
 required	O	O
@@ -18765,7 +18686,6 @@ on	I-Skill	O
 common	I-Skill	O
 goals	I-Skill	O
 .	O	O
-
 
 We	O	O
 embrace	O	O
@@ -18842,8 +18762,8 @@ Microservices	O	B-Knowledge
 *	O	O
 Experience	O	O
 with	O	O
-cloud	O	O
-technologies	O	O
+cloud	O	B-Knowledge
+technologies	O	I-Knowledge
 such	O	O
 as	O	O
 AWS	O	B-Knowledge
@@ -18863,9 +18783,9 @@ technologies	O	O
 
 Experience	O	O
 with	O	O
-cloud	O	O
-deployment	O	O
-tools	O	O
+cloud	O	B-Knowledge
+deployment	O	I-Knowledge
+tools	O	I-Knowledge
 like	O	O
 Spinnaker	O	B-Knowledge
 is	O	O
@@ -18874,12 +18794,12 @@ beneficial	O	O
 *	O	O
 Knowledge	O	O
 of	O	O
-best	O	O
-practices	O	O
-in	O	O
-DevOps	O	B-Knowledge
-and	O	O
-CI/CD	O	B-Knowledge
+best	O	B-Knowledge
+practices	O	I-Knowledge
+in	O	I-Knowledge
+DevOps	O	I-Knowledge
+and	O	I-Knowledge
+CI/CD	O	I-Knowledge
 automation	O	I-Knowledge
 
 *	O	O
@@ -18892,7 +18812,7 @@ data	O	I-Knowledge
 and	O	I-Knowledge
 infrastructure	O	I-Knowledge
 architecture	O	I-Knowledge
-disciplines	O	I-Knowledge
+disciplines	O	O
 
 *	O	O
 Knowledge	O	O
@@ -18931,9 +18851,9 @@ in	O	O
 one	O	O
 or	O	O
 more	O	O
-modern	O	O
-programming	O	O
-languages	O	O
+modern	O	B-Knowledge
+programming	O	I-Knowledge
+languages	O	I-Knowledge
 
 *	O	O
 Understanding	O	O
@@ -19383,21 +19303,20 @@ necessary	I-Skill	O
 resources	I-Skill	O
 and	O	O
 potential	O	O
-security	O	B-Knowledge
-concerns	O	I-Knowledge
+security	O	O
+concerns	O	O
 .	O	O
-
 
 Provide	B-Skill	O
 high-level	I-Skill	O
 technical	I-Skill	O
 design	I-Skill	O
-strategy	O	B-Knowledge
-roadmap	O	I-Knowledge
-development	O	I-Knowledge
+strategy	O	O
+roadmap	O	O
+development	O	O
 and	O	O
-technical	O	B-Knowledge
-architecture	O	I-Knowledge
+technical	O	O
+architecture	O	O
 related	O	O
 to	O	O
 our	O	O
@@ -19422,9 +19341,9 @@ architectures	I-Skill	O
 are	I-Skill	O
 consistent	I-Skill	O
 with	O	O
-industry	O	B-Knowledge
-best	O	I-Knowledge
-practices	O	I-Knowledge
+industry	O	O
+best	O	O
+practices	O	O
 including	O	O
 scalability	O	B-Knowledge
 availability	O	B-Knowledge
@@ -19432,7 +19351,6 @@ maintainability	O	B-Knowledge
 and	O	O
 flexibility	O	B-Knowledge
 .	O	O
-
 
 Communicate	B-Skill	O
 strategies	I-Skill	O
@@ -19486,7 +19404,6 @@ new	I-Skill	O
 colleagues	I-Skill	O
 .	O	O
 
-
 YOUR	O	O
 PROFILE	O	O
 
@@ -19530,7 +19447,7 @@ software	I-Skill	O
 unit	O	B-Knowledge
 testing	O	I-Knowledge
 integration	O	B-Knowledge
-testing)	O	I-Knowledge
+testing)	O	O
 .	O	O
 
 You	O	O
@@ -19543,7 +19460,6 @@ a	I-Skill	O
 consumable	I-Skill	O
 API	I-Skill	O
 .	O	O
-
 
 You	O	O
 work	B-Skill	O
@@ -19575,7 +19491,6 @@ large-scale	I-Skill	O
 distributed	I-Skill	O
 systems	I-Skill	O
 .	O	O
-
 
 WHY	O	O
 US?	O	O
@@ -19616,8 +19531,8 @@ in	O	O
 the	O	O
 field	O	O
 of	O	O
-machine	O	O
-learning	O	O
+machine	O	B-Knowledge
+learning	O	I-Knowledge
 .	O	O
 
 Regular	O	O
@@ -20214,8 +20129,8 @@ written	O	O
 in	O	O
 C#	O	O
 /	O	O
-.	O	O
-NET	O	O
+.	O	B-Knowledge
+NET	O	B-Knowledge
 and	O	O
 Python	O	O
 3	O	O
@@ -20225,8 +20140,8 @@ Django	O	O
 library	O	O
 (	O	O
 for	O	O
-web	O	O
-app	O	O
+web	O	B-Knowledge
+app	O	I-Knowledge
 and	O	O
 ORM)	O	O
 .	O	O
@@ -20297,7 +20212,7 @@ lock)	O	O
 We	O	O
 run	O	O
 on	O	O
-Azure/Docker/Kubernetes	O	O
+Azure/Docker/Kubernetes	O	B-Knowledge
 and	O	O
 configure	O	O
 and	O	O
@@ -20368,8 +20283,8 @@ implementation	I-Skill	O
 of	O	O
 our	O	O
 core	O	O
-back-end	O	B-Knowledge
-services	O	I-Knowledge
+back-end	O	O
+services	O	O
 which	O	O
 allow	O	O
 us	O	O
@@ -20493,9 +20408,9 @@ your	O	O
 own	O	O
 code	O	O
 and	O	O
-peer	B-Skill	O
-code	I-Skill	O
-reviews	I-Skill	O
+peer	B-Skill	B-Knowledge
+code	I-Skill	I-Knowledge
+reviews	I-Skill	I-Knowledge
 as	O	O
 well	O	O
 as	O	O
@@ -20581,7 +20496,7 @@ ORMs	O	B-Knowledge
 Django	O	B-Knowledge
 ORM	O	B-Knowledge
 SQLAlchemy	O	B-Knowledge
-)	O	I-Knowledge
+)	O	O
 and	O	O
 can	O	O
 adapt	O	O
@@ -20594,17 +20509,17 @@ experience	O	O
 designing	B-Skill	O
 &	I-Skill	O
 implementing	I-Skill	O
-distributed	I-Skill	O
-system	I-Skill	O
-architectures	I-Skill	O
+distributed	I-Skill	B-Knowledge
+system	I-Skill	I-Knowledge
+architectures	I-Skill	I-Knowledge
 and	I-Skill	O
-APIs	I-Skill	O
+APIs	I-Skill	B-Knowledge
 
 You	O	O
 can	O	O
 work	O	O
 with	O	O
-docker	O	B-Knowledge
+docker	O	O
 to	O	O
 deploy	B-Skill	O
 your	I-Skill	O
@@ -20612,10 +20527,10 @@ applications	I-Skill	O
 
 Probably	O	O
 a	O	O
-university	O	O
-degree	O	O
-in	O	O
-Computer	O	B-Knowledge
+university	O	B-Knowledge
+degree	O	I-Knowledge
+in	O	I-Knowledge
+Computer	O	I-Knowledge
 Engineering	O	I-Knowledge
 or	O	O
 equivalent	O	O
@@ -20684,7 +20599,7 @@ statistical	O	B-Knowledge
 modeling	O	I-Knowledge
 and	O	O
 optimization	O	B-Knowledge
-problems	O	I-Knowledge
+problems	O	O
 
 Openness	O	O
 to	O	O
@@ -20723,11 +20638,11 @@ about	O	O
 healthy	O	O
 living	O	O
 
-<LOCATION>	O	B-Knowledge
-or	O	I-Knowledge
-<LOCATION>	O	I-Knowledge
-work	O	I-Knowledge
-permit	O	I-Knowledge
+<LOCATION>	O	O
+or	O	O
+<LOCATION>	O	O
+work	O	O
+permit	O	O
 is	O	O
 a	O	O
 must	O	O
@@ -21443,8 +21358,8 @@ Industry:	O	O
 
 Information	O	B-Knowledge
 Technology	O	I-Knowledge
-Online	O	B-Knowledge
-Travel	O	I-Knowledge
+Online	O	O
+Travel	O	O
 
 Company	O	O
 size:	O	O
@@ -21468,12 +21383,12 @@ amazon-web-services	O	B-Knowledge
 Job	O	O
 description	O	O
 
-Java	O	B-Knowledge
+Java	O	O
 Python	O	B-Knowledge
-Docker	O	B-Knowledge
+Docker	O	I-Knowledge
 and	O	O
 AWS	O	B-Knowledge
-–	O	O
+–	O	I-Knowledge
 you’ll	O	O
 be	O	O
 up	O	O
@@ -21500,13 +21415,12 @@ Our	O	O
 Distributed	O	O
 workflow	O	O
 includes	O	O
-Hadoop/Spark	O	B-Knowledge
-SQL	O	B-Knowledge
-Airflow	O	B-Knowledge
+Hadoop/Spark	O	O
+SQL	O	O
+Airflow	O	O
 and	O	O
 Jupyter	O	B-Knowledge
 .	O	O
-
 
 So	O	O
 as	O	O
@@ -21521,7 +21435,7 @@ tech	O	O
 experience	O	O
 of	O	O
 Agile/Lean	O	B-Knowledge
-methodologies	O	O
+methodologies	O	I-Knowledge
 will	O	O
 be	O	O
 vital	O	O
@@ -21542,7 +21456,6 @@ and	I-Skill	O
 metrics	I-Skill	O
 .	O	O
 
-
 But	O	O
 while	O	O
 this	O	O
@@ -21561,7 +21474,6 @@ outstanding	I-Skill	O
 work	I-Skill	O
 .	O	O
 
-
 So	O	O
 you’ll	O	O
 break	B-Skill	O
@@ -21577,7 +21489,6 @@ always	O	O
 demand	B-Skill	O
 quality	I-Skill	O
 .	O	O
-
 
 We	O	O
 need	O	O
@@ -21619,9 +21530,8 @@ cloud	O	B-Knowledge
 services	O	I-Knowledge
 to	O	O
 world-class	O	O
-APIs	O	B-Knowledge
+APIs	O	O
 .	O	O
-
 
 Working	O	O
 in	O	O
@@ -21642,7 +21552,6 @@ key	I-Skill	O
 product	I-Skill	O
 features	I-Skill	O
 .	O	O
-
 
 That	O	O
 means	O	O
@@ -21704,7 +21613,6 @@ making	B-Skill	O
 success	I-Skill	O
 happen	I-Skill	O
 .	O	O
-
 
 Job	O	O
 benefits:	O	O
@@ -21944,9 +21852,9 @@ V	O	O
 
 Technologies:	O	O
 
-android	O	B-Knowledge
-mobile	O	B-Knowledge
-kotlin	O	B-Knowledge
+android	O	O
+mobile	O	O
+kotlin	O	O
 
 Job	O	O
 description:	O	O
@@ -22029,7 +21937,6 @@ or	O	O
 Couroutines	O	B-Knowledge
 .	O	O
 
-
 You’ll	O	O
 be	O	O
 working	O	O
@@ -22066,7 +21973,6 @@ pairing	B-Skill	O
 and	O	O
 mentoring	B-Skill	O
 .	O	O
-
 
 Leave	O	O
 your	O	O
@@ -22115,9 +22021,9 @@ the	O	O
 help	O	O
 of	O	O
 the	O	O
-Google	O	B-Knowledge
-Awareness	O	I-Knowledge
-API	O	I-Knowledge
+Google	O	O
+Awareness	O	O
+API	O	O
 
 Improve	B-Skill	O
 of	I-Skill	O
@@ -22141,17 +22047,17 @@ features	I-Skill	O
 tightly	O	O
 integrated	O	O
 with	O	O
-location	O	B-Knowledge
-based	O	I-Knowledge
-services	O	I-Knowledge
+location	O	O
+based	O	O
+services	O	O
 
 Transfer	O	O
 your	O	O
 excellent	O	O
 intuition	O	O
 for	O	O
-design	B-Skill	O
-UI	O	B-Knowledge
+design	B-Skill	B-Knowledge
+UI	O	I-Knowledge
 and	O	O
 UX	O	B-Knowledge
 to	O	O
@@ -22169,11 +22075,11 @@ us…	O	O
 
 Passionate	O	O
 about	O	O
-mobile	O	B-Knowledge
-technologies	O	I-Knowledge
+mobile	O	O
+technologies	O	O
 and	O	O
-mobile	O	B-Knowledge
-wallets	O	I-Knowledge
+mobile	O	O
+wallets	O	O
 feeling	O	O
 related	O	O
 to	O	O
@@ -22215,8 +22121,8 @@ a	O	O
 plus	O	O
 
 Degree	O	B-Knowledge
-in	O	O
-Computer	O	B-Knowledge
+in	O	I-Knowledge
+Computer	O	I-Knowledge
 Science	O	I-Knowledge
 similar	O	O
 technical	O	O
@@ -22233,13 +22139,13 @@ projects	O	O
 or	O	O
 contribution	O	O
 to	O	O
-open	O	O
-source	O	O
-projects	O	O
+open	O	B-Knowledge
+source	O	I-Knowledge
+projects	O	I-Knowledge
 in	O	O
 the	O	O
 Android	O	B-Knowledge
-ecosystem	O	O
+ecosystem	O	I-Knowledge
 
 Interest	O	O
 in	O	O
@@ -22247,7 +22153,7 @@ or	O	O
 experience	O	O
 with	O	O
 payment	O	B-Knowledge
-loyalty	O	B-Knowledge
+loyalty	O	I-Knowledge
 and	O	O
 shopping	O	B-Knowledge
 
@@ -22840,7 +22746,7 @@ experienced	O	O
 team	O	O
 with	O	O
 strong	O	O
-engineering	O	O
+engineering	O	B-Knowledge
 background	O	O
 and	O	O
 hands-on	O	O
@@ -22885,15 +22791,15 @@ quality	I-Skill	O
 and	I-Skill	O
 maintainability	I-Skill	O
 by	O	O
-evolving	O	B-Knowledge
-architecture	O	I-Knowledge
-and	O	I-Knowledge
-tech	O	I-Knowledge
-stack	O	I-Knowledge
-code	O	B-Knowledge
-reviews	O	I-Knowledge
-refactoring	O	B-Knowledge
-standards	O	B-Knowledge
+evolving	O	O
+architecture	O	O
+and	O	O
+tech	O	O
+stack	O	O
+code	O	O
+reviews	O	O
+refactoring	O	O
+standards	O	O
 and	O	O
 improving	B-Skill	O
 build	I-Skill	O
@@ -22907,9 +22813,9 @@ and	I-Skill	O
 mentor	I-Skill	O
 teams	I-Skill	O
 on	O	O
-architecture	O	B-Knowledge
+architecture	O	O
 and	O	O
-technology	O	B-Knowledge
+technology	O	O
 choices	O	O
 
 Collaborate	B-Skill	O
@@ -22987,28 +22893,28 @@ of	O	O
 Java	O	B-Knowledge
 Spring	O	B-Knowledge
 Framework	O	I-Knowledge
-web	O	B-Knowledge
+web	O	I-Knowledge
 technologies	O	I-Knowledge
 and	O	O
-(	O	B-Knowledge
-non-	O	I-Knowledge
-)	O	I-Knowledge
-relational	O	I-Knowledge
+(	O	O
+non-	O	B-Knowledge
+)	O	O
+relational	O	B-Knowledge
 databases	O	I-Knowledge
 (	O	O
 bonus:	O	O
 node.js	O	B-Knowledge
 react	O	B-Knowledge
-)	O	I-Knowledge
+)	O	O
 Advanced	O	O
 understanding	O	O
 of	O	O
 design	O	B-Knowledge
 implementation	O	I-Knowledge
-and	O	I-Knowledge
-operation	O	I-Knowledge
+and	O	O
+operation	O	B-Knowledge
 of	O	I-Knowledge
-distributed	O	I-Knowledge
+distributed	O	B-Knowledge
 services	O	I-Knowledge
 and	O	I-Knowledge
 APIs	O	I-Knowledge
@@ -23290,7 +23196,7 @@ skills	O	O
 and	O	O
 participate	O	O
 in	O	O
-Hackweek	O	O
+Hackweek	O	B-Knowledge
 
 Employee	O	O
 Assistance	O	O
@@ -23325,3 +23231,4 @@ Company	O	O
 description:	O	O
 
 <DESCRIPTION>	O	O
+

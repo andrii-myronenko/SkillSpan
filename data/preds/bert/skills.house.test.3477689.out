@@ -25,11 +25,11 @@ level	O	O
 .	O	O
 
 Were	O	O
-building	O	O
-the	O	O
-compelling	O	O
-user	O	O
-experiences	O	O
+building	B-Skill	O
+the	I-Skill	O
+compelling	I-Skill	O
+user	I-Skill	O
+experiences	I-Skill	O
 that	O	O
 keep	O	O
 our	O	O
@@ -87,8 +87,8 @@ Requirements	O	O
 3+	O	O
 years	O	O
 professional	O	O
-web	B-Skill	O
-development	I-Skill	O
+web	O	O
+development	O	O
 experience	O	O
 
 Strong	O	O
@@ -121,12 +121,12 @@ other	O	O
 backend	O	O
 language	O	O
 
-Awareness	O	O
-of	O	O
-client-side	O	B-Knowledge
-compatibility	O	I-Knowledge
+Awareness	B-Skill	O
+of	I-Skill	O
+client-side	I-Skill	B-Knowledge
+compatibility	I-Skill	I-Knowledge
 and	O	O
-performance	B-Skill	O
+performance	O	O
 considerations	O	O
 
 Ability	O	O
@@ -164,15 +164,15 @@ to	O	O
 engage	B-Skill	O
 with	I-Skill	O
 colleagues	I-Skill	O
-at	O	O
-a	O	O
-professional	O	O
-and	O	O
-personal	O	O
-level	O	O
+at	I-Skill	O
+a	I-Skill	O
+professional	I-Skill	O
+and	I-Skill	O
+personal	I-Skill	O
+level	I-Skill	O
 Great	O	O
-technical	O	O
-communication	B-Skill	O
+technical	B-Skill	O
+communication	I-Skill	O
 skills	I-Skill	O
 
 Must	O	O
@@ -578,8 +578,8 @@ will	O	O
 be	O	O
 expected	O	O
 to	O	O
-independently	B-Skill	O
-conduct	I-Skill	O
+independently	O	O
+conduct	B-Skill	O
 the	I-Skill	O
 experimental	I-Skill	O
 work	I-Skill	O
@@ -591,9 +591,9 @@ project	O	O
 This	O	O
 entails	O	O
 design	B-Skill	O
-execution	I-Skill	O
-and	I-Skill	O
-analysis	I-Skill	O
+execution	O	O
+and	O	O
+analysis	B-Skill	O
 of	I-Skill	O
 phosphoproteomics	I-Skill	O
 experiments	I-Skill	O
@@ -731,8 +731,8 @@ as	O	O
 well	O	O
 as	O	O
 independence	B-Skill	O
-in	O	O
-paper	B-Skill	O
+in	I-Skill	O
+paper	I-Skill	O
 and	I-Skill	O
 project	I-Skill	O
 writing	I-Skill	O
@@ -1166,14 +1166,14 @@ Are	O	O
 you	O	O
 passionate	O	O
 about	O	O
-transforming	O	O
-your	O	O
-large	O	O
-component	O	O
-experience	O	O
-into	O	O
-new	O	O
-concepts	O	O
+transforming	B-Skill	O
+your	I-Skill	O
+large	I-Skill	O
+component	I-Skill	O
+experience	I-Skill	O
+into	I-Skill	O
+new	I-Skill	O
+concepts	I-Skill	O
 for	O	O
 turbine	O	O
 installations	O	O
@@ -1192,8 +1192,8 @@ Transport	I-Skill	O
 Construction	I-Skill	O
 Maintenance	I-Skill	O
 processes	I-Skill	O
-and	O	O
-tools?	O	O
+and	I-Skill	O
+tools?	I-Skill	O
 
 Are	O	O
 you	O	O
@@ -1272,13 +1272,13 @@ department	O	O
 is	O	O
 accountable	O	O
 for	O	O
-developing	O	O
-and	O	O
-maintaining	O	O
-standard	O	O
-work	O	O
-processes	O	O
-and	O	O
+developing	B-Skill	O
+and	I-Skill	O
+maintaining	I-Skill	O
+standard	I-Skill	O
+work	I-Skill	O
+processes	I-Skill	O
+and	I-Skill	O
 tools	O	O
 for	O	O
 Transport	O	O
@@ -1303,12 +1303,12 @@ team	O	O
 is	O	O
 responsible	O	O
 for	O	O
-developing	B-Skill	O
-and	I-Skill	O
-illustrating	I-Skill	O
-processes	I-Skill	O
-and	I-Skill	O
-concepts	I-Skill	O
+developing	O	O
+and	O	O
+illustrating	O	O
+processes	O	O
+and	O	O
+concepts	O	O
 related	O	O
 to	O	O
 transport	O	B-Knowledge
@@ -1319,8 +1319,6 @@ of	O	I-Knowledge
 wind	O	I-Knowledge
 turbines	O	I-Knowledge
 .	O	O
-
-
 
 In	O	O
 relation	O	O
@@ -1362,12 +1360,12 @@ development	I-Skill	O
 to	O	O
 ensure	O	O
 <ORGANIZATION>	O	O
-design	O	O
-enables	O	O
-cost	O	O
-optimized	O	O
-construction	O	O
-solutions	O	O
+design	B-Skill	O
+enables	I-Skill	O
+cost	I-Skill	O
+optimized	I-Skill	O
+construction	I-Skill	O
+solutions	I-Skill	O
 and	O	O
 ensure	B-Skill	O
 full	I-Skill	O
@@ -1382,18 +1380,18 @@ construction	I-Skill	O
 in	O	O
 terms	O	O
 of	O	O
-cost	B-Skill	O
-reduction	I-Skill	O
+cost	O	O
+reduction	O	O
 and	O	O
-quality	B-Skill	O
-improvements	I-Skill	O
+quality	O	O
+improvements	O	O
 Collection	B-Skill	O
 of	I-Skill	O
 improvement	I-Skill	O
 suggestions	I-Skill	O
-and	I-Skill	O
-best	I-Skill	O
-practice	I-Skill	O
+and	O	O
+best	O	O
+practice	O	O
 from	O	O
 a	O	O
 range	O	O
@@ -1417,7 +1415,7 @@ global	I-Skill	O
 construction	I-Skill	O
 work	I-Skill	O
 processes	I-Skill	O
-for	O	O
+for	I-Skill	O
 new	O	O
 wind	O	O
 turbines	O	O
@@ -1431,12 +1429,12 @@ business	I-Skill	O
 are	I-Skill	O
 included	I-Skill	O
 in	I-Skill	O
-the	I-Skill	O
-wind	I-Skill	O
-turbine	I-Skill	O
-&	I-Skill	O
-tools	I-Skill	O
-designs	I-Skill	O
+the	O	O
+wind	O	O
+turbine	O	O
+&	O	O
+tools	O	O
+designs	O	O
 
 Create	B-Skill	O
 new	I-Skill	O
@@ -1456,8 +1454,8 @@ part	O	O
 in	O	O
 testing	B-Skill	O
 verifying	I-Skill	O
-at	I-Skill	O
-site	I-Skill	O
+at	O	O
+site	O	O
 
 Qualifications	O	O
 
@@ -1491,8 +1489,6 @@ hold	O	O
 a	O	O
 B.Sc	O	B-Knowledge
 .	O	O
-
-
 
 degree	O	O
 in	O	O
@@ -1565,8 +1561,8 @@ You	O	O
 possess	O	O
 good	O	O
 communication	B-Skill	O
-and	O	O
-presentation	B-Skill	O
+and	I-Skill	O
+presentation	I-Skill	O
 skills	I-Skill	O
 in	O	O
 English	O	B-Knowledge
@@ -1582,12 +1578,12 @@ of	O	O
 cooperating	B-Skill	O
 with	I-Skill	O
 colleagues	I-Skill	O
-in	O	O
-a	O	O
-professional	O	O
-and	O	O
-positive	O	O
-manner	O	O
+in	I-Skill	O
+a	I-Skill	O
+professional	I-Skill	O
+and	I-Skill	O
+positive	I-Skill	O
+manner	I-Skill	O
 
 You	O	O
 have	O	O
@@ -1611,8 +1607,8 @@ person	O	O
 you	O	O
 are	O	O
 outgoing	B-Skill	O
-of	O	O
-nature	O	O
+of	I-Skill	O
+nature	I-Skill	O
 and	O	O
 you	O	O
 possess	O	O
@@ -1662,15 +1658,15 @@ environment	O	O
 
 You	O	O
 will	O	O
-have	O	O
-a	O	O
-broad	O	O
-interface	O	O
+have	B-Skill	O
+a	I-Skill	O
+broad	I-Skill	O
+interface	I-Skill	O
 and	O	O
-work	O	O
-closely	O	O
-with	O	O
-people	O	O
+work	B-Skill	O
+closely	I-Skill	O
+with	I-Skill	O
+people	I-Skill	O
 from	O	O
 all	O	O
 over	O	O
@@ -1690,17 +1686,17 @@ part	O	O
 of	O	O
 this	O	O
 job	O	O
-testing	O	O
+testing	B-Skill	O
 and	O	O
 verification	O	O
 on	O	O
 site	O	O
-working	O	O
-closely	O	O
-with	O	O
-people	O	O
-with	O	O
-hands	O	O
+working	B-Skill	O
+closely	I-Skill	O
+with	I-Skill	O
+people	I-Skill	O
+with	I-Skill	O
+hands	I-Skill	O
 
 on	O	O
 .	O	O
@@ -1890,10 +1886,10 @@ you	O	O
 communicate	B-Skill	O
 quantitative	I-Skill	O
 analyzes	I-Skill	O
-in	O	O
-a	O	O
-simple	O	O
-understandable	O	O
+in	I-Skill	O
+a	I-Skill	O
+simple	I-Skill	O
+understandable	I-Skill	O
 way?	O	O
 
 Do	O	O
@@ -2019,10 +2015,10 @@ environment	O	O
 characterized	O	O
 by	O	O
 being	O	O
-ambitious	O	O
-proactive	O	O
+ambitious	B-Skill	O
+proactive	B-Skill	O
 and	O	O
-innovative	O	O
+innovative	B-Skill	O
 .	O	O
 
 The	O	O
@@ -2106,27 +2102,25 @@ Electricity	I-Skill	O
 Sales	I-Skill	O
 team	I-Skill	O
 by	O	O
-carrying	O	O
-out	O	O
-pricing	B-Skill	O
+carrying	B-Skill	O
+out	I-Skill	O
+pricing	I-Skill	O
 calculations	I-Skill	O
-competitor	I-Skill	O
+competitor	B-Skill	O
 analysis	I-Skill	O
-and	O	O
-benchmarks	B-Skill	O
+and	I-Skill	O
+benchmarks	I-Skill	O
 .	O	O
-
-
 
 You	O	O
 will	O	O
-get	O	O
-a	O	O
-broad	O	O
-interface	O	O
-internally	O	O
-with	O	O
-stakeholders	O	O
+get	B-Skill	O
+a	I-Skill	O
+broad	I-Skill	O
+interface	I-Skill	O
+internally	I-Skill	O
+with	I-Skill	O
+stakeholders	I-Skill	O
 from	O	O
 different	O	O
 function	O	O
@@ -2161,18 +2155,18 @@ analysis	I-Skill	O
 Present	B-Skill	O
 the	I-Skill	O
 calculations	I-Skill	O
-at	O	O
-internal	O	O
-meetings	O	O
+at	I-Skill	O
+internal	I-Skill	O
+meetings	I-Skill	O
 Prepare	B-Skill	O
 business	I-Skill	O
 cases	I-Skill	O
 and	I-Skill	O
 benchmarks	I-Skill	O
 to	O	O
-justify	O	O
-the	O	O
-calculations	O	O
+justify	B-Skill	O
+the	I-Skill	O
+calculations	I-Skill	O
 and	O	O
 to	O	O
 support	B-Skill	O
@@ -2201,14 +2195,14 @@ team	O	O
 
 You	O	O
 will	O	O
-work	O	O
-in	O	O
-different	O	O
-bid	O	O
-and	O	O
-sales	O	O
-project-oriented	O	O
-processes	O	O
+work	B-Skill	O
+in	I-Skill	O
+different	I-Skill	O
+bid	I-Skill	O
+and	I-Skill	O
+sales	I-Skill	O
+project-oriented	I-Skill	O
+processes	I-Skill	O
 .	O	O
 
 Project	O	O
@@ -2246,17 +2240,15 @@ must	O	O
 have	O	O
 an	O	O
 analytical	B-Skill	O
-proactive	I-Skill	O
-and	I-Skill	O
-structured	I-Skill	O
+proactive	B-Skill	O
+and	O	O
+structured	B-Skill	O
 workstyle	I-Skill	O
 with	O	O
 a	O	O
 high-quality	B-Skill	O
 mindset	I-Skill	O
 .	O	O
-
-
 
 You	O	O
 must	O	O
@@ -2281,8 +2273,6 @@ technical	I-Skill	O
 colleagues	I-Skill	O
 .	O	O
 
-
-
 You	O	O
 enjoy	O	O
 working	B-Skill	O
@@ -2297,12 +2287,10 @@ are	O	O
 to	O	O
 build	B-Skill	O
 relationships	I-Skill	O
-across	I-Skill	O
-the	I-Skill	O
-organization	I-Skill	O
+across	O	O
+the	O	O
+organization	O	O
 .	O	O
-
-
 
 As	O	O
 a	O	O
@@ -2313,8 +2301,6 @@ innovative	B-Skill	O
 and	O	O
 solution-oriented	B-Skill	O
 .	O	O
-
-
 
 To	O	O
 succeed	O	O
@@ -2355,10 +2341,10 @@ Have	O	O
 solid	O	O
 experience	O	O
 with	O	O
-pricing	B-Skill	O
-and	I-Skill	O
-complex	I-Skill	O
-analysis	I-Skill	O
+pricing	O	O
+and	O	O
+complex	O	O
+analysis	O	O
 
 Are	O	O
 an	O	O
@@ -2395,8 +2381,6 @@ write	O	O
 fluently	O	O
 English	O	B-Knowledge
 .	O	O
-
-
 
 Danish	O	O
 Swedish	O	B-Knowledge
@@ -2454,18 +2438,18 @@ a	O	O
 position	O	O
 where	O	O
 you	O	O
-work	O	O
-with	O	O
-professional	O	O
-and	O	O
-motivated	O	O
-people	O	O
+work	B-Skill	O
+with	I-Skill	O
+professional	I-Skill	O
+and	I-Skill	O
+motivated	I-Skill	O
+people	I-Skill	O
 aspiring	O	O
 to	O	O
-inspire	O	O
-lead	O	O
+inspire	B-Skill	O
+lead	I-Skill	O
 and	O	O
-deliver	O	O
+deliver	B-Skill	O
 .	O	O
 
 We	O	O
@@ -2714,15 +2698,15 @@ tasks	O	O
 can	O	O
 be	O	O
 feeding	B-Skill	O
-moving	B-Skill	O
-castration	B-Skill	O
-insemination	B-Skill	O
+moving	I-Skill	O
+castration	I-Skill	O
+insemination	I-Skill	O
 monitoring	B-Skill	O
 the	I-Skill	O
 animals	I-Skill	O
 health	I-Skill	O
-and	O	O
-others	O	O
+and	I-Skill	O
+others	I-Skill	O
 .	O	O
 
 We	O	O
@@ -2833,10 +2817,10 @@ weekend	O	O
 e.g	O	O
 .	O	O
 
-checking	O	O
-on	O	O
-the	O	O
-lights	O	O
+checking	B-Skill	O
+on	I-Skill	O
+the	I-Skill	O
+lights	I-Skill	O
 in	O	O
 the	O	O
 stables	O	O
@@ -2875,11 +2859,11 @@ driving	O	B-Knowledge
 license	O	I-Knowledge
 -	O	O
 The	O	O
-desire	B-Skill	O
-to	I-Skill	O
-work	I-Skill	O
-with	I-Skill	O
-pigs	I-Skill	O
+desire	O	O
+to	O	O
+work	O	O
+with	O	O
+pigs	O	O
 -	O	O
 A	O	O
 little	O	O
@@ -3001,9 +2985,9 @@ youll	O	O
 develop	B-Skill	O
 beautiful	I-Skill	O
 campaigns	I-Skill	O
-create	B-Skill	O
-outstanding	I-Skill	O
-experiences	I-Skill	O
+create	O	O
+outstanding	O	O
+experiences	O	O
 that	O	O
 drive	O	O
 our	O	O
@@ -3012,13 +2996,11 @@ growth	O	O
 objectives	O	O
 and	O	O
 help	O	O
-maintain	B-Skill	O
-our	I-Skill	O
-frontend	I-Skill	O
-stack	I-Skill	O
+maintain	O	O
+our	O	O
+frontend	O	O
+stack	O	O
 .	O	O
-
-
 
 Youll	O	O
 be	O	O
@@ -3038,19 +3020,17 @@ where	O	O
 you	O	O
 will	O	O
 contribute	B-Skill	O
-with	I-Skill	O
-beautifully	I-Skill	O
-crafted	I-Skill	O
-layouts	I-Skill	O
+with	O	O
+beautifully	O	O
+crafted	O	O
+layouts	O	O
 built	O	O
 with	O	O
-scalable	O	B-Knowledge
-and	O	I-Knowledge
-modulable	O	I-Knowledge
-code	O	I-Knowledge
+scalable	B-Skill	B-Knowledge
+and	I-Skill	I-Knowledge
+modulable	I-Skill	I-Knowledge
+code	I-Skill	I-Knowledge
 .	O	O
-
-
 
 You	O	O
 should	O	O
@@ -3077,8 +3057,6 @@ frontend	I-Skill	O
 experiences	I-Skill	O
 .	O	O
 
-
-
 What	O	O
 you'll	O	O
 do:	O	O
@@ -3104,16 +3082,16 @@ on	O	O
 our	O	O
 blog	O	O
 ecosystem	O	O
-Participate	O	O
-in	O	O
-creative	O	O
-projects	O	O
+Participate	B-Skill	O
+in	I-Skill	O
+creative	I-Skill	O
+projects	I-Skill	O
 to	O	O
 deliver	B-Skill	O
 maximum	I-Skill	O
 impact	I-Skill	O
-together	O	O
-with	O	O
+together	I-Skill	O
+with	I-Skill	O
 specialists;	O	O
 for	O	O
 example	O	O
@@ -3124,10 +3102,10 @@ the	O	O
 annual	O	O
 conference	O	O
 Spark	O	O
-Bring	O	O
-your	O	O
-own	O	O
-creative	B-Skill	O
+Bring	B-Skill	O
+your	I-Skill	O
+own	I-Skill	O
+creative	I-Skill	O
 solutions	I-Skill	O
 and	I-Skill	O
 ideas	I-Skill	O
@@ -3135,15 +3113,15 @@ to	O	O
 solve	B-Skill	O
 challenges	I-Skill	O
 and	O	O
-improve	B-Skill	O
-our	I-Skill	O
-overall	I-Skill	O
-website	I-Skill	O
-&	I-Skill	O
-campaign	I-Skill	O
-performance	I-Skill	O
-Help	O	O
-build	B-Skill	O
+improve	O	O
+our	O	O
+overall	O	O
+website	O	O
+&	O	O
+campaign	O	O
+performance	O	O
+Help	B-Skill	O
+build	I-Skill	O
 and	I-Skill	O
 maintain	I-Skill	O
 a	I-Skill	O
@@ -3238,10 +3216,10 @@ plus	O	O
 
 Experience	O	O
 with	O	O
-working	O	O
-in	O	O
-Scrum/Agile	O	B-Knowledge
-teams	O	O
+working	B-Skill	O
+in	I-Skill	O
+Scrum/Agile	I-Skill	B-Knowledge
+teams	I-Skill	O
 is	O	O
 a	O	O
 plus	O	O
@@ -3315,8 +3293,8 @@ listening	O	O
 engaging	O	O
 publishing	O	O
 and	O	O
-managing	O	O
-customer	O	O
+managing	B-Skill	O
+customer	I-Skill	O
 data	O	O
 .	O	O
 
@@ -3333,11 +3311,11 @@ of	O	O
 digital	O	O
 marketing	O	O
 by	O	O
-managing	O	O
-multiple	O	O
-customer	O	O
-touch	O	O
-points	O	O
+managing	B-Skill	O
+multiple	I-Skill	O
+customer	I-Skill	O
+touch	I-Skill	O
+points	I-Skill	O
 from	O	O
 one	O	O
 platform	O	O
@@ -3400,20 +3378,20 @@ were	O	O
 always	O	O
 looking	O	O
 for	O	O
-passionate	O	O
+passionate	B-Skill	O
 and	O	O
-curious	O	O
+curious	B-Skill	O
 people	O	O
 who	O	O
 want	O	O
 to	O	O
-be	O	O
-part	O	O
-of	O	O
-a	O	O
-fast-paced	O	O
-high-energy	O	O
-environment	O	O
+be	B-Skill	O
+part	I-Skill	O
+of	I-Skill	O
+a	I-Skill	O
+fast-paced	I-Skill	O
+high-energy	I-Skill	O
+environment	I-Skill	O
 .	O	O
 
 For	O	O
@@ -3596,18 +3574,18 @@ be	O	O
 responsible	O	O
 for	O	O
 the	O	O
-general	B-Skill	O
-management	I-Skill	O
-and	I-Skill	O
-development	I-Skill	O
-of	I-Skill	O
-the	I-Skill	O
-employees	I-Skill	O
+general	O	O
+management	O	O
+and	O	O
+development	O	O
+of	O	O
+the	O	O
+employees	O	O
 for	O	O
-budget	B-Skill	O
-and	I-Skill	O
-resource	I-Skill	O
-allocation	I-Skill	O
+budget	O	O
+and	O	O
+resource	O	O
+allocation	O	O
 and	O	O
 for	O	O
 ensuring	B-Skill	O
@@ -3616,10 +3594,10 @@ and	I-Skill	O
 efficient	I-Skill	O
 project	I-Skill	O
 execution	I-Skill	O
-with	O	O
-high	O	O
-quality	O	O
-results	O	O
+with	I-Skill	O
+high	I-Skill	O
+quality	I-Skill	O
+results	I-Skill	O
 .	O	O
 
 You	O	O
@@ -3727,8 +3705,8 @@ science	O	I-Knowledge
 Have	O	O
 experience	O	O
 with	O	O
-project	B-Skill	O
-leadership	I-Skill	O
+project	O	O
+leadership	O	O
 Have	O	O
 experience	O	O
 with	O	O
@@ -3745,8 +3723,8 @@ needs	O	O
 This	O	O
 can	O	O
 be	O	O
-commercial	B-Skill	O
-insight	I-Skill	O
+commercial	O	O
+insight	O	O
 or	O	O
 production	O	B-Knowledge
 knowledge	O	O
@@ -3761,9 +3739,9 @@ and	O	O
 increase	B-Skill	O
 expertise	I-Skill	O
 level	I-Skill	O
-in	I-Skill	O
-the	I-Skill	O
-department	I-Skill	O
+in	O	O
+the	O	O
+department	O	O
 
 Be	O	O
 able	O	O
@@ -3781,8 +3759,8 @@ skills	I-Skill	O
 Have	O	O
 experience	O	O
 with	O	O
-people	B-Skill	O
-management	I-Skill	O
+people	O	O
+management	O	O
 
 About	O	O
 <ORGANIZATION>	O	O
@@ -3923,22 +3901,22 @@ Do	O	O
 you	O	O
 want	O	O
 to	O	O
-be	O	O
-part	O	O
-of	O	O
-a	O	O
-team	O	O
-supporting	O	O
-growth	O	O
-through	O	O
-development	O	O
-and	O	O
-continuous	O	O
-optimisation	O	O
-of	O	O
-global	O	O
-rewards	O	O
-initiatives?	O	O
+be	B-Skill	O
+part	I-Skill	O
+of	I-Skill	O
+a	I-Skill	O
+team	I-Skill	O
+supporting	B-Skill	O
+growth	I-Skill	O
+through	I-Skill	O
+development	I-Skill	O
+and	I-Skill	O
+continuous	I-Skill	O
+optimisation	I-Skill	O
+of	I-Skill	O
+global	I-Skill	O
+rewards	I-Skill	O
+initiatives?	I-Skill	O
 
 <ORGANIZATION>	O	O
 <ORGANIZATION>	O	O
@@ -4076,11 +4054,11 @@ employees	O	O
 You	O	O
 will	O	O
 be	O	O
-working	O	O
-in	O	O
-a	O	O
-multi-cultural	O	O
-environment	O	O
+working	B-Skill	O
+in	I-Skill	O
+a	I-Skill	O
+multi-cultural	I-Skill	O
+environment	I-Skill	O
 and	O	O
 with	O	O
 an	O	O
@@ -4094,25 +4072,21 @@ change	O	O
 Key	O	O
 responsibilities	O	O
 include:	O	O
-HQ	O	O
-lead	O	O
-on	O	O
-the	O	O
-implementation	B-Skill	O
+HQ	B-Skill	O
+lead	B-Skill	O
+on	I-Skill	O
+the	I-Skill	O
+implementation	I-Skill	O
 of	I-Skill	O
 SuccessFactors	I-Skill	O
-.	O	O
-
-
+.	I-Skill	O
 
 Specifically	O	O
-Compensation	B-Skill	O
-and	I-Skill	O
-Performance	I-Skill	O
-Management	I-Skill	O
+Compensation	O	O
+and	O	O
+Performance	O	O
+Management	O	O
 .	O	O
-
-
 
 Optimize	B-Skill	O
 and	I-Skill	O
@@ -4134,8 +4108,6 @@ ensure	B-Skill	O
 local	I-Skill	O
 compliance	I-Skill	O
 .	O	O
-
-
 
 Co	O	O
 
@@ -4161,13 +4133,11 @@ reward	I-Skill	O
 programmes	I-Skill	O
 .	O	O
 
-
-
 Perform	B-Skill	O
 benchmarking	I-Skill	O
-and	O	O
-do	O	O
-market	B-Skill	O
+and	I-Skill	O
+do	B-Skill	O
+market	I-Skill	O
 analysis	I-Skill	O
 for	O	O
 key	O	O
@@ -4184,10 +4154,10 @@ HQ	O	O
 including	O	O
 benchmarking	B-Skill	O
 work	I-Skill	O
-for	I-Skill	O
-salary	I-Skill	O
-range	I-Skill	O
-setting	I-Skill	O
+for	O	O
+salary	O	O
+range	O	O
+setting	O	O
 in	O	O
 <LOCATION>	O	O
 as	O	O
@@ -4222,11 +4192,11 @@ and	I-Skill	O
 HR	I-Skill	O
 Business	I-Skill	O
 Partners	I-Skill	O
-in	O	O
-compensation	O	O
-and	O	O
-benefits	O	O
-policies	O	O
+in	I-Skill	O
+compensation	I-Skill	O
+and	I-Skill	O
+benefits	I-Skill	O
+policies	I-Skill	O
 and	O	O
 on	O	O
 how	O	O
@@ -4244,10 +4214,10 @@ IPE	O	O
 framework	O	O
 .	O	O
 
-Drive	O	O
-HQ	O	O
-communication	O	O
-initiatives	O	O
+Drive	B-Skill	O
+HQ	I-Skill	O
+communication	I-Skill	O
+initiatives	I-Skill	O
 to	O	O
 support	B-Skill	O
 strong	I-Skill	O
@@ -4258,8 +4228,6 @@ policies	I-Skill	O
 and	I-Skill	O
 programmes	I-Skill	O
 .	O	O
-
-
 
 Experience	O	O
 with	O	O
@@ -4295,10 +4263,10 @@ range	I-Skill	O
 of	I-Skill	O
 reward	I-Skill	O
 initiatives	I-Skill	O
-in	O	O
-a	O	O
-complex	O	O
-environment	O	O
+in	I-Skill	O
+a	I-Skill	O
+complex	I-Skill	O
+environment	I-Skill	O
 .	O	O
 
 Ideally	O	O
@@ -4354,7 +4322,7 @@ the	O	O
 importance	O	O
 of	O	O
 having	O	O
-a	O	O
+a	B-Skill	O
 strong	B-Skill	O
 focus	I-Skill	O
 on	I-Skill	O
@@ -4370,8 +4338,6 @@ with	I-Skill	O
 your	I-Skill	O
 stakeholders	I-Skill	O
 .	O	O
-
-
 
 As	O	O
 you	O	O
@@ -4390,15 +4356,13 @@ important	O	O
 that	O	O
 you	O	O
 can	O	O
-communicate	O	O
-effectively	O	O
-and	O	O
-confidently	O	O
+communicate	B-Skill	O
+effectively	I-Skill	O
+and	I-Skill	O
+confidently	I-Skill	O
 in	O	O
 English	O	B-Knowledge
 .	O	O
-
-
 
 Your	O	O
 new	O	O
@@ -4543,35 +4507,29 @@ registered	O	B-Knowledge
 surgeon	O	I-Knowledge
 .	O	O
 
-
-
 Work	O	O
 in	O	O
 a	O	O
 way	O	O
 that	O	O
 is	O	O
-patient-centred	B-Skill	O
+patient-centred	O	O
 and	O	O
-inclusive	B-Skill	O
+inclusive	O	O
 .	O	O
-
-
 
 Provide	B-Skill	O
-your	I-Skill	O
-patients	I-Skill	O
-with	I-Skill	O
-a	I-Skill	O
-safe	I-Skill	O
-and	I-Skill	O
-effective	I-Skill	O
-course	I-Skill	O
-of	I-Skill	O
-treatment	I-Skill	O
+your	O	O
+patients	O	O
+with	O	O
+a	O	O
+safe	O	O
+and	O	O
+effective	O	O
+course	O	O
+of	O	O
+treatment	O	O
 .	O	O
-
-
 
 Participate	O	O
 actively	O	O
@@ -4596,15 +4554,15 @@ trainee	O	O
 doctors	O	O
 .	O	O
 
-See	B-Skill	O
-IT	I-Skill	O
-systems	I-Skill	O
-as	I-Skill	O
-an	I-Skill	O
-aid	I-Skill	O
-in	I-Skill	O
-your	I-Skill	O
-work	I-Skill	O
+See	O	O
+IT	O	O
+systems	O	O
+as	O	O
+an	O	O
+aid	O	O
+in	O	O
+your	O	O
+work	O	O
 and	O	O
 do	O	O
 what	O	O
@@ -4624,14 +4582,12 @@ area	O	O
 
 Be	O	O
 good	B-Skill	O
-humoured	I-Skill	O
+humoured	B-Skill	O
 loyal	B-Skill	O
 dedicated	B-Skill	O
 and	O	O
 flexible	B-Skill	O
 .	O	O
-
-
 
 We	O	O
 can	O	O
@@ -5648,13 +5604,13 @@ of	O	O
 all	O	O
 kinds	O	O
 they	O	O
-stage	O	O
-a	O	O
-wide	O	O
-range	O	O
-of	O	O
-interesting	O	O
-talks	O	O
+stage	B-Skill	O
+a	I-Skill	O
+wide	I-Skill	O
+range	I-Skill	O
+of	I-Skill	O
+interesting	I-Skill	O
+talks	I-Skill	O
 and	O	O
 organise	O	O
 a	O	O
@@ -5968,19 +5924,19 @@ are	O	O
 in	O	O
 charge	O	O
 of	O	O
-running	O	O
-hospitals	O	O
+running	B-Skill	O
+hospitals	I-Skill	O
 and	O	O
 (	O	O
 through	O	O
 collective	O	O
 agreements	O	O
 )	O	O
-managing	O	O
-the	O	O
-general	O	O
-practitioner	O	O
-system	O	O
+managing	B-Skill	O
+the	I-Skill	O
+general	I-Skill	O
+practitioner	I-Skill	O
+system	I-Skill	O
 .	O	O
 
 The	O	O
@@ -6261,14 +6217,14 @@ like	O	O
 to	O	O
 strengthen	O	O
 your	O	O
-communicative	O	O
-abilities	O	O
+communicative	B-Skill	O
+abilities	I-Skill	O
 while	O	O
-working	O	O
-for	O	O
-a	O	O
-good	O	O
-cause?	O	O
+working	B-Skill	O
+for	I-Skill	O
+a	I-Skill	O
+good	I-Skill	O
+cause?	I-Skill	O
 
 As	O	O
 a	O	O
@@ -6302,7 +6258,7 @@ high	O	O
 focus	O	O
 on	O	O
 continuous	O	O
-coaching	O	O
+coaching	B-Skill	O
 and	O	O
 development	O	O
 all	O	O
@@ -6646,21 +6602,19 @@ are:	O	O
 Extroverted	B-Skill	O
 and	O	O
 energetic	B-Skill	O
-Excited	B-Skill	O
-about	I-Skill	O
-meeting	I-Skill	O
+Excited	O	O
+about	O	O
+meeting	B-Skill	O
 new	I-Skill	O
 people	I-Skill	O
 and	O	O
-enjoy	B-Skill	O
-interacting	I-Skill	O
+enjoy	O	O
+interacting	B-Skill	O
 with	I-Skill	O
 many	I-Skill	O
 different	I-Skill	O
 characters	I-Skill	O
 .	O	O
-
-
 
 Result	B-Skill	O
 oriented	I-Skill	O
@@ -6672,11 +6626,9 @@ reaching	I-Skill	O
 goals	I-Skill	O
 .	O	O
 
-
-
-Good	B-Skill	O
-at	I-Skill	O
-acquiring	I-Skill	O
+Good	O	O
+at	O	O
+acquiring	B-Skill	O
 new	I-Skill	O
 skills	I-Skill	O
 and	O	O
@@ -6691,8 +6643,8 @@ performance	O	O
 
 Motivated	O	O
 by	O	O
-overcoming	O	O
-obstacles	O	O
+overcoming	B-Skill	O
+obstacles	I-Skill	O
 and	O	O
 continuously	B-Skill	O
 working	I-Skill	O
@@ -6701,8 +6653,6 @@ your	I-Skill	O
 own	I-Skill	O
 development	I-Skill	O
 .	O	O
-
-
 
 Place	O	O
 of	O	O
@@ -7106,7 +7056,7 @@ Good	O	O
 team	B-Skill	O
 work	I-Skill	O
 and	O	O
-cooperation	B-Skill	O
+cooperation	O	O
 with	O	O
 your	O	O
 colleagues	O	O
@@ -7125,15 +7075,15 @@ requires	O	O
 
 You	O	O
 can	O	O
-walk	B-Skill	O
-on	I-Skill	O
-stairs	I-Skill	O
+walk	O	O
+on	O	O
+stairs	O	O
 
 You	O	O
 can	O	O
-ride	B-Skill	O
-a	I-Skill	O
-bike	I-Skill	O
+ride	O	O
+a	O	O
+bike	O	O
 
 You	O	O
 have	O	O
@@ -7144,23 +7094,23 @@ record	O	I-Knowledge
 
 You	O	O
 can	O	O
-read	B-Skill	O
-the	I-Skill	O
-Latin	I-Skill	O
-alphabet	I-Skill	O
+read	O	O
+the	O	O
+Latin	O	O
+alphabet	O	O
 
 You	O	O
 are	O	O
 motivated	B-Skill	O
-for	O	O
-the	O	O
-work	O	O
+for	I-Skill	O
+the	I-Skill	O
+work	I-Skill	O
 
 You	O	O
 have	O	O
 an	O	O
-good	B-Skill	O
-structure	I-Skill	O
+good	O	O
+structure	B-Skill	O
 and	O	O
 can	O	O
 follow	B-Skill	O
@@ -7169,13 +7119,11 @@ route	I-Skill	O
 and	O	O
 register	B-Skill	O
 when	I-Skill	O
-a	I-Skill	O
-shipment	I-Skill	O
-is	I-Skill	O
-delivered	I-Skill	O
+a	O	O
+shipment	O	O
+is	O	O
+delivered	O	O
 .	O	O
-
-
 
 We	O	O
 expect	O	O
@@ -7184,11 +7132,11 @@ that:	O	O
 You	O	O
 do	O	O
 your	O	O
-work	B-Skill	O
-professionally	I-Skill	O
-with	I-Skill	O
-high	I-Skill	O
-quality	I-Skill	O
+work	O	O
+professionally	O	O
+with	O	O
+high	O	O
+quality	O	O
 
 You	O	O
 are	O	O
@@ -7211,14 +7159,14 @@ all	I-Skill	O
 kinds	I-Skill	O
 of	I-Skill	O
 weather	I-Skill	O
-at	I-Skill	O
-night	I-Skill	O
+at	O	O
+night	O	O
 
 You	O	O
 are	O	O
 a	O	O
-good	B-Skill	O
-colleague	I-Skill	O
+good	O	O
+colleague	O	O
 
 Facts	O	O
 about	O	O
@@ -7362,7 +7310,7 @@ implement	I-Skill	O
 an	I-Skill	O
 aligned	I-Skill	O
 strategy	I-Skill	O
-globally	O	O
+globally	I-Skill	O
 .	O	O
 
 One	O	O
@@ -7389,14 +7337,14 @@ to	O	O
 a	O	O
 customer	O	O
 focus;	O	O
-collaborating	O	O
-with	O	O
-customers	O	O
-and	O	O
-suppliers	O	O
-for	O	O
-data-driven	O	O
-solutions	O	O
+collaborating	B-Skill	O
+with	I-Skill	O
+customers	I-Skill	O
+and	I-Skill	O
+suppliers	I-Skill	O
+for	I-Skill	O
+data-driven	I-Skill	O
+solutions	I-Skill	O
 to	O	O
 meet	O	O
 the	O	O
@@ -7435,23 +7383,23 @@ continuously	O	O
 improve	O	O
 performance	O	O
 by	O	O
-systematically	O	O
-spreading	O	O
-best	O	O
-practice	O	O
+systematically	B-Skill	O
+spreading	I-Skill	O
+best	I-Skill	O
+practice	I-Skill	O
 throughout	O	O
 the	O	O
 value	O	O
 chain	O	O
 .	O	O
 
-Running	O	O
-and	O	O
-aligning	O	O
-digital	O	O
-supply	O	O
-chain	O	O
-initiatives	O	O
+Running	B-Skill	O
+and	I-Skill	O
+aligning	I-Skill	O
+digital	I-Skill	O
+supply	I-Skill	O
+chain	I-Skill	O
+initiatives	I-Skill	O
 
 As	O	O
 <PROFESSION>	O	O
@@ -7462,12 +7410,12 @@ Chain	O	O
 Community	O	O
 you	O	O
 will	O	O
-drive	B-Skill	O
-the	I-Skill	O
-Digital	I-Skill	O
-Supply	I-Skill	O
-Chain	I-Skill	O
-Community	I-Skill	O
+drive	O	O
+the	O	O
+Digital	O	O
+Supply	O	O
+Chain	O	O
+Community	O	O
 globally	O	O
 which	O	O
 consists	O	O
@@ -7490,9 +7438,9 @@ will	O	O
 create	O	O
 impact	O	O
 with	O	O
-differentiating	O	O
-Danfoss	O	O
-digitally	O	O
+differentiating	B-Skill	O
+Danfoss	I-Skill	O
+digitally	I-Skill	O
 by	O	O
 developing	B-Skill	O
 and	I-Skill	O
@@ -7579,12 +7527,12 @@ with	I-Skill	O
 internal	I-Skill	O
 customers	I-Skill	O
 by	O	O
-accelerating	O	O
-and	O	O
-improving	O	O
-their	O	O
-digital	O	O
-projects	O	O
+accelerating	B-Skill	O
+and	I-Skill	O
+improving	I-Skill	O
+their	I-Skill	O
+digital	I-Skill	O
+projects	I-Skill	O
 with	O	O
 digital	O	O
 tools	O	O
@@ -7606,8 +7554,8 @@ continued	I-Skill	O
 support	I-Skill	O
 knowledge	I-Skill	O
 sharing	I-Skill	O
-across	I-Skill	O
-segments	I-Skill	O
+across	O	O
+segments	O	O
 
 Your	O	O
 Profile:	O	O
@@ -7621,10 +7569,10 @@ Digital	O	B-Knowledge
 Supply	O	I-Knowledge
 Chain	O	I-Knowledge
 
-Energetic	B-Skill	O
+Energetic	O	O
 willing	B-Skill	O
 and	O	O
-able	O	O
+able	B-Skill	O
 to	O	O
 find	B-Skill	O
 compromises	I-Skill	O
@@ -7636,24 +7584,22 @@ conflicting	I-Skill	O
 interests	I-Skill	O
 Strategic	B-Skill	O
 mindset	I-Skill	O
-Big	B-Skill	O
-picture	I-Skill	O
-Thinking	I-Skill	O
-Deep	B-Skill	O
-Dive	I-Skill	O
-Customer	B-Skill	O
-Obsession	I-Skill	O
+Big	O	O
+picture	O	O
+Thinking	O	O
+Deep	O	O
+Dive	O	O
+Customer	O	O
+Obsession	O	O
 Deliver	B-Skill	O
 Results	I-Skill	O
-Ownership	B-Skill	O
-and	O	O
-Implementation	B-Skill	O
+Ownership	I-Skill	O
+and	I-Skill	O
+Implementation	I-Skill	O
 .	O	O
 
-
-
-Digital	B-Skill	O
-Savvy	I-Skill	O
+Digital	O	O
+Savvy	O	O
 and	O	O
 experienced	O	O
 in	O	O
@@ -7680,17 +7626,17 @@ agile	O	B-Knowledge
 Excellent	O	O
 communication	B-Skill	O
 presentation	I-Skill	O
-and	I-Skill	O
-facilitation	I-Skill	O
+and	O	O
+facilitation	B-Skill	O
 skills	I-Skill	O
 Well-structured	B-Skill	O
 and	O	O
 independent	B-Skill	O
-working	I-Skill	O
-style	I-Skill	O
-Willingness	B-Skill	O
-to	I-Skill	O
-travel	I-Skill	O
+working	O	O
+style	O	O
+Willingness	O	O
+to	O	O
+travel	O	O
 For	O	O
 further	O	O
 information	O	O
@@ -7766,15 +7712,15 @@ candidate.	O	O
 
 Are	O	O
 you	O	O
-passionate	O	O
-about	O	O
-renewable	O	O
-ener	O	O
-gy	O	O
+passionate	B-Skill	O
+about	I-Skill	O
+renewable	I-Skill	O
+ener	I-Skill	O
+gy	I-Skill	O
 and	O	O
 enjoy	O	O
-problem	O	O
-solving?	O	O
+problem	B-Skill	O
+solving?	I-Skill	O
 
 Join	O	O
 us	O	O
@@ -7791,12 +7737,12 @@ team	O	O
 .	O	O
 
 Youll	O	O
-be	O	O
-part	O	O
-of	O	O
-a	O	O
-strong	O	O
-team	O	O
+be	B-Skill	O
+part	I-Skill	O
+of	I-Skill	O
+a	I-Skill	O
+strong	I-Skill	O
+team	I-Skill	O
 which	O	O
 works	O	O
 together	O	O
@@ -7819,9 +7765,9 @@ portfolio	O	O
 
 If	O	O
 youre	O	O
-curious	B-Skill	O
-enjoy	B-Skill	O
-learning	I-Skill	O
+curious	O	O
+enjoy	O	O
+learning	B-Skill	O
 and	O	O
 want	O	O
 to	O	O
@@ -7861,20 +7807,20 @@ value	I-Skill	O
 and	O	O
 manage	B-Skill	O
 risk	I-Skill	O
-from	I-Skill	O
-the	I-Skill	O
-sale	I-Skill	O
-and	I-Skill	O
-purchase	I-Skill	O
-of	I-Skill	O
-power	I-Skill	O
+from	O	O
+the	O	O
+sale	O	O
+and	O	O
+purchase	O	O
+of	O	O
+power	O	O
 work	B-Skill	O
 both	I-Skill	O
 independently	I-Skill	O
 and	I-Skill	O
 collaboratively	I-Skill	O
-on	O	O
-tasks	O	O
+on	I-Skill	O
+tasks	I-Skill	O
 to	O	O
 deliver	B-Skill	O
 team	I-Skill	O
@@ -7915,8 +7861,6 @@ team	I-Skill	O
 activities	I-Skill	O
 .	O	O
 
-
-
 Your	O	O
 competences	O	O
 include	O	O
@@ -7946,10 +7890,10 @@ discipline	O	O
 have	O	O
 a	O	O
 desire	B-Skill	O
-to	I-Skill	O
-learn	I-Skill	O
+to	O	O
+learn	B-Skill	O
 and	I-Skill	O
-develop	I-Skill	O
+develop	B-Skill	O
 are	O	O
 proactive	B-Skill	O
 commercially	B-Skill	O
@@ -8103,8 +8047,8 @@ January	O	O
 as	O	O
 well	O	O
 be	O	O
-conducting	O	O
-interviews	O	O
+conducting	B-Skill	O
+interviews	I-Skill	O
 on	O	O
 a	O	O
 continuous	O	O
@@ -8278,17 +8222,17 @@ Student	O	O
 Worker	O	O
 with	O	O
 a	O	O
-business	O	O
-and	O	O
-analytical	O	O
-mindset	O	O
+business	B-Skill	O
+and	I-Skill	O
+analytical	B-Skill	O
+mindset	I-Skill	O
 
 We	O	O
 are	O	O
 looking	O	O
 for	O	O
 an	O	O
-ambitious	O	O
+ambitious	B-Skill	O
 student	O	O
 with	O	O
 interest	O	O
@@ -8368,18 +8312,16 @@ They	O	O
 could	O	O
 be:	O	O
 -	O	O
-Insights	B-Skill	O
-creation	I-Skill	O
-and	I-Skill	O
-commenting	I-Skill	O
+Insights	O	O
+creation	O	O
+and	O	O
+commenting	O	O
 -	O	O
-Creation/	B-Skill	O
-optimization	I-Skill	O
-of	I-Skill	O
-PPT	I-Skill	O
+Creation/	O	O
+optimization	O	O
+of	O	O
+PPT	O	O
 .	O	O
-
-
 
 presentations	O	O
 -	O	O
@@ -8401,12 +8343,12 @@ with	I-Skill	O
 multiple	I-Skill	O
 data	I-Skill	O
 sources	I-Skill	O
-and	I-Skill	O
-combining	I-Skill	O
-them	I-Skill	O
-into	I-Skill	O
-relevant	I-Skill	O
-insights	I-Skill	O
+and	O	O
+combining	O	O
+them	O	O
+into	O	O
+relevant	O	O
+insights	O	O
 
 -	O	O
 Dialogue	B-Skill	O
@@ -8420,8 +8362,8 @@ Contribute	B-Skill	O
 to	I-Skill	O
 insights	I-Skill	O
 communication	I-Skill	O
-to	O	O
-stakeholders	O	O
+to	I-Skill	O
+stakeholders	I-Skill	O
 
 Relevant	O	O
 profile:	O	O
@@ -8498,14 +8440,12 @@ good	O	O
 at	O	O
 thinking	B-Skill	O
 visually	I-Skill	O
-communicate	B-Skill	O
+communicate	I-Skill	O
 your	I-Skill	O
 ideas	I-Skill	O
 and	I-Skill	O
 messages	I-Skill	O
 .	O	O
-
-
 
 You	O	O
 are	O	O
@@ -8515,8 +8455,8 @@ oriented	I-Skill	O
 show	B-Skill	O
 engagement	I-Skill	O
 and	O	O
-demonstrate	B-Skill	O
-positive	I-Skill	O
+demonstrate	O	O
+positive	B-Skill	O
 thinking	I-Skill	O
 and	O	O
 a	O	O
@@ -8524,15 +8464,13 @@ can-do	B-Skill	O
 attitude	I-Skill	O
 .	O	O
 
-
-
 You	O	O
-see	B-Skill	O
-great	I-Skill	O
-challenges	I-Skill	O
-in	I-Skill	O
-being	I-Skill	O
-tasked	I-Skill	O
+see	O	O
+great	O	O
+challenges	O	O
+in	O	O
+being	O	O
+tasked	B-Skill	O
 with	I-Skill	O
 tactical	I-Skill	O
 as	I-Skill	O
@@ -8588,8 +8526,6 @@ actionable	I-Skill	O
 insights	I-Skill	O
 .	O	O
 
-
-
 It	O	O
 is	O	O
 expected	O	O
@@ -8610,8 +8546,6 @@ Excel	O	B-Knowledge
 and	O	O
 PPT	O	B-Knowledge
 .	O	O
-
-
 
 Experience	O	O
 with	O	O
@@ -8634,8 +8568,8 @@ GI	O	O
 requires	O	O
 a	O	O
 structured	B-Skill	O
-working	I-Skill	O
-style	I-Skill	O
+working	O	O
+style	O	O
 that	O	O
 you	O	O
 are	O	O
@@ -8705,12 +8639,12 @@ well	O	O
 as	O	O
 in	O	O
 your	O	O
-communication	O	O
-with	O	O
-foreign	O	O
-vendors	O	O
-and	O	O
-stakeholders	O	O
+communication	B-Skill	O
+with	I-Skill	O
+foreign	I-Skill	O
+vendors	I-Skill	O
+and	I-Skill	O
+stakeholders	I-Skill	O
 .	O	O
 
 Join	O	O
@@ -8951,11 +8885,11 @@ focus	O	O
 You	O	O
 will	O	O
 be	O	O
-working	O	O
-with	O	O
-highly	O	O
-skilled	O	O
-colleagues	O	O
+working	B-Skill	O
+with	I-Skill	O
+highly	I-Skill	O
+skilled	I-Skill	O
+colleagues	I-Skill	O
 whose	O	O
 professional	O	O
 experience	O	O
@@ -9013,8 +8947,8 @@ and	O	O
 personal	O	O
 growth	O	O
 Picking	B-Skill	O
-and	I-Skill	O
-packing	I-Skill	O
+and	O	O
+packing	B-Skill	O
 
 As	O	O
 a	O	O
@@ -9028,10 +8962,10 @@ picking	B-Skill	O
 and	I-Skill	O
 packing	I-Skill	O
 orders	I-Skill	O
-with	I-Skill	O
-a	I-Skill	O
-hand	I-Skill	O
-scanner	I-Skill	O
+with	O	O
+a	O	O
+hand	O	O
+scanner	O	O
 
 .	O	O
 
@@ -9157,10 +9091,10 @@ team	B-Skill	O
 players	I-Skill	O
 and	O	O
 helpful	B-Skill	O
-colleagues	O	O
+colleagues	I-Skill	O
 
-Show	B-Skill	O
-initiative	I-Skill	O
+Show	O	O
+initiative	O	O
 and	O	O
 like	O	O
 a	O	O
@@ -9386,10 +9320,10 @@ Are	O	O
 you	O	O
 passionate	O	O
 about	O	O
-people	B-Skill	O
-management	I-Skill	O
-and	I-Skill	O
-development?	I-Skill	O
+people	O	O
+management	O	O
+and	O	O
+development?	O	O
 
 Can	O	O
 you	O	O
@@ -9398,9 +9332,9 @@ and	I-Skill	O
 set	I-Skill	O
 the	I-Skill	O
 direction	I-Skill	O
-for	O	O
-your	O	O
-employees?	O	O
+for	I-Skill	O
+your	I-Skill	O
+employees?	I-Skill	O
 
 Do	O	O
 you	O	O
@@ -9453,14 +9387,12 @@ department	O	O
 in	O	O
 terms	O	O
 of	O	O
-ensuring	B-Skill	O
-the	I-Skill	O
-pace	I-Skill	O
-of	I-Skill	O
-production	I-Skill	O
+ensuring	O	O
+the	O	O
+pace	O	O
+of	O	O
+production	O	O
 .	O	O
-
-
 
 You	O	O
 are	O	O
@@ -9473,11 +9405,11 @@ further	O	O
 develop	B-Skill	O
 your	I-Skill	O
 team	I-Skill	O
--	O	O
-both	O	O
-personally	O	O
-and	O	O
-professionally	O	O
+-	I-Skill	O
+both	I-Skill	O
+personally	I-Skill	O
+and	I-Skill	O
+professionally	I-Skill	O
 .	O	O
 
 About	O	O
@@ -9574,10 +9506,10 @@ will	O	O
 be	O	O
 responsible	O	O
 for	O	O
-daily	O	O
+daily	B-Skill	O
 and	O	O
-professional	B-Skill	O
-leadership	I-Skill	O
+professional	O	O
+leadership	O	O
 of	O	O
 26	O	O
 committed	O	O
@@ -9599,14 +9531,12 @@ will	O	O
 set	B-Skill	O
 the	I-Skill	O
 direction	I-Skill	O
-coach	B-Skill	O
-and	I-Skill	O
-develop	I-Skill	O
+coach	I-Skill	O
+and	O	O
+develop	B-Skill	O
 your	I-Skill	O
 team	I-Skill	O
 .	O	O
-
-
 
 The	O	O
 team	O	O
@@ -9665,10 +9595,10 @@ ensure	B-Skill	O
 that	I-Skill	O
 production	I-Skill	O
 runs	I-Skill	O
-in	I-Skill	O
-accordance	I-Skill	O
-with	I-Skill	O
-GMP	I-Skill	B-Knowledge
+in	O	O
+accordance	O	O
+with	O	O
+GMP	O	B-Knowledge
 and	O	O
 other	O	O
 requirements	O	O
@@ -9687,7 +9617,7 @@ enabling	B-Skill	O
 your	I-Skill	O
 team	I-Skill	O
 to	I-Skill	O
-deliver	I-Skill	O
+deliver	B-Skill	O
 in	I-Skill	O
 a	I-Skill	O
 timely	I-Skill	O
@@ -9706,8 +9636,6 @@ systematic	I-Skill	O
 problem	I-Skill	O
 solving	I-Skill	O
 .	O	O
-
-
 
 There	O	O
 will	O	O
@@ -9776,8 +9704,6 @@ pharmaceutical	O	B-Knowledge
 production	O	I-Knowledge
 .	O	O
 
-
-
 You	O	O
 have	O	O
 a	O	O
@@ -9795,7 +9721,7 @@ least	O	O
 two	O	O
 years	O	O
 of	O	O
-management	B-Skill	O
+management	O	O
 experience	O	O
 .	O	O
 
@@ -9808,9 +9734,9 @@ gaining	B-Skill	O
 trust	I-Skill	O
 and	I-Skill	O
 respect	I-Skill	O
-from	O	O
-your	O	O
-colleagues	O	O
+from	I-Skill	O
+your	I-Skill	O
+colleagues	I-Skill	O
 .	O	O
 
 You	O	O
@@ -9836,8 +9762,6 @@ working	I-Skill	O
 day	I-Skill	O
 .	O	O
 
-
-
 You	O	O
 will	O	O
 need	O	O
@@ -9849,19 +9773,19 @@ and	O	O
 your	O	O
 belief	O	O
 that	O	O
-there	O	O
-is	O	O
-always	O	O
-a	O	O
-solution	O	O
+there	B-Skill	O
+is	I-Skill	O
+always	I-Skill	O
+a	I-Skill	O
+solution	I-Skill	O
 .	O	O
 
 As	O	O
 you	O	O
 will	O	O
-work	O	O
-with	O	O
-people	O	O
+work	B-Skill	O
+with	I-Skill	O
+people	I-Skill	O
 at	O	O
 all	O	O
 levels	O	O
@@ -9880,8 +9804,6 @@ collaboration	I-Skill	O
 skills	I-Skill	O
 .	O	O
 
-
-
 GMP	O	O
 and	O	O
 LEAN	O	B-Knowledge
@@ -9898,7 +9820,7 @@ You	O	O
 work	B-Skill	O
 in	I-Skill	O
 a	I-Skill	O
-structured	I-Skill	O
+structured	B-Skill	O
 and	I-Skill	O
 targeted	I-Skill	O
 manner	I-Skill	O
@@ -9910,14 +9832,14 @@ quality	I-Skill	O
 and	O	O
 you	O	O
 take	O	O
-pride	O	O
-in	O	O
-your	O	O
-team	O	O
-always	O	O
-solving	O	O
-its	O	O
-tasks	O	O
+pride	B-Skill	O
+in	I-Skill	O
+your	I-Skill	O
+team	I-Skill	O
+always	B-Skill	O
+solving	B-Skill	O
+its	I-Skill	O
+tasks	I-Skill	O
 for	O	O
 the	O	O
 good	O	O
@@ -9931,30 +9853,30 @@ You	O	O
 ensure	B-Skill	O
 continuous	I-Skill	O
 improvements	I-Skill	O
-of	O	O
-your	O	O
-own	O	O
-and	O	O
-your	O	O
-team's	O	O
-work	O	O
-processes	O	O
+of	I-Skill	O
+your	I-Skill	O
+own	I-Skill	O
+and	I-Skill	O
+your	I-Skill	O
+team's	I-Skill	O
+work	I-Skill	O
+processes	I-Skill	O
 and	O	O
 you	O	O
-see	O	O
-changes	O	O
-and	O	O
-challenges	O	O
+see	B-Skill	O
+changes	I-Skill	O
+and	I-Skill	O
+challenges	I-Skill	O
 as	O	O
 opportunities	O	O
 to	O	O
-develop	O	O
-yourself	O	O
-as	O	O
-well	O	O
-as	O	O
-your	O	O
-team	O	O
+develop	B-Skill	O
+yourself	I-Skill	O
+as	I-Skill	O
+well	I-Skill	O
+as	I-Skill	O
+your	I-Skill	O
+team	I-Skill	O
 .	O	O
 
 Working	O	O
@@ -10204,9 +10126,9 @@ the	O	O
 <ORGANIZATION>	O	O
 <ORGANIZATION>	O	O
 <ORGANIZATION>	O	O
-solving	O	O
-complex	O	O
-problems	O	O
+solving	B-Skill	O
+complex	I-Skill	O
+problems	I-Skill	O
 in	O	O
 stem	O	O
 cell	O	O
@@ -10342,9 +10264,9 @@ Technologist	O	O
 will	O	O
 be	O	O
 to	O	O
-support	O	O
-research	O	O
-activities	O	O
+support	B-Skill	O
+research	I-Skill	O
+activities	I-Skill	O
 that	O	O
 involve:	O	O
 Maintaining	B-Skill	O
@@ -10371,20 +10293,18 @@ biology	I-Skill	O
 techniques	I-Skill	O
 in	O	O
 particular	O	O
-PCR	B-Skill	O
-restriction	I-Skill	O
+PCR	O	O
+restriction	O	O
 and	O	O
-cloning	B-Skill	O
-reactions	I-Skill	O
+cloning	O	O
+reactions	O	O
 and	O	O
-DNA/RNA	B-Skill	O
-and	I-Skill	O
-protein	I-Skill	O
-purification	I-Skill	O
-procedures	I-Skill	O
+DNA/RNA	O	O
+and	O	O
+protein	O	O
+purification	O	O
+procedures	O	O
 .	O	O
-
-
 
 Setting	B-Skill	O
 up	I-Skill	O
@@ -10394,10 +10314,9 @@ and	I-Skill	O
 cell	I-Skill	O
 sorting	I-Skill	O
 experiments	I-Skill	O
-and	O	O
-sample	B-Skill	O
+and	I-Skill	O
+sample	I-Skill	O
 preparation.	O	O
-
 
 .	O	O
 
@@ -10424,11 +10343,9 @@ colony	O	I-Knowledge
 antibodies	O	B-Knowledge
 etc)	O	O
 purchasing	B-Skill	O
-and	O	O
+and	I-Skill	O
 stocking	B-Skill	O
 .	O	O
-
-
 
 The	O	O
 Laboratory	O	O
@@ -10437,17 +10354,17 @@ Laboratory	O	O
 Technologist	O	O
 will	O	O
 directly	O	O
-participate	B-Skill	O
-in	I-Skill	O
-the	I-Skill	O
-research	I-Skill	O
-projects	I-Skill	O
+participate	O	O
+in	O	O
+the	O	O
+research	O	O
+projects	O	O
 and	O	O
 will	O	O
 be	O	O
-responsible	B-Skill	O
-for	I-Skill	O
-training	I-Skill	O
+responsible	O	O
+for	O	O
+training	B-Skill	O
 and	I-Skill	O
 providing	I-Skill	O
 technical	I-Skill	O
@@ -10491,8 +10408,6 @@ cell	O	B-Knowledge
 sorting	O	I-Knowledge
 .	O	O
 
-
-
 You	O	O
 must	O	O
 be	O	O
@@ -10501,7 +10416,7 @@ at	O	O
 working	B-Skill	O
 independently	I-Skill	O
 and	I-Skill	O
-organized	I-Skill	O
+organized	B-Skill	O
 and	O	O
 be	O	O
 self-motivated	B-Skill	O
@@ -10730,7 +10645,7 @@ laboratory	O	O
 skills/techniques	O	O
 previous	O	O
 employments	O	O
-language	O	O
+language	B-Skill	O
 skills	O	O
 and	O	O
 other	O	O
@@ -10827,9 +10742,9 @@ Do	O	O
 you	O	O
 have	O	O
 the	O	O
-drive	O	O
-to	O	O
-increase	B-Skill	O
+drive	B-Skill	O
+to	I-Skill	O
+increase	I-Skill	O
 the	I-Skill	O
 value	I-Skill	O
 of	I-Skill	O
@@ -10875,9 +10790,9 @@ you	O	O
 
 You	O	O
 will	O	O
-support	B-Skill	O
-your	I-Skill	O
-colleagues	I-Skill	O
+support	O	O
+your	O	O
+colleagues	O	O
 worldwide	O	O
 
 As	O	O
@@ -10921,8 +10836,6 @@ application	O	B-Knowledge
 support	O	I-Knowledge
 .	O	O
 
-
-
 In	O	O
 other	O	O
 words	O	O
@@ -10959,20 +10872,18 @@ your	I-Skill	O
 colleagues'	I-Skill	O
 situation	I-Skill	O
 and	O	O
-use	B-Skill	O
-your	I-Skill	O
-service	I-Skill	O
+use	O	O
+your	O	O
+service	B-Skill	O
 skills	I-Skill	O
-to	I-Skill	O
-assist	I-Skill	O
-them	I-Skill	O
-as	I-Skill	O
-efficiently	I-Skill	O
-as	I-Skill	O
-possible	I-Skill	O
+to	O	O
+assist	O	O
+them	O	O
+as	O	O
+efficiently	O	O
+as	O	O
+possible	O	O
 .	O	O
-
-
 
 The	O	O
 requests	O	O
@@ -11013,12 +10924,12 @@ prioritise	B-Skill	O
 incoming	I-Skill	O
 requests	I-Skill	O
 and	O	O
-tick	B-Skill	O
-each	I-Skill	O
-task	I-Skill	O
-off	I-Skill	O
-the	I-Skill	O
-list	I-Skill	O
+tick	O	O
+each	O	O
+task	O	O
+off	O	O
+the	O	O
+list	O	O
 as	O	O
 you	O	O
 complete	O	O
@@ -11105,10 +11016,10 @@ recording	I-Skill	O
 and	I-Skill	O
 referring	I-Skill	O
 cases	I-Skill	O
-to	I-Skill	O
-the	I-Skill	O
-appropriate	I-Skill	O
-team	I-Skill	O
+to	O	O
+the	O	O
+appropriate	O	O
+team	O	O
 Accurately	B-Skill	O
 executing	I-Skill	O
 specified	I-Skill	O
@@ -11269,7 +11180,7 @@ challenging	O	O
 and	O	O
 so	O	O
 close	O	O
-co-operation	B-Skill	O
+co-operation	O	O
 will	O	O
 be	O	O
 at	O	O
@@ -11345,8 +11256,6 @@ application	O	B-Knowledge
 support	O	I-Knowledge
 .	O	O
 
-
-
 Your	O	O
 personal	O	O
 qualities	O	O
@@ -11360,24 +11269,22 @@ to	O	O
 work	B-Skill	O
 independently	I-Skill	O
 and	O	O
-seeing	B-Skill	O
-your	I-Skill	O
-duties	I-Skill	O
-through	I-Skill	O
-to	I-Skill	O
-the	I-Skill	O
-end	I-Skill	O
+seeing	O	O
+your	O	O
+duties	O	O
+through	O	O
+to	O	O
+the	O	O
+end	O	O
 .	O	O
 
-
-
 You	O	O
-take	B-Skill	O
-a	I-Skill	O
-structured	I-Skill	O
+take	O	O
+a	O	O
+structured	B-Skill	O
 approach	I-Skill	O
-to	I-Skill	O
-work	I-Skill	O
+to	O	O
+work	O	O
 and	O	O
 are	O	O
 skilled	O	O
@@ -11385,17 +11292,15 @@ in	O	O
 prioritising	B-Skill	O
 your	I-Skill	O
 tasks	I-Skill	O
-and	I-Skill	O
-identifying	I-Skill	O
-those	I-Skill	O
-that	I-Skill	O
-are	I-Skill	O
-the	I-Skill	O
-most	I-Skill	O
-important	I-Skill	O
+and	O	O
+identifying	B-Skill	O
+those	O	O
+that	O	O
+are	O	O
+the	O	O
+most	O	O
+important	O	O
 .	O	O
-
-
 
 You	O	O
 thrive	B-Skill	O
@@ -11419,8 +11324,8 @@ communicate	B-Skill	O
 concisely	I-Skill	O
 and	I-Skill	O
 accurately	I-Skill	O
-with	O	O
-colleagues	O	O
+with	I-Skill	O
+colleagues	I-Skill	O
 at	O	O
 all	O	O
 levels	O	O
@@ -11433,27 +11338,25 @@ the	I-Skill	O
 best	I-Skill	O
 possible	I-Skill	O
 service	I-Skill	O
-demonstrating	B-Skill	O
-persistence	I-Skill	O
+demonstrating	O	O
+persistence	B-Skill	O
 patience	B-Skill	O
 and	O	O
 attentiveness	B-Skill	O
 .	O	O
 
-
-
 In	O	O
 addition	O	O
 you	O	O
-enjoy	B-Skill	O
-working	I-Skill	O
+enjoy	O	O
+working	B-Skill	O
 in	I-Skill	O
 a	I-Skill	O
 dynamic	I-Skill	O
 environment	I-Skill	O
-with	O	O
-unpredictable	O	O
-duties	O	O
+with	I-Skill	O
+unpredictable	I-Skill	O
+duties	I-Skill	O
 .	O	O
 
 Finally	O	O
@@ -11488,8 +11391,6 @@ have	O	O
 security	O	B-Knowledge
 clearance	O	I-Knowledge
 .	O	O
-
-
 
 Read	O	O
 more	O	O
@@ -11765,19 +11666,19 @@ with	O	O
 the	O	O
 ability	O	O
 to	O	O
-shape	O	O
-the	O	O
-Value	O	O
-Proposition	O	O
-find	O	O
-the	O	O
-Customer	O	O
-Segments	O	O
+shape	B-Skill	O
+the	I-Skill	O
+Value	I-Skill	O
+Proposition	I-Skill	O
+find	B-Skill	O
+the	I-Skill	O
+Customer	I-Skill	O
+Segments	I-Skill	O
 and	O	O
-look	O	O
-for	O	O
-product-marked	O	O
-fits	O	O
+look	B-Skill	O
+for	I-Skill	O
+product-marked	I-Skill	O
+fits	I-Skill	O
 .	O	O
 
 Work	O	O
@@ -11814,7 +11715,7 @@ customers	O	O
 
 You	O	O
 will	O	O
-work	O	O
+work	B-Skill	O
 directly	O	O
 with	O	O
 business	O	O
@@ -11835,12 +11736,12 @@ roadmap	I-Skill	O
 find	B-Skill	O
 innovative	I-Skill	O
 solutions	I-Skill	O
-for	O	O
-existing	O	O
-and	O	O
-new	O	O
-technology	O	O
-needs	O	O
+for	I-Skill	O
+existing	I-Skill	O
+and	I-Skill	O
+new	I-Skill	O
+technology	I-Skill	O
+needs	I-Skill	O
 and	O	O
 stays	B-Skill	O
 on	I-Skill	O
@@ -11853,8 +11754,8 @@ develop	B-Skill	O
 long	I-Skill	O
 term	I-Skill	O
 plans	I-Skill	O
-for	O	O
-the	O	O
+for	I-Skill	O
+the	I-Skill	O
 success	O	O
 of	O	O
 the	O	O
@@ -11870,8 +11771,8 @@ enthusiastically	I-Skill	O
 and	O	O
 you	O	O
 are	O	O
-comfortable	B-Skill	O
-with	I-Skill	O
+comfortable	O	O
+with	B-Skill	O
 a	I-Skill	O
 fast	I-Skill	O
 paced	I-Skill	O
@@ -11885,8 +11786,8 @@ great	O	O
 mixture	O	O
 of	O	O
 technical	B-Skill	O
-and	I-Skill	O
-business	I-Skill	O
+and	O	O
+business	B-Skill	O
 skills	I-Skill	O
 can	O	O
 articulate	B-Skill	O
@@ -11894,10 +11795,10 @@ the	I-Skill	O
 vision	I-Skill	O
 in	I-Skill	O
 the	I-Skill	O
-way	I-Skill	O
-others	I-Skill	O
-will	I-Skill	O
-understand	I-Skill	O
+way	O	O
+others	O	O
+will	O	O
+understand	O	O
 and	O	O
 what	O	O
 ‘s	O	O
@@ -11993,31 +11894,27 @@ the	O	O
 landscape	O	O
 can	O	O
 clearly	O	O
-define	B-Skill	O
-value	I-Skill	O
-proposition	I-Skill	O
-customer	I-Skill	O
-segments	I-Skill	O
-and	I-Skill	O
-customer	I-Skill	O
-channels	I-Skill	O
+define	O	O
+value	O	O
+proposition	O	O
+customer	O	O
+segments	O	O
+and	O	O
+customer	O	O
+channels	O	O
 .	O	O
-
-
 
 Product	O	O
 manager	O	O
 needs	O	O
 to	O	O
-strategically	O	O
-lead	B-Skill	O
+strategically	B-Skill	O
+lead	I-Skill	O
 the	I-Skill	O
 product	I-Skill	O
 development	I-Skill	O
 process	I-Skill	O
 .	O	O
-
-
 
 This	O	O
 is	O	O
@@ -12027,7 +11924,7 @@ for	O	O
 ability	O	O
 to	O	O
 correctly	B-Skill	O
-brief	I-Skill	O
+brief	B-Skill	O
 the	I-Skill	O
 other	I-Skill	O
 departments	I-Skill	O
@@ -12037,8 +11934,6 @@ to	O	O
 challenge	B-Skill	O
 outcomes	I-Skill	O
 .	O	O
-
-
 
 Specs	O	O
 that	O	O
@@ -12088,28 +11983,28 @@ Excellent	O	O
 communication	B-Skill	O
 skills	I-Skill	O
 Passion	B-Skill	O
-for	I-Skill	O
-a	I-Skill	O
-change	I-Skill	O
+for	O	O
+a	O	O
+change	O	O
 
 Ability	O	O
 to	O	O
 establish	B-Skill	O
 rapport	I-Skill	O
-and	O	O
-bond	B-Skill	O
+and	I-Skill	O
+bond	I-Skill	O
 with	I-Skill	O
 a	I-Skill	O
 business	I-Skill	O
 partner	I-Skill	O
-The	O	O
+The	I-Skill	O
 ability	O	O
 to	O	O
 think	B-Skill	O
 outside	I-Skill	O
 the	I-Skill	O
 box	I-Skill	O
-The	O	O
+The	I-Skill	O
 ability	O	O
 to	O	O
 clearly	B-Skill	O
@@ -12590,15 +12485,15 @@ an	O	O
 <PROFESSION>	O	O
 <PROFESSION>	O	O
 for	O	O
-generation	B-Skill	O
-and	I-Skill	O
-development	I-Skill	O
-of	I-Skill	O
-new	I-Skill	O
-and	I-Skill	O
-existing	I-Skill	O
-business	I-Skill	O
-opportunities	I-Skill	O
+generation	O	O
+and	O	O
+development	O	O
+of	O	O
+new	O	O
+and	O	O
+existing	O	O
+business	O	O
+opportunities	O	O
 with	O	O
 international	O	O
 clients	O	O
@@ -12610,7 +12505,7 @@ candidate	O	O
 will	O	O
 be	O	O
 a	O	O
-credible	B-Skill	O
+credible	O	O
 international	O	O
 sales	O	O
 professional	O	O
@@ -12636,18 +12531,18 @@ Responsible	O	O
 for	O	O
 your	O	O
 own	O	O
-lead	B-Skill	O
-generation	I-Skill	O
-appointment	B-Skill	O
-setting	I-Skill	O
-proposal	B-Skill	O
-development	I-Skill	O
-and	I-Skill	O
-presentation	I-Skill	O
+lead	O	O
+generation	O	O
+appointment	O	O
+setting	O	O
+proposal	O	O
+development	O	O
+and	O	O
+presentation	O	O
 you	O	O
 will	O	O
-pro-actively	O	O
-manage	B-Skill	O
+pro-actively	B-Skill	O
+manage	I-Skill	O
 the	I-Skill	O
 international	I-Skill	O
 sales	I-Skill	O
@@ -12687,41 +12582,37 @@ building	B-Skill	O
 on	I-Skill	O
 existing	I-Skill	O
 success	I-Skill	O
-already	O	O
-in	O	O
-place	O	O
+already	I-Skill	O
+in	I-Skill	O
+place	I-Skill	O
 .	O	O
 
 You	O	O
 will	O	O
 be	O	O
-reporting	B-Skill	O
-to	I-Skill	O
-the	I-Skill	O
-Head	I-Skill	O
-of	I-Skill	O
-Sales	I-Skill	O
+reporting	O	O
+to	O	O
+the	O	O
+Head	O	O
+of	O	O
+Sales	O	O
 .	O	O
-
-
 
 Primary	O	O
 Focus	O	O
-Build	B-Skill	O
-new	I-Skill	O
-major	I-Skill	O
-business	I-Skill	O
-opportunities	I-Skill	O
+Build	O	O
+new	O	O
+major	O	O
+business	O	O
+opportunities	O	O
 in	O	O
 <LOCATION>	O	O
 and	O	O
 <LOCATION>	O	O
 by	O	O
-sales	B-Skill	O
-canvassing	I-Skill	O
+sales	O	O
+canvassing	O	O
 .	O	O
-
-
 
 Develop	B-Skill	O
 implement	I-Skill	O
@@ -12730,9 +12621,9 @@ manage	I-Skill	O
 sales	I-Skill	O
 and	I-Skill	O
 relationships	I-Skill	O
-with	O	O
-new	O	O
-clients	O	O
+with	I-Skill	O
+new	I-Skill	O
+clients	I-Skill	O
 .	O	O
 
 Negotiate	B-Skill	O
@@ -12756,17 +12647,13 @@ with	I-Skill	O
 clients	I-Skill	O
 .	O	O
 
-
-
 Generate	B-Skill	O
 leads	I-Skill	O
-through	O	O
-market	B-Skill	O
+through	I-Skill	O
+market	I-Skill	O
 and	I-Skill	O
 client-research	I-Skill	O
 .	O	O
-
-
 
 Be	O	O
 able	O	O
@@ -12790,10 +12677,10 @@ of	I-Skill	O
 all	I-Skill	O
 processes	I-Skill	O
 of	I-Skill	O
-a	I-Skill	O
-typical	I-Skill	O
-sales	I-Skill	O
-cycle	I-Skill	O
+a	O	O
+typical	O	O
+sales	O	O
+cycle	O	O
 from	O	O
 A-Z	O	O
 .	O	O
@@ -12805,8 +12692,6 @@ and	I-Skill	O
 market	I-Skill	O
 dynamics	I-Skill	O
 .	O	O
-
-
 
 Recognise	B-Skill	O
 and	I-Skill	O
@@ -12820,8 +12705,6 @@ improve	B-Skill	O
 revenue	I-Skill	O
 performance	I-Skill	O
 .	O	O
-
-
 
 <ORGANIZATION>	O	O
 offers	O	O
@@ -12849,10 +12732,10 @@ to	O	O
 the	O	O
 challenge	O	O
 and	O	O
-develop	O	O
-your	O	O
-own	O	O
-accounts	O	O
+develop	B-Skill	O
+your	I-Skill	O
+own	I-Skill	O
+accounts	I-Skill	O
 in	O	O
 a	O	O
 very	O	O
@@ -12905,18 +12788,16 @@ You	O	O
 thrive	O	O
 with	O	O
 sales	B-Skill	O
-canvassing	I-Skill	O
-cold	B-Skill	O
+canvassing	B-Skill	O
+cold	I-Skill	O
 calling	I-Skill	O
-and	O	O
+and	I-Skill	O
 booking	B-Skill	O
 meetings	I-Skill	O
-on	I-Skill	O
-the	I-Skill	O
-phone	I-Skill	O
+on	O	O
+the	O	O
+phone	O	O
 .	O	O
-
-
 
 You	O	O
 are	O	O
@@ -12935,8 +12816,6 @@ a	I-Skill	O
 team	I-Skill	O
 .	O	O
 
-
-
 You	O	O
 are	O	O
 persistent	B-Skill	O
@@ -12953,8 +12832,6 @@ and	O	O
 concept	O	B-Knowledge
 sales	O	I-Knowledge
 .	O	O
-
-
 
 Knowledge	O	O
 from	O	O
@@ -13200,45 +13077,41 @@ a	O	O
 <PROFESSION>	O	O
 with	O	O
 strong	O	O
-Java	O	B-Knowledge
+Java	B-Skill	B-Knowledge
 skills	O	O
 and	O	O
 experience	O	O
 of	O	O
-working	B-Skill	O
-in	I-Skill	O
-the	I-Skill	O
-web	I-Skill	O
-layer	I-Skill	O
-working	B-Skill	O
-as	I-Skill	O
-a	I-Skill	O
-key	I-Skill	O
-member	I-Skill	O
-of	I-Skill	O
-an	I-Skill	O
-agile	I-Skill	O
-team	I-Skill	O
+working	O	O
+in	O	O
+the	O	O
+web	O	O
+layer	O	O
+working	O	O
+as	O	O
+a	O	O
+key	O	O
+member	O	O
+of	O	O
+an	O	O
+agile	O	O
+team	O	O
 .	O	O
-
-
 
 You	O	O
 will	O	O
 be	O	O
 actively	O	O
-embracing	O	O
-frequent	O	B-Knowledge
-delivery	O	I-Knowledge
-end-to-end	O	B-Knowledge
-application	O	I-Knowledge
-ownership	O	I-Knowledge
-and	O	O
-lean/agile	O	B-Knowledge
-principles	O	I-Knowledge
-.	O	O
-
-
+embracing	B-Skill	O
+frequent	I-Skill	B-Knowledge
+delivery	I-Skill	I-Knowledge
+end-to-end	I-Skill	B-Knowledge
+application	I-Skill	I-Knowledge
+ownership	I-Skill	I-Knowledge
+and	I-Skill	O
+lean/agile	I-Skill	B-Knowledge
+principles	I-Skill	I-Knowledge
+.	I-Skill	O
 
 The	O	O
 role	O	O
@@ -13261,18 +13134,18 @@ of	I-Skill	O
 user	I-Skill	O
 stories	I-Skill	O
 
-Actively	O	O
-taking	O	O
-part	O	O
-in	O	O
-sprint	B-Skill	O
+Actively	B-Skill	O
+taking	I-Skill	O
+part	I-Skill	O
+in	I-Skill	O
+sprint	I-Skill	O
 planning	I-Skill	O
-backlog	B-Skill	O
-grooming	I-Skill	O
+backlog	O	O
+grooming	B-Skill	O
 and	O	O
-task	B-Skill	O
-estimation	I-Skill	O
-Hands-on	O	O
+task	O	O
+estimation	O	O
+Hands-on	B-Skill	O
 development	B-Skill	O
 and	I-Skill	O
 modification	I-Skill	O
@@ -13284,7 +13157,7 @@ and	I-Skill	O
 business	I-Skill	O
 components	I-Skill	O
 
-Hands-on	O	O
+Hands-on	B-Skill	O
 development	B-Skill	O
 of	I-Skill	O
 unit	I-Skill	O
@@ -13294,39 +13167,39 @@ all	O	O
 developed	O	O
 components	O	O
 and	O	O
-contribution	B-Skill	O
-to	I-Skill	O
-the	I-Skill	O
-creation	I-Skill	O
-of	I-Skill	O
-automation	I-Skill	O
-in	I-Skill	O
-higher	I-Skill	O
-levels	I-Skill	O
-of	I-Skill	O
-the	I-Skill	O
-test	I-Skill	O
-pyramid	I-Skill	O
+contribution	O	O
+to	O	O
+the	O	O
+creation	O	O
+of	O	O
+automation	O	O
+in	O	O
+higher	O	O
+levels	O	O
+of	O	O
+the	O	O
+test	O	O
+pyramid	O	O
 
-Actively	O	O
-refactoring	B-Skill	O
+Actively	B-Skill	O
+refactoring	I-Skill	O
 code	I-Skill	O
 and	O	O
 continual	O	O
-contribution	B-Skill	O
-to	I-Skill	O
-code	I-Skill	O
-quality	I-Skill	O
-improvements	I-Skill	O
-
-Personal	O	O
-adherence	O	O
+contribution	O	O
 to	O	O
-development	O	B-Knowledge
-standards	O	I-Knowledge
-and	O	O
-best	O	B-Knowledge
-practices	O	I-Knowledge
+code	O	O
+quality	O	O
+improvements	O	O
+
+Personal	B-Skill	O
+adherence	I-Skill	O
+to	I-Skill	O
+development	I-Skill	B-Knowledge
+standards	I-Skill	I-Knowledge
+and	I-Skill	O
+best	I-Skill	B-Knowledge
+practices	I-Skill	I-Knowledge
 for	O	O
 software	O	B-Knowledge
 development	O	I-Knowledge
@@ -13339,21 +13212,21 @@ Being	O	O
 an	O	O
 exemplar	O	O
 of	O	O
-progressive	B-Skill	O
-development	I-Skill	O
-behaviours;	I-Skill	O
+progressive	O	O
+development	O	O
+behaviours;	O	O
 maximizing	B-Skill	O
 collaboration	I-Skill	O
-and	O	O
-knowledge	B-Skill	O
+and	I-Skill	O
+knowledge	I-Skill	O
 sharing	I-Skill	O
 through	O	O
 effective	B-Skill	O
 pairing	I-Skill	O
-on	O	O
-tasks	O	O
-with	O	O
-developers	O	O
+on	I-Skill	O
+tasks	I-Skill	O
+with	I-Skill	O
+developers	I-Skill	O
 testers	O	O
 and	O	O
 DevOps	O	O
@@ -13365,10 +13238,10 @@ Spike	I-Skill	O
 development	I-Skill	O
 and	O	O
 active	O	O
-involvement	B-Skill	O
-in	I-Skill	O
-technology	I-Skill	O
-evaluation	I-Skill	O
+involvement	O	O
+in	O	O
+technology	O	O
+evaluation	O	O
 
 We	O	O
 offer	O	O
@@ -13427,22 +13300,22 @@ business	O	O
 You	O	O
 will	O	O
 be	O	O
-exposed	O	O
-to	O	O
-a	O	O
-wide	O	O
-and	O	O
-challenging	O	O
-range	O	O
-of	O	O
-business	O	O
-issues	O	O
+exposed	B-Skill	O
+to	I-Skill	O
+a	I-Skill	O
+wide	I-Skill	O
+and	I-Skill	O
+challenging	I-Skill	O
+range	I-Skill	O
+of	I-Skill	O
+business	I-Skill	O
+issues	I-Skill	O
 through	O	O
 regular	O	O
-engagement	O	O
-with	O	O
-key	O	O
-stakeholders	O	O
+engagement	B-Skill	O
+with	I-Skill	O
+key	I-Skill	O
+stakeholders	I-Skill	O
 across	O	O
 all	O	O
 management	O	O
@@ -13472,8 +13345,6 @@ strong	I-Skill	O
 professional	I-Skill	O
 network	I-Skill	O
 .	O	O
-
-
 
 We	O	O
 believe	O	O
@@ -13593,10 +13464,10 @@ working	O	O
 Key	O	O
 responsibilities	O	O
 	O	O
-Participation	B-Skill	O
-in	I-Skill	O
-the	I-Skill	O
-elaboration	I-Skill	O
+Participation	O	O
+in	O	O
+the	O	O
+elaboration	B-Skill	O
 of	I-Skill	O
 user	I-Skill	O
 stories	I-Skill	O
@@ -13606,11 +13477,11 @@ and	O	O
 functional)	O	O
 .	O	O
 
-Agree	B-Skill	O
-stories	I-Skill	O
-are	I-Skill	O
-sufficiently	I-Skill	O
-described	I-Skill	O
+Agree	O	O
+stories	O	O
+are	O	O
+sufficiently	O	O
+described	O	O
 for	O	O
 their	O	O
 implementation	O	O
@@ -13621,59 +13492,59 @@ delivery.	O	O
 Responsible	O	O
 for	O	O
 the	O	O
-quality	B-Skill	O
-design	I-Skill	O
-and	I-Skill	O
-implementation	I-Skill	O
+quality	O	O
+design	O	O
+and	O	O
+implementation	O	O
 (	O	O
 supportable	O	O
-maintainable	O	O
-scalable	O	O
-performant	O	O
-secure	O	O
-)	O	O
-of	O	O
-applications	O	O
-delivering	O	O
-business	O	O
-value	O	O
+maintainable	B-Skill	O
+scalable	I-Skill	O
+performant	I-Skill	O
+secure	I-Skill	O
+)	I-Skill	O
+of	I-Skill	O
+applications	I-Skill	O
+delivering	B-Skill	O
+business	I-Skill	O
+value	I-Skill	O
 Ensuring	B-Skill	O
 builds	I-Skill	O
-are	I-Skill	O
-kept	I-Skill	O
-green	I-Skill	O
+are	O	O
+kept	O	O
+green	O	O
 and	O	O
 the	O	O
-code	B-Skill	O
-management	I-Skill	O
-strategy	I-Skill	O
-(	I-Skill	O
-branching	I-Skill	O
-)	I-Skill	O
-is	I-Skill	O
-closely	I-Skill	O
+code	O	O
+management	O	O
+strategy	O	O
+(	O	O
+branching	O	O
+)	O	O
+is	O	O
+closely	O	O
 followed.	O	O
 
 Raising	B-Skill	O
 capability	I-Skill	O
 and	I-Skill	O
 standards	I-Skill	O
-within	O	O
-team;	O	O
+within	I-Skill	O
+team;	I-Skill	O
 pairing	B-Skill	O
 on	I-Skill	O
 tasks	I-Skill	O
-peer	B-Skill	O
-review	I-Skill	O
-of	I-Skill	O
-team	I-Skill	O
-members	I-Skill	O
-code	I-Skill	O
+peer	O	O
+review	O	O
+of	O	O
+team	O	O
+members	O	O
+code	O	O
 and	O	O
 constructive	B-Skill	O
 feedback	I-Skill	O
-for	I-Skill	O
-improvement	I-Skill	O
+for	O	O
+improvement	O	O
 in	O	O
 both	O	O
 the	O	O
@@ -13688,27 +13559,27 @@ blame	O	O
 free	O	O
 feedback)	O	O
 
-Proactive	B-Skill	O
-contribution	I-Skill	O
-to	I-Skill	O
-continual	I-Skill	O
-improvements	I-Skill	O
+Proactive	O	O
+contribution	O	O
+to	O	O
+continual	O	O
+improvements	O	O
 within	O	O
 your	O	O
 team	O	O
 through	O	O
 both	O	O
-active	B-Skill	O
-participation	I-Skill	O
-in	I-Skill	O
-retrospectives	I-Skill	O
+active	O	O
+participation	O	O
+in	O	O
+retrospectives	O	O
 and	O	O
 from	O	O
-engagement	B-Skill	O
-with	I-Skill	O
-cross	I-Skill	O
-team	I-Skill	O
-bestpractice	I-Skill	O
+engagement	O	O
+with	O	O
+cross	O	O
+team	O	O
+bestpractice	O	O
 communities	O	O
 
 Support	B-Skill	O
@@ -13723,18 +13594,18 @@ debt	I-Skill	O
 issues	I-Skill	O
 and	I-Skill	O
 opportunities	I-Skill	O
-for	O	O
-technical	O	O
-improvement	O	O
+for	I-Skill	O
+technical	I-Skill	O
+improvement	I-Skill	O
 
 Support	B-Skill	O
 the	I-Skill	O
 recruitment	I-Skill	O
 activities	I-Skill	O
-for	O	O
-new	O	O
-developers	O	O
-hires	O	O
+for	I-Skill	O
+new	I-Skill	O
+developers	I-Skill	O
+hires	I-Skill	O
 
 Technical	B-Skill	O
 support	I-Skill	O
@@ -13773,14 +13644,14 @@ testing	O	I-Knowledge
 frameworks	O	O
 Expertise	O	O
 in	O	O
-development	B-Skill	O
+development	O	O
 within	O	O
 an	O	O
 Agile	O	B-Knowledge
 envirnoment	O	O
 	O	O
-Effective	O	O
-integration	B-Skill	O
+Effective	B-Skill	O
+integration	I-Skill	O
 of	I-Skill	O
 testing	I-Skill	O
 into	I-Skill	O
@@ -13790,8 +13661,8 @@ using	O	O
 appropriate	O	O
 test	O	B-Knowledge
 frameworks	O	I-Knowledge
-Build	O	I-Knowledge
-tooling	O	I-Knowledge
+Build	B-Skill	I-Knowledge
+tooling	I-Skill	I-Knowledge
 (	O	O
 e.g	O	O
 .	O	O
@@ -13800,9 +13671,9 @@ Maven)	O	O
 Capability	O	O
 for	O	O
 occasional	O	O
-work	B-Skill	O
-in	I-Skill	O
-UI	I-Skill	O
+work	O	O
+in	O	O
+UI	O	O
 layer.	O	O
 
 Good	O	O
@@ -13820,7 +13691,7 @@ Ansible	O	B-Knowledge
 )	O	O
 	O	O
 Good	O	O
-verbal	O	O
+verbal	B-Skill	O
 communication	B-Skill	O
 skills;	I-Skill	O
 able	O	O
@@ -13842,19 +13713,19 @@ product	I-Skill	O
 owners	I-Skill	O
 in	O	O
 the	O	O
-elaboration	O	O
-of	O	O
-user	O	O
-stories	O	O
+elaboration	B-Skill	O
+of	I-Skill	O
+user	I-Skill	O
+stories	I-Skill	O
 
 Able	O	O
 to	O	O
-work	O	O
-in	O	O
-a	O	O
-highly	O	O
-collaborative	B-Skill	O
-environment	O	O
+work	B-Skill	O
+in	I-Skill	O
+a	I-Skill	O
+highly	I-Skill	O
+collaborative	I-Skill	O
+environment	I-Skill	O
 as	O	O
 part	O	O
 of	O	O
@@ -13870,9 +13741,9 @@ problem	B-Skill	O
 solving	I-Skill	O
 skillsExperience	O	O
 
-Agile	B-Skill	O
-software	I-Skill	O
-development	I-Skill	O
+Agile	O	O
+software	O	O
+development	O	O
 experience	O	O
 preferable	O	O
 with	O	O
@@ -13891,9 +13762,9 @@ TDD	O	B-Knowledge
 approaches	O	O
 and	O	O
 tooling	O	O
-Fast	B-Skill	O
-turnaround	I-Skill	O
-development	I-Skill	O
+Fast	O	O
+turnaround	O	O
+development	O	O
 experience	O	O
 Continuous	O	B-Knowledge
 delivery	O	I-Knowledge
@@ -13904,8 +13775,8 @@ per	O	O
 sprint	O	O
 delivery	O	O
 cadence	O	O
-Service	B-Skill	O
-orientated	I-Skill	O
+Service	O	O
+orientated	O	O
 and	O	O
 microservice	O	B-Knowledge
 architecture	O	I-Knowledge
@@ -13960,11 +13831,11 @@ on	O	O
 experience	O	O
 
 Active	O	O
-contributor	B-Skill	O
-to	I-Skill	O
-open	I-Skill	O
-source	I-Skill	O
-projects	I-Skill	O
+contributor	O	O
+to	O	O
+open	O	O
+source	O	O
+projects	O	O
 would	O	O
 be	O	O
 beneficial	O	O
@@ -14010,8 +13881,8 @@ have	O	O
 a	O	O
 very	O	O
 good	O	O
-mechanical	O	B-Knowledge
-understanding	O	I-Knowledge
+mechanical	B-Skill	B-Knowledge
+understanding	I-Skill	I-Knowledge
 and	O	O
 a	O	O
 solid	O	O
@@ -14023,8 +13894,6 @@ and	O	O
 process	O	B-Knowledge
 optimization	O	I-Knowledge
 .	O	O
-
-
 
 The	O	O
 job	O	O
@@ -14048,7 +13917,7 @@ activity	O	O
 You	O	O
 will	O	O
 primarily	O	O
-work	O	O
+work	B-Skill	O
 with	O	O
 our	O	O
 rotating	O	O
@@ -14075,8 +13944,6 @@ customer	I-Skill	O
 first	I-Skill	O
 .	O	O
 
-
-
 About	O	O
 the	O	O
 job	O	O
@@ -14089,18 +13956,14 @@ and	I-Skill	O
 machines	I-Skill	O
 .	O	O
 
-
-
 Repair	B-Skill	O
 and	I-Skill	O
 service	I-Skill	O
-according	I-Skill	O
-to	I-Skill	O
-customer	I-Skill	O
-requirements	I-Skill	O
+according	O	O
+to	O	O
+customer	O	O
+requirements	O	O
 .	O	O
-
-
 
 Support	B-Skill	O
 to	I-Skill	O
@@ -14111,33 +13974,27 @@ technical	I-Skill	O
 support	I-Skill	O
 .	O	O
 
-
-
-Troubleshooting	O	O
-and	O	O
-adjustments	B-Skill	O
+Troubleshooting	B-Skill	O
+and	I-Skill	O
+adjustments	I-Skill	O
 to	I-Skill	O
 equipment	I-Skill	O
 and	I-Skill	O
 machines	I-Skill	O
 .	O	O
 
-
-
 Start-up	B-Skill	O
 and	I-Skill	O
 commissioning	I-Skill	O
 of	I-Skill	O
 machinery	I-Skill	O
-and	O	O
-process	B-Skill	O
+and	I-Skill	O
+process	I-Skill	O
 plants	I-Skill	O
-on	I-Skill	O
-board	I-Skill	O
-vessels	I-Skill	O
+on	O	O
+board	O	O
+vessels	O	O
 .	O	O
-
-
 
 Training	B-Skill	O
 of	I-Skill	O
@@ -14145,16 +14002,12 @@ the	I-Skill	O
 crew	I-Skill	O
 .	O	O
 
-
-
 Optimization	B-Skill	O
 of	I-Skill	O
 plant	I-Skill	O
 and	I-Skill	O
 equipment	I-Skill	O
 .	O	O
-
-
 
 The	O	O
 jobs	O	O
@@ -14249,11 +14102,9 @@ have	O	O
 a	O	O
 very	O	O
 good	O	O
-mechanical	O	B-Knowledge
-understanding	O	I-Knowledge
+mechanical	B-Skill	B-Knowledge
+understanding	I-Skill	I-Knowledge
 .	O	O
-
-
 
 You	O	O
 have	O	O
@@ -14268,8 +14119,6 @@ control	O	B-Knowledge
 systems	O	I-Knowledge
 .	O	O
 
-
-
 You	O	O
 are	O	O
 proficient	O	O
@@ -14277,8 +14126,6 @@ in	O	O
 Microsoft	O	B-Knowledge
 Office	O	I-Knowledge
 .	O	O
-
-
 
 You	O	O
 speak	O	O
@@ -14288,8 +14135,6 @@ Danish	O	B-Knowledge
 and	O	O
 English	O	B-Knowledge
 .	O	O
-
-
 
 Whats	O	O
 in	O	O
@@ -14634,11 +14479,11 @@ and	O	O
 labs	O	O
 responsible	O	O
 for	O	O
-developing	B-Skill	O
-our	I-Skill	O
-new	I-Skill	O
-data	I-Skill	O
-backbone	I-Skill	O
+developing	O	O
+our	O	O
+new	O	O
+data	O	O
+backbone	O	O
 and	O	O
 inspiring	B-Skill	O
 the	I-Skill	O
@@ -14681,16 +14526,16 @@ team	O	O
 is	O	O
 committed	O	O
 to	O	O
-extracting	B-Skill	O
-insights	I-Skill	O
-and	I-Skill	O
-value	I-Skill	O
-from	I-Skill	O
-data	I-Skill	O
+extracting	O	O
+insights	O	O
+and	O	O
+value	O	O
+from	O	O
+data	O	O
 by	O	O
-applying	B-Skill	O
-domain	I-Skill	O
-expertise	I-Skill	O
+applying	O	O
+domain	O	O
+expertise	O	O
 tools	O	O
 and	O	O
 technology	O	O
@@ -14709,7 +14554,7 @@ ensure	B-Skill	O
 data	I-Skill	O
 collection	I-Skill	O
 procedures	I-Skill	O
-for	O	O
+for	I-Skill	O
 building	B-Skill	O
 analytic	I-Skill	O
 systems	I-Skill	O
@@ -14727,8 +14572,6 @@ productionised	I-Skill	O
 models	I-Skill	O
 .	O	O
 
-
-
 Your	O	O
 competences	O	O
 include	O	O
@@ -14744,7 +14587,7 @@ data-heavy	O	I-Knowledge
 functions	O	I-Knowledge
 have	O	O
 solid	O	O
-programming	O	O
+programming	B-Skill	O
 experience	O	O
 in	O	O
 C#	O	B-Knowledge
@@ -14806,13 +14649,11 @@ and	O	O
 algorithms	O	B-Knowledge
 .	O	O
 
-
-
 Finally	O	O
 a	O	O
-willingness	B-Skill	O
-to	I-Skill	O
-learn	I-Skill	O
+willingness	O	O
+to	O	O
+learn	B-Skill	O
 is	O	O
 essential	O	O
 .	O	O
@@ -14906,8 +14747,8 @@ January	O	O
 as	O	O
 well	O	O
 be	O	O
-conducting	O	O
-interviews	O	O
+conducting	B-Skill	O
+interviews	I-Skill	O
 on	O	O
 a	O	O
 continuous	O	O
@@ -15203,26 +15044,26 @@ Have	O	O
 a	O	O
 forklift	O	B-Knowledge
 license	O	I-Knowledge
-Work	O	O
-independently	B-Skill	O
-and	O	O
-proactively	B-Skill	O
+Work	B-Skill	O
+independently	I-Skill	O
+and	I-Skill	O
+proactively	I-Skill	O
 Set	B-Skill	O
 high	I-Skill	O
 standards	I-Skill	O
-for	O	O
-your	O	O
-work	O	O
+for	I-Skill	O
+your	I-Skill	O
+work	I-Skill	O
 Are	O	O
 a	O	O
 flexible	B-Skill	O
-and	O	O
+and	I-Skill	O
 helpful	B-Skill	O
-colleague	O	O
-Focus	O	O
-on	O	O
-work	O	O
-environment	O	O
+colleague	I-Skill	O
+Focus	B-Skill	O
+on	I-Skill	O
+work	I-Skill	O
+environment	I-Skill	O
 
 The	O	O
 company's	O	O
@@ -15310,10 +15151,10 @@ understand	O	O
 the	O	O
 importance	O	O
 of	O	O
-cooperating	O	O
-as	O	O
-a	O	O
-team	O	O
+cooperating	B-Skill	O
+as	I-Skill	O
+a	I-Skill	O
+team	I-Skill	O
 in	O	O
 order	O	O
 to	O	O
@@ -15510,8 +15351,6 @@ absorbs	O	O
 biopharmaceuticals	O	B-Knowledge
 .	O	O
 
-
-
 The	O	O
 PhD	O	O
 Student	O	O
@@ -15619,10 +15458,10 @@ PhD	O	O
 Student	O	O
 )	O	O
 to	O	O
-reinvent	B-Skill	O
-our	I-Skill	O
-research	I-Skill	O
-strategies	I-Skill	O
+reinvent	O	O
+our	O	O
+research	O	O
+strategies	O	O
 as	O	O
 well	O	O
 as	O	O
@@ -15641,15 +15480,15 @@ will	O	O
 be	O	O
 responsible	O	O
 for	O	O
-constructing	B-Skill	O
-a	I-Skill	O
-'light	I-Skill	O
-sheet'	I-Skill	O
-fluorescence	I-Skill	O
-microscope	I-Skill	O
+constructing	O	O
+a	O	O
+'light	O	O
+sheet'	O	O
+fluorescence	O	O
+microscope	O	O
 for	O	O
-live-sample	B-Skill	O
-imaging	I-Skill	O
+live-sample	O	O
+imaging	O	O
 of	O	O
 3D	O	B-Knowledge
 printed	O	I-Knowledge
@@ -15680,10 +15519,10 @@ use	O	O
 this	O	O
 microscope	O	O
 to	O	O
-pursue	B-Skill	O
-a	I-Skill	O
-deeper	I-Skill	O
-understanding	I-Skill	O
+pursue	O	O
+a	O	O
+deeper	O	O
+understanding	O	O
 of	O	O
 how	O	O
 biopharmaceuticals	O	O
@@ -15754,15 +15593,15 @@ and	O	O
 be	O	O
 responsible	O	O
 for	O	O
-implementing	B-Skill	O
-one	I-Skill	O
-of	I-Skill	O
-the	I-Skill	O
-Worlds	I-Skill	O
-most	I-Skill	O
-advanced	I-Skill	O
-optical	I-Skill	O
-microscopes	I-Skill	O
+implementing	O	O
+one	O	O
+of	O	O
+the	O	O
+Worlds	O	O
+most	O	O
+advanced	O	O
+optical	O	O
+microscopes	O	O
 for	O	O
 live-sample	O	O
 imaging	O	O
@@ -15817,9 +15656,9 @@ the	O	O
 PhD	O	O
 Student	O	O
 will	O	O
-use	B-Skill	O
-the	I-Skill	O
-microscope	I-Skill	O
+use	O	O
+the	O	O
+microscope	O	O
 together	O	O
 with	O	O
 local	O	O
@@ -15828,19 +15667,17 @@ and	O	O
 image	O	O
 analysts	O	O
 to	O	O
-capture	B-Skill	O
-how	I-Skill	O
-fluorescently	I-Skill	O
-labelled	I-Skill	O
-biopharmaceuticals	I-Skill	O
-travel	I-Skill	O
-through	I-Skill	O
-the	I-Skill	O
-intestinal	I-Skill	O
-barrier	I-Skill	O
+capture	O	O
+how	O	O
+fluorescently	O	O
+labelled	O	O
+biopharmaceuticals	O	O
+travel	O	O
+through	O	O
+the	O	O
+intestinal	O	O
+barrier	O	O
 .	O	O
-
-
 
 During	O	O
 this	O	O
@@ -15862,10 +15699,10 @@ hardware	I-Skill	O
 and	I-Skill	O
 software	I-Skill	O
 to	O	O
-provide	B-Skill	O
-the	I-Skill	O
-best	I-Skill	O
-images	I-Skill	O
+provide	O	O
+the	O	O
+best	O	O
+images	O	O
 possible	O	O
 .	O	O
 
@@ -15910,14 +15747,14 @@ Student	O	O
 is	O	O
 motivated	O	O
 to	O	O
-contribute	B-Skill	O
-to	I-Skill	O
-the	I-Skill	O
-enjoyable	I-Skill	O
-and	I-Skill	O
-collaborative	I-Skill	O
-work	I-Skill	O
-environment	I-Skill	O
+contribute	O	O
+to	O	O
+the	O	O
+enjoyable	O	O
+and	O	O
+collaborative	O	O
+work	O	O
+environment	O	O
 in	O	O
 DTU's	O	O
 new	O	O
@@ -15982,10 +15819,10 @@ independently	I-Skill	O
 and	O	O
 prioritize	B-Skill	O
 tasks	I-Skill	O
-with	O	O
-team-success	O	O
-in	O	O
-mind	O	O
+with	I-Skill	O
+team-success	I-Skill	O
+in	I-Skill	O
+mind	I-Skill	O
 .	O	O
 
 Plan	B-Skill	O
@@ -16004,76 +15841,66 @@ and	O	O
 software	O	B-Knowledge
 .	O	O
 
-
-
 Work	B-Skill	O
-constructively	I-Skill	O
-in	I-Skill	O
-a	I-Skill	O
-team	I-Skill	O
+constructively	O	O
+in	O	O
+a	O	O
+team	O	O
 of	O	O
 diverse	O	O
 scientist	O	O
 i.e	O	O
 .	O	O
 
-analyse	O	O
-and	O	O
-contribute	B-Skill	O
-to	O	O
-solve	B-Skill	O
+analyse	B-Skill	O
+and	I-Skill	O
+contribute	I-Skill	O
+to	I-Skill	O
+solve	I-Skill	O
 biological/mathematical	I-Skill	O
 challenges	I-Skill	O
 .	O	O
 
-
-
-Use	B-Skill	O
-software	I-Skill	O
-for	I-Skill	O
-instrument	I-Skill	O
-control	I-Skill	O
+Use	O	O
+software	O	O
+for	O	O
+instrument	O	O
+control	O	O
 e.g	O	O
 .	O	O
 
 LabVIEW	O	B-Knowledge
 .	O	O
 
-
-
-Use	B-Skill	O
-software	I-Skill	O
-for	I-Skill	O
-data	I-Skill	O
-simulation	I-Skill	O
+Use	O	O
+software	O	O
+for	O	O
+data	O	O
+simulation	O	O
 and	O	O
-basic	B-Skill	O
-image	I-Skill	O
-analysis	I-Skill	O
+basic	O	O
+image	O	O
+analysis	O	O
 e.g	O	O
 .	O	O
 
 MATLAB	O	B-Knowledge
 .	O	O
 
-
-
 Use	B-Skill	O
 software	I-Skill	O
-for	I-Skill	O
-basic	I-Skill	O
-mechanical	I-Skill	O
-design	I-Skill	O
+for	O	O
+basic	O	O
+mechanical	O	O
+design	O	O
 e.g	O	O
 .	O	O
 
 SOLIDWORKS	O	B-Knowledge
 .	O	O
 
-
-
-Communicate	B-Skill	O
-professionally	I-Skill	O
+Communicate	O	O
+professionally	O	O
 and	O	O
 fluently	O	O
 in	O	O
@@ -16084,11 +15911,11 @@ in	O	O
 writing)	O	O
 .	O	O
 
-Present	B-Skill	O
-insights	I-Skill	O
-progress	I-Skill	O
-and	I-Skill	O
-bottlenecks	I-Skill	O
+Present	O	O
+insights	O	O
+progress	O	O
+and	O	O
+bottlenecks	O	O
 to	O	O
 diverse	O	O
 (	O	O
@@ -16105,22 +15932,20 @@ the	O	O
 public	O	O
 .	O	O
 
-Enjoy	O	O
-science	O	O
+Enjoy	B-Skill	O
+science	I-Skill	O
 and	O	O
-adhere	O	O
-to	O	O
-the	O	O
-European	O	B-Knowledge
-code	O	I-Knowledge
-of	O	I-Knowledge
-conduct	O	I-Knowledge
-for	O	I-Knowledge
-research	O	I-Knowledge
+adhere	B-Skill	O
+to	I-Skill	O
+the	I-Skill	O
+European	I-Skill	B-Knowledge
+code	I-Skill	I-Knowledge
+of	I-Skill	I-Knowledge
+conduct	I-Skill	I-Knowledge
+for	I-Skill	I-Knowledge
+research	I-Skill	I-Knowledge
 integrity	O	I-Knowledge
 .	O	O
-
-
 
 Previous	O	O
 training	O	O
@@ -16991,7 +16816,7 @@ marketingin	O	B-Knowledge
 particular	O	O
 business	O	B-Knowledge
 researchand	O	O
-development	B-Skill	O
+development	O	O
 tasks	O	O
 in	O	O
 relation	O	O
@@ -17003,12 +16828,12 @@ programs	O	O
 .	O	O
 
 An	O	O
-active	B-Skill	O
-engagement	I-Skill	O
+active	O	O
+engagement	O	O
 to	O	O
-strengthen	B-Skill	O
-the	I-Skill	O
-relationship	I-Skill	O
+strengthen	O	O
+the	O	O
+relationship	O	O
 with	O	O
 (	O	O
 and	O	O
@@ -17121,7 +16946,7 @@ as	O	O
 well	O	O
 as	O	O
 successful	O	O
-teaching	B-Skill	O
+teaching	O	O
 experience	O	O
 from	O	O
 relevant	O	O
@@ -17144,10 +16969,10 @@ the	O	O
 development	O	O
 of	O	O
 research	O	O
-teaching	B-Skill	O
+teaching	O	O
 and	O	O
-research	B-Skill	O
-dissemination	I-Skill	O
+research	O	O
+dissemination	O	O
 as	O	O
 well	O	O
 as	O	O
@@ -17158,8 +16983,6 @@ business	I-Skill	O
 and	I-Skill	O
 society	I-Skill	O
 .	O	O
-
-
 
 The	O	O
 Department	O	O
@@ -17300,10 +17123,10 @@ high	O	O
 international	O	O
 standards	O	O
 including	O	O
-publishing	O	O
-in	O	O
-high-quality	O	O
-journals	O	O
+publishing	B-Skill	O
+in	I-Skill	O
+high-quality	I-Skill	O
+journals	I-Skill	O
 (	O	O
 cf	O	O
 .	O	O
@@ -17321,13 +17144,11 @@ with	O	O
 real	O	O
 impact	O	O
 on	O	O
-teaching	B-Skill	O
-practice	I-Skill	O
+teaching	O	O
+practice	O	O
 and	O	O
-dissemination	B-Skill	O
+dissemination	O	O
 .	O	O
-
-
 
 We	O	O
 are	O	O
@@ -17341,27 +17162,23 @@ business	O	B-Knowledge
 research	O	I-Knowledge
 .	O	O
 
-
-
 Research	O	B-Knowledge
 management	O	I-Knowledge
-initiation	B-Skill	O
-of	I-Skill	O
-research	I-Skill	O
-projects	I-Skill	O
-supervision	B-Skill	O
-of	I-Skill	O
-Ph.D	I-Skill	O
+initiation	O	O
+of	O	O
+research	O	O
+projects	O	O
+supervision	O	O
+of	O	O
+Ph.D	O	O
 .	O	O
 
-
-
 students	O	O
-international	B-Skill	O
-research	I-Skill	O
-co-operation	I-Skill	O
-journal	B-Skill	O
-editorship	I-Skill	O
+international	O	O
+research	O	O
+co-operation	O	O
+journal	O	O
+editorship	O	O
 and/or	O	O
 reviewing	B-Skill	O
 for	I-Skill	O
@@ -17369,10 +17186,8 @@ academic	I-Skill	O
 journals	I-Skill	O
 .	O	O
 
-
-
-Academic	B-Skill	O
-development	I-Skill	O
+Academic	O	O
+development	O	O
 of	O	O
 the	O	O
 marketing	O	B-Knowledge
@@ -17381,7 +17196,7 @@ discipline	O	O
 
 Research-based	B-Skill	O
 teaching	I-Skill	O
-supervision	B-Skill	O
+supervision	I-Skill	O
 and	O	O
 examination	B-Skill	O
 at	O	O
@@ -17394,19 +17209,17 @@ are	O	O
 particularly	O	O
 interested	O	O
 in	O	O
-teaching	B-Skill	O
-on	I-Skill	O
-business	I-Skill	O
-research	I-Skill	O
+teaching	O	O
+on	O	O
+business	O	O
+research	O	O
 .	O	O
 
-
-
 Continuous	O	O
-course	B-Skill	O
-and	I-Skill	O
-program	I-Skill	O
-development	I-Skill	O
+course	O	O
+and	O	O
+program	O	O
+development	O	O
 as	O	O
 well	O	O
 as	O	O
@@ -17439,17 +17252,17 @@ research	I-Skill	O
 projects	I-Skill	O
 and	O	O
 the	O	O
-co-ordination	O	O
-of	O	O
-such	O	O
-projects	O	O
+co-ordination	B-Skill	O
+of	I-Skill	O
+such	I-Skill	O
+projects	I-Skill	O
 .	O	O
 
-Contribution	B-Skill	O
-to	I-Skill	O
-the	I-Skill	O
-administrative	I-Skill	O
-responsibilities	I-Skill	O
+Contribution	O	O
+to	O	O
+the	O	O
+administrative	O	O
+responsibilities	O	O
 of	O	O
 the	O	O
 Department	O	O
@@ -17477,13 +17290,13 @@ particular	O	O
 .	O	O
 
 Active	O	O
-participation	B-Skill	O
-in	I-Skill	O
-the	I-Skill	O
-Departments	I-Skill	O
-regular	I-Skill	O
-research	I-Skill	O
-activities	I-Skill	O
+participation	O	O
+in	O	O
+the	O	O
+Departments	O	O
+regular	O	O
+research	O	O
+activities	O	O
 including	O	O
 seminars	O	O
 workshops	O	O
@@ -17491,17 +17304,15 @@ and	O	O
 conferences	O	O
 .	O	O
 
-Engagement	B-Skill	O
-in	I-Skill	O
-and	I-Skill	O
-contribution	I-Skill	O
-to	I-Skill	O
-academic	I-Skill	O
-citizenship	I-Skill	O
-activities	I-Skill	O
+Engagement	O	O
+in	O	O
+and	O	O
+contribution	O	O
+to	O	O
+academic	O	O
+citizenship	O	O
+activities	O	O
 .	O	O
-
-
 
 To	O	O
 fulfill	O	O
@@ -17528,13 +17339,13 @@ regular	O	O
 basis	O	O
 and	O	O
 participate	B-Skill	O
-actively	I-Skill	O
-in	I-Skill	O
-the	I-Skill	O
-research	I-Skill	O
-and	I-Skill	O
-teaching	I-Skill	O
-activities	I-Skill	O
+actively	O	O
+in	O	O
+the	O	O
+research	O	O
+and	O	O
+teaching	O	O
+activities	O	O
 of	O	O
 the	O	O
 Department	O	O
@@ -17642,7 +17453,7 @@ successful	O	O
 candidate	O	O
 has	O	O
 substantial	O	O
-teaching	B-Skill	O
+teaching	O	O
 experience	O	O
 and	O	O
 ideally	O	O
@@ -17667,9 +17478,9 @@ are	O	O
 interested	O	O
 particularly	O	O
 in	O	O
-research	B-Skill	O
+research	O	O
 and	O	O
-teaching	B-Skill	O
+teaching	O	O
 in	O	O
 the	O	O
 areas	O	O
@@ -17677,8 +17488,6 @@ of	O	O
 business	O	B-Knowledge
 research	O	I-Knowledge
 .	O	O
-
-
 
 The	O	O
 successful	O	O
@@ -17692,13 +17501,13 @@ dynamic	I-Skill	O
 leadership	I-Skill	O
 in	O	O
 the	O	O
-development	B-Skill	O
-of	I-Skill	O
-research	I-Skill	O
-teaching	B-Skill	O
+development	O	O
+of	O	O
+research	O	O
+teaching	O	O
 and	O	O
-research	B-Skill	O
-dissemination	I-Skill	O
+research	O	O
+dissemination	O	O
 as	O	O
 well	O	O
 as	O	O
@@ -17709,8 +17518,6 @@ business	I-Skill	O
 and	I-Skill	O
 society	I-Skill	O
 .	O	O
-
-
 
 The	O	O
 ideal	O	O
@@ -17723,10 +17530,10 @@ or	O	O
 is	O	O
 working	O	O
 on	O	O
-achieving	B-Skill	O
-)	I-Skill	O
-research	I-Skill	O
-grants;	I-Skill	O
+achieving	O	O
+)	O	O
+research	O	O
+grants;	O	O
 and	O	O
 the	O	O
 candidate	O	O
@@ -17807,13 +17614,13 @@ competences	O	O
 in	O	O
 terms	O	O
 of	O	O
-development	B-Skill	O
-and	I-Skill	O
-innovation	I-Skill	O
-in	I-Skill	O
-the	I-Skill	O
-pedagogical	I-Skill	O
-area	I-Skill	O
+development	O	O
+and	O	O
+innovation	O	O
+in	O	O
+the	O	O
+pedagogical	O	O
+area	O	O
 of	O	O
 marketing	O	O
 .	O	O
@@ -17859,7 +17666,7 @@ join	O	O
 us	O	O
 should	O	O
 demonstrate	O	O
-enthusiasm	O	O
+enthusiasm	B-Skill	O
 for	O	O
 working	O	O
 in	O	O
@@ -18070,7 +17877,7 @@ Candidates	O	O
 are	O	O
 requested	O	O
 to	O	O
-prioritize	O	O
+prioritize	B-Skill	O
 their	O	O
 publications	O	O
 in	O	O
@@ -18546,7 +18353,7 @@ cool	O	O
 workday	O	O
 consisting	O	O
 of	O	O
-cruising	O	O
+cruising	B-Skill	O
 on	O	O
 a	O	O
 Segway	O	O
@@ -18569,9 +18376,9 @@ if	O	O
 you	O	O
 have	O	O
 an	O	O
-outgoing	O	O
+outgoing	B-Skill	O
 &	O	O
-fun	O	O
+fun	B-Skill	O
 personality	O	O
 then	O	O
 this	O	O
@@ -18664,8 +18471,8 @@ Segways	O	O
 and	O	O
 truly	O	O
 enjoy	O	O
-working	O	O
-with	O	O
+working	B-Skill	O
+with	I-Skill	O
 the	O	O
 many	O	O
 various	O	O
@@ -18736,9 +18543,9 @@ priorities	O	O
 
 DO	O	O
 YOU:	O	O
-Love	B-Skill	O
-being	I-Skill	O
-outdoors	I-Skill	O
+Love	O	O
+being	O	O
+outdoors	O	O
 all	O	O
 day	O	O
 long	O	O
@@ -18752,33 +18559,33 @@ desire	O	O
 to	O	O
 create	B-Skill	O
 an	I-Skill	O
-entertaining	I-Skill	O
-&	I-Skill	O
-memorable	I-Skill	O
-tour	I-Skill	O
+entertaining	O	O
+&	O	O
+memorable	O	O
+tour	O	O
 for	O	O
 our	O	O
 worldwide	O	O
 visitors?	O	O
 Have	O	O
 a	O	O
-passionate	O	O
+passionate	B-Skill	O
 interest	O	O
 in	O	O
 <LOCATION>	O	O
 and	O	O
 want	O	O
 to	O	O
-share	B-Skill	O
-your	I-Skill	O
-knowledge?	I-Skill	O
+share	O	O
+your	O	O
+knowledge?	O	O
 Have	O	O
 a	O	O
 responsible	B-Skill	O
 and	I-Skill	O
 professional	I-Skill	O
 work	I-Skill	O
-ethic?	I-Skill	O
+ethic?	O	O
 Want	O	O
 to	O	O
 have	O	O
@@ -18831,9 +18638,9 @@ sightseeing	O	O
 &	O	O
 private	O	O
 tours:	O	O
-providing	B-Skill	O
-fun	I-Skill	O
-informative	I-Skill	O
+providing	O	O
+fun	O	O
+informative	B-Skill	O
 and	I-Skill	O
 engaging	I-Skill	O
 tours	I-Skill	O
@@ -18850,10 +18657,10 @@ are	O	O
 furthermore	O	O
 required	O	O
 to:	O	O
-Know	B-Skill	O
-all	I-Skill	O
-information	I-Skill	O
-provided	I-Skill	O
+Know	O	O
+all	O	O
+information	O	O
+provided	O	O
 to	O	O
 you	O	O
 .	O	O
@@ -18893,8 +18700,8 @@ provide	B-Skill	O
 extensive	I-Skill	O
 information	I-Skill	O
 about	I-Skill	O
-the	I-Skill	O
-city	I-Skill	O
+the	O	O
+city	O	O
 and	O	O
 answering	B-Skill	O
 customer	I-Skill	O
@@ -18920,27 +18727,27 @@ as	O	O
 you	O	O
 are	O	O
 also	O	O
-representing	O	O
-the	O	O
-firm	O	O
+representing	B-Skill	O
+the	I-Skill	O
+firm	I-Skill	O
 .	O	O
 
 Strong	O	O
 leadership	B-Skill	O
-skills	O	O
+skills	I-Skill	O
 -	O	O
 YOU	O	O
 are	O	O
-in	O	O
-charge	O	O
-of	O	O
-the	O	O
-group	O	O
+in	B-Skill	O
+charge	I-Skill	O
+of	I-Skill	O
+the	I-Skill	O
+group	I-Skill	O
 you	O	O
 are	O	O
-taking	O	O
-out	O	O
-Support	O	O
+taking	B-Skill	O
+out	I-Skill	O
+Support	B-Skill	O
 to	O	O
 our	O	O
 corporate	O	O
@@ -18958,23 +18765,23 @@ etc	O	O
 
 and	O	O
 leading	B-Skill	O
-a	O	O
-larger	O	O
-group	O	O
+a	I-Skill	O
+larger	I-Skill	O
+group	I-Skill	O
 
 Be	O	O
 meticulous	B-Skill	O
 and	O	O
 detail-oriented	B-Skill	O
-with	O	O
-all	O	O
-aspects	O	O
+with	I-Skill	O
+all	I-Skill	O
+aspects	I-Skill	O
 of	O	O
 the	O	O
 job	O	O
 
-Cleaning	O	O
-duties	O	O
+Cleaning	B-Skill	O
+duties	I-Skill	O
 will	O	O
 be	O	O
 part	O	O
@@ -18990,12 +18797,12 @@ the	I-Skill	O
 shop	I-Skill	O
 is	I-Skill	O
 tidy	I-Skill	O
-and	I-Skill	O
-clean	I-Skill	O
--	O	O
+and	O	O
+clean	B-Skill	O
+-	I-Skill	O
 dusting	B-Skill	O
-vacuuming	B-Skill	O
-etc;	O	O
+vacuuming	I-Skill	O
+etc;	I-Skill	O
 helmets	O	O
 sprayed;	O	O
 Segways	O	O
@@ -19013,14 +18820,14 @@ for	I-Skill	O
 your	I-Skill	O
 customers	I-Skill	O
 &	O	O
-clean	O	O
-up	O	O
-after	O	O
+clean	B-Skill	O
+up	I-Skill	O
+after	I-Skill	O
 them	O	O
 An	O	O
 independent	B-Skill	O
 work	I-Skill	O
-approach	I-Skill	O
+approach	O	O
 is	O	O
 necessary	O	O
 as	O	O
@@ -19028,8 +18835,8 @@ you	O	O
 sometimes	O	O
 will	O	O
 be	O	O
-running	O	O
-tours	O	O
+running	B-Skill	O
+tours	I-Skill	O
 in	O	O
 the	O	O
 shop	O	O
@@ -19074,7 +18881,7 @@ will	O	O
 be	O	O
 required	O	O
 
-Street-marketing	B-Skill	O
+Street-marketing	O	O
 
 Occassionally	O	O
 you	O	O
@@ -19082,8 +18889,8 @@ will	O	O
 be	O	O
 required	O	O
 to	O	O
-take	O	O
-street-marketing	B-Skill	O
+take	B-Skill	O
+street-marketing	I-Skill	O
 shifts;	O	O
 this	O	O
 entails	O	O
@@ -19094,7 +18901,7 @@ a	O	O
 confident	B-Skill	O
 and	O	O
 engaging	B-Skill	O
-attitude	O	O
+attitude	I-Skill	O
 trying	O	O
 to	O	O
 sell	O	O
@@ -19117,8 +18924,6 @@ in	O	O
 English	O	B-Knowledge
 .	O	O
 
-
-
 Additional	O	O
 languages	O	O
 are	O	O
@@ -19139,13 +18944,13 @@ also	O	O
 preferred	O	O
 .	O	O
 
-Outgoing	O	O
+Outgoing	B-Skill	O
 with	O	O
 a	O	O
 lively	B-Skill	O
 &	O	O
 fun	B-Skill	O
-personality	O	O
+personality	I-Skill	O
 .	O	O
 
 You	O	O
@@ -19164,8 +18969,6 @@ engage	B-Skill	O
 an	I-Skill	O
 audience	I-Skill	O
 .	O	O
-
-
 
 There	O	O
 is	O	O
@@ -19187,12 +18990,10 @@ the	O	O
 customer	O	O
 .	O	O
 
-Responsible	O	O
+Responsible	B-Skill	O
 &	O	O
 Dutiful	B-Skill	O
 .	O	O
-
-
 
 It	O	O
 is	O	O
@@ -19201,18 +19002,16 @@ you	O	O
 have	O	O
 a	O	O
 mature	B-Skill	O
-approach	O	O
+approach	I-Skill	O
 to	O	O
 the	O	O
 job	O	O
 and	O	O
 can	O	O
-demonstrate	B-Skill	O
-leadership	I-Skill	O
+demonstrate	O	O
+leadership	B-Skill	O
 abilities	I-Skill	O
 .	O	O
-
-
 
 It	O	O
 is	O	O
@@ -19245,8 +19044,6 @@ you	O	O
 Service-minded	B-Skill	O
 .	O	O
 
-
-
 It	O	O
 is	O	O
 important	O	O
@@ -19254,10 +19051,10 @@ you	O	O
 pride	O	O
 yourself	O	O
 in	O	O
-providing	B-Skill	O
-a	I-Skill	O
-first-class	I-Skill	O
-experience	I-Skill	O
+providing	O	O
+a	O	O
+first-class	O	O
+experience	O	O
 as	O	O
 we	O	O
 have	O	O
@@ -19284,14 +19081,12 @@ should	O	O
 always	O	O
 want	O	O
 to	O	O
-perform	B-Skill	O
-at	I-Skill	O
-your	I-Skill	O
-best	I-Skill	O
-ability	I-Skill	O
+perform	O	O
+at	O	O
+your	O	O
+best	O	O
+ability	O	O
 .	O	O
-
-
 
 Minimum	O	O
 21	O	O
@@ -19339,12 +19134,12 @@ high	O	O
 season	O	O
 (	O	O
 April/May-September);	O	O
-Prepared	O	O
-for	O	O
-a	O	O
-flexible	O	O
-working	O	O
-day	O	O
+Prepared	B-Skill	O
+for	I-Skill	O
+a	I-Skill	O
+flexible	I-Skill	O
+working	I-Skill	O
+day	I-Skill	O
 .	O	O
 
 Days	O	O
@@ -19374,11 +19169,11 @@ company	O	O
 entails	O	O
 being	O	O
 able	O	O
-to	O	O
-go-with-the-flow	O	O
+to	B-Skill	O
+go-with-the-flow	I-Skill	O
 and	O	O
 being	O	O
-accomodating	O	O
+accomodating	B-Skill	O
 to	O	O
 a	O	O
 flexible	O	O
@@ -19417,8 +19212,6 @@ within	O	O
 tourism	O	B-Knowledge
 .	O	O
 
-
-
 You	O	O
 have	O	O
 experience	O	O
@@ -19450,12 +19243,12 @@ JOB	O	O
 You	O	O
 will	O	O
 be	O	O
-trained	O	O
-thoroughly	O	O
-in	O	O
-all	O	O
-the	O	O
-procedures	O	O
+trained	B-Skill	O
+thoroughly	I-Skill	O
+in	I-Skill	O
+all	I-Skill	O
+the	I-Skill	O
+procedures	I-Skill	O
 and	O	O
 given	O	O
 the	O	O
@@ -19559,19 +19352,17 @@ you	O	O
 have	O	O
 a	O	O
 good	O	O
-stamina	B-Skill	O
+stamina	O	O
 for	O	O
 repeat	O	O
 tours	O	O
 and	O	O
 a	O	O
-love	B-Skill	O
-for	I-Skill	O
-being	I-Skill	O
-outdoors	I-Skill	O
+love	O	O
+for	O	O
+being	O	O
+outdoors	O	O
 .	O	O
-
-
 
 Our	O	O
 high	O	O
@@ -19781,9 +19572,9 @@ opportunity	O	O
 to	O	O
 manage	B-Skill	O
 challenges	I-Skill	O
-and	O	O
-personal	O	O
-impact	O	O
+and	I-Skill	O
+personal	I-Skill	O
+impact	I-Skill	O
 far	O	O
 beyond	O	O
 the	O	O
@@ -19843,7 +19634,7 @@ your	O	O
 business	B-Skill	O
 acumen	I-Skill	O
 planning	B-Skill	O
-skills	I-Skill	O
+skills	O	O
 and	O	O
 good	O	O
 ideas	O	O
@@ -19876,10 +19667,10 @@ horizon	O	O
 in	O	O
 close	O	O
 collaborating	B-Skill	O
-with	O	O
-the	O	O
-local	O	O
-site	O	O
+with	I-Skill	O
+the	I-Skill	O
+local	I-Skill	O
+site	I-Skill	O
 Tactical	O	O
 planners	O	O
 for	O	O
@@ -19931,8 +19722,6 @@ product	I-Skill	O
 availability	I-Skill	O
 .	O	O
 
-
-
 You	O	O
 will	O	O
 closely	O	O
@@ -19943,10 +19732,10 @@ Brand	O	O
 Supply	O	O
 Manager	O	O
 and	O	O
-support	O	O
-our	O	O
-Brand	O	O
-Strategy	O	O
+support	B-Skill	O
+our	I-Skill	O
+Brand	I-Skill	O
+Strategy	I-Skill	O
 via	O	O
 standardized	O	B-Knowledge
 global	O	I-Knowledge
@@ -20036,15 +19825,15 @@ functions	O	O
 and	O	O
 you	O	O
 will	O	O
-be	O	O
-part	O	O
-of	O	O
-various	O	O
-planning	O	O
-communities	O	O
-and	O	O
-project	O	O
-teams	O	O
+be	B-Skill	O
+part	I-Skill	O
+of	I-Skill	O
+various	I-Skill	O
+planning	I-Skill	O
+communities	I-Skill	O
+and	I-Skill	O
+project	I-Skill	O
+teams	I-Skill	O
 .	O	O
 
 To	O	O
@@ -20077,8 +19866,8 @@ the	O	O
 organization	O	O
 .	O	O
 
-Solid	O	O
-planning	B-Skill	O
+Solid	B-Skill	O
+planning	I-Skill	O
 experience	O	O
 from	O	O
 an	O	O
@@ -20127,8 +19916,6 @@ SAP	O	B-Knowledge
 APO	O	I-Knowledge
 .	O	O
 
-
-
 As	O	O
 such	O	O
 you	O	O
@@ -20141,8 +19928,8 @@ and	I-Skill	O
 input	I-Skill	O
 for	I-Skill	O
 optimization	I-Skill	O
-of	O	O
-our	O	O
+of	I-Skill	O
+our	I-Skill	O
 total	O	O
 supply	O	O
 chain	O	O
@@ -20157,8 +19944,6 @@ including	O	O
 complex	B-Skill	O
 coordination	I-Skill	O
 .	O	O
-
-
 
 As	O	O
 you	O	O
@@ -20177,19 +19962,17 @@ of	O	O
 your	O	O
 overview	B-Skill	O
 and	O	O
-sense	B-Skill	O
-of	I-Skill	O
-detail	I-Skill	O
+sense	O	O
+of	O	O
+detail	O	O
 .	O	O
-
-
 
 Your	O	O
 international	O	O
 experience	O	O
 and	O	O
 open-minded	B-Skill	O
-approach	O	O
+approach	I-Skill	O
 enable	O	O
 you	O	O
 to	O	O
@@ -20238,10 +20021,10 @@ in	O	O
 transformation	O	O
 you	O	O
 must	O	O
-thrive	O	O
-in	O	O
-an	O	O
-environment	O	O
+thrive	B-Skill	O
+in	I-Skill	O
+an	I-Skill	O
+environment	I-Skill	O
 where	O	O
 the	O	O
 only	O	O
@@ -20460,8 +20243,6 @@ environmental	O	B-Knowledge
 catalysis	O	I-Knowledge
 .	O	O
 
-
-
 The	O	O
 position	O	O
 is	O	O
@@ -20502,8 +20283,8 @@ role	O	O
 will	O	O
 be	O	O
 to	O	O
-study	O	O
-nanomaterials	O	B-Knowledge
+study	B-Skill	O
+nanomaterials	I-Skill	B-Knowledge
 for	O	O
 the	O	O
 selective	O	B-Knowledge
@@ -20551,8 +20332,6 @@ electron	O	I-Knowledge
 microscopy	O	I-Knowledge
 .	O	O
 
-
-
 This	O	O
 work	O	O
 will	O	O
@@ -20569,18 +20348,18 @@ techniques	O	I-Knowledge
 as	O	O
 well	O	O
 as	O	O
-catalyst	B-Skill	O
-testing	I-Skill	O
+catalyst	O	O
+testing	O	O
 and	O	O
-synthesis	B-Skill	O
+synthesis	O	O
 to	O	O
-develop	B-Skill	O
-an	I-Skill	O
-understanding	I-Skill	O
-of	I-Skill	O
-the	I-Skill	O
-catalytic	I-Skill	O
-performances	I-Skill	O
+develop	O	O
+an	O	O
+understanding	O	O
+of	O	O
+the	O	O
+catalytic	O	O
+performances	O	O
 and	O	O
 target	B-Skill	O
 new	I-Skill	O
@@ -20589,13 +20368,11 @@ of	I-Skill	O
 catalyst	I-Skill	O
 materials	I-Skill	O
 for	O	O
-improving	B-Skill	O
-NOx	I-Skill	O
-emission	I-Skill	O
-control	I-Skill	O
+improving	O	O
+NOx	O	O
+emission	O	O
+control	O	O
 .	O	O
-
-
 
 Your	O	O
 responsibilities	O	O
@@ -20608,41 +20385,33 @@ SCR	O	B-Knowledge
 catalysts	O	I-Knowledge
 .	O	O
 
-
-
-Application	B-Skill	O
-of	I-Skill	O
-S/TEM	I-Skill	O
-and	I-Skill	O
-EELS	I-Skill	O
-for	I-Skill	O
-atomic-resolution	I-Skill	O
-and	I-Skill	O
-in	I-Skill	O
-situ	I-Skill	O
-studies	I-Skill	O
+Application	O	O
+of	O	O
+S/TEM	O	O
+and	O	O
+EELS	O	O
+for	O	O
+atomic-resolution	O	O
+and	O	O
+in	O	O
+situ	O	O
+studies	O	O
 .	O	O
-
-
 
 Develop	B-Skill	O
 our	I-Skill	O
 atomic-scale	I-Skill	O
 model	I-Skill	O
-for	O	O
-SCR	B-Skill	B-Knowledge
+for	I-Skill	O
+SCR	I-Skill	B-Knowledge
 catalysis	I-Skill	O
 .	O	O
-
-
 
 Publishing	B-Skill	O
 in	I-Skill	O
 high-profile	I-Skill	O
 journals	I-Skill	O
 .	O	O
-
-
 
 You	O	O
 are	O	O
@@ -20656,12 +20425,12 @@ mind-set	I-Skill	O
 with	O	O
 lots	O	O
 of	O	O
-new	B-Skill	O
-ideas	I-Skill	O
+new	O	O
+ideas	O	O
 are	O	O
-ready	B-Skill	O
-to	I-Skill	O
-face	I-Skill	O
+ready	O	O
+to	O	O
+face	B-Skill	O
 new	I-Skill	O
 challenges	I-Skill	O
 and	O	O
@@ -20680,7 +20449,7 @@ complex	I-Skill	O
 research	I-Skill	O
 goals	I-Skill	O
 are	O	O
-enthusiastic	B-Skill	O
+enthusiastic	O	O
 about	O	O
 working	O	O
 at	O	O
@@ -20691,8 +20460,6 @@ catalysis	O	B-Knowledge
 sciences	O	I-Knowledge
 .	O	O
 
-
-
 Qualifications	O	O
 
 Ideally	O	O
@@ -20701,8 +20468,6 @@ have	O	O
 a	O	O
 Ph.D	O	B-Knowledge
 .	O	O
-
-
 
 in	O	O
 physics	O	B-Knowledge
@@ -20735,8 +20500,6 @@ other	O	O
 solid-state	O	B-Knowledge
 nanomaterials	O	I-Knowledge
 .	O	O
-
-
 
 Further	O	O
 information	O	O
@@ -20951,8 +20714,6 @@ quality	O	I-Knowledge
 evaluation	O	I-Knowledge
 .	O	O
 
-
-
 You	O	O
 will	O	O
 be	O	O
@@ -20996,8 +20757,8 @@ around	O	O
 directionality/beam-forming	O	B-Knowledge
 and	O	O
 finally	O	O
-do	O	O
-trimming	B-Skill	O
+do	B-Skill	O
+trimming	I-Skill	O
 and	I-Skill	O
 verification	I-Skill	O
 of	I-Skill	O
@@ -21117,8 +20878,6 @@ on	O	O
 MSc	O	B-Knowledge
 .	O	O
 
-
-
 level	O	O
 .	O	O
 
@@ -21137,10 +20896,10 @@ things	I-Skill	O
 to	I-Skill	O
 move	I-Skill	O
 forward	I-Skill	O
-in	O	O
-an	O	O
-optimized	O	O
-way	O	O
+in	I-Skill	O
+an	I-Skill	O
+optimized	I-Skill	O
+way	I-Skill	O
 .	O	O
 
 Your	O	O
@@ -21165,15 +20924,13 @@ a	I-Skill	O
 direction	I-Skill	O
 .	O	O
 
-
-
 You	O	O
 are	O	O
 also	O	O
-at	O	O
-ease	O	O
+at	B-Skill	O
+ease	B-Skill	O
 when	O	O
-communicating	O	O
+communicating	B-Skill	O
 in	O	O
 English	O	B-Knowledge
 (	O	O
@@ -21629,19 +21386,17 @@ a	O	O
 <PROFESSION>	O	O
 <PROFESSION>	O	O
 to	O	O
-research	B-Skill	O
-the	I-Skill	O
-market	I-Skill	O
+research	O	O
+the	O	O
+market	O	O
 and	O	O
-take	B-Skill	O
-initial	I-Skill	O
-contact	I-Skill	O
-to	I-Skill	O
-potential	I-Skill	O
-clients	I-Skill	O
+take	O	O
+initial	O	O
+contact	O	O
+to	O	O
+potential	O	O
+clients	O	O
 .	O	O
-
-
 
 Tasks:	O	O
 Carry	B-Skill	O
@@ -21671,9 +21426,9 @@ sales	O	O
 and	O	O
 technical	O	O
 department	O	O
-Translate	B-Skill	O
-sales	I-Skill	O
-material	I-Skill	O
+Translate	O	O
+sales	O	O
+material	O	O
 from	O	O
 English	O	B-Knowledge
 to	O	O
@@ -21700,9 +21455,9 @@ this	O	O
 and	O	O
 be	O	O
 proactive	B-Skill	O
-on	I-Skill	O
-the	I-Skill	O
-phone	I-Skill	O
+on	O	O
+the	O	O
+phone	O	O
 An	O	O
 independent	B-Skill	O
 positive	B-Skill	O
@@ -21723,11 +21478,11 @@ mandatory	O	O
 Preferably	O	O
 experience	O	O
 from	O	O
-working	B-Skill	O
-in	I-Skill	O
-a	I-Skill	O
-sales	I-Skill	O
-department	I-Skill	O
+working	O	O
+in	O	O
+a	O	O
+sales	O	O
+department	O	O
 or	O	O
 similar	O	O
 You	O	O
@@ -21960,9 +21715,9 @@ and	I-Skill	O
 transformation	I-Skill	O
 plans	I-Skill	O
 including	O	O
-communication	B-Skill	O
+communication	O	O
 and	O	O
-integration	B-Skill	O
+integration	O	O
 to	O	O
 strategic	O	O
 projects	O	O
@@ -22037,13 +21792,13 @@ and	O	O
 you	O	O
 will	O	O
 be	O	O
-collaborating	O	O
-with	O	O
-a	O	O
-broad	O	O
-diversity	O	O
-of	O	O
-cultures	O	O
+collaborating	B-Skill	O
+with	I-Skill	O
+a	I-Skill	O
+broad	I-Skill	O
+diversity	I-Skill	O
+of	I-Skill	O
+cultures	I-Skill	O
 globally	O	O
 .	O	O
 
@@ -22051,7 +21806,7 @@ The	O	O
 team	O	O
 is	O	O
 very	O	O
-dynamic	B-Skill	O
+dynamic	O	O
 and	O	O
 we	O	O
 have	O	O
@@ -22098,10 +21853,10 @@ expected	O	O
 to	O	O
 have	O	O
 a	O	O
-high	O	O
-personal	B-Skill	O
+high	B-Skill	O
+personal	I-Skill	O
 motivation	I-Skill	O
-drive	B-Skill	O
+drive	I-Skill	O
 and	O	O
 capability	O	O
 to	O	O
@@ -22113,21 +21868,21 @@ an	O	O
 open	B-Skill	O
 mind	I-Skill	O
 and	O	O
-focus	B-Skill	O
+focus	O	O
 on	O	O
-providing	B-Skill	O
-the	I-Skill	O
-best	I-Skill	O
-solution	I-Skill	O
+providing	O	O
+the	O	O
+best	O	O
+solution	O	O
 for	O	O
 <ORGANIZATION>	O	O
 <ORGANIZATION>	O	O
 in	O	O
 a	O	O
 very	O	O
-structured	B-Skill	O
+structured	O	O
 and	O	O
-analytic	B-Skill	O
+analytic	O	O
 manner	O	O
 .	O	O
 
@@ -22159,15 +21914,15 @@ domain	O	O
 
 Be	O	O
 the	O	O
-main	B-Skill	O
-interface	I-Skill	O
-between	I-Skill	O
-PLM	I-Skill	B-Knowledge
-data	I-Skill	O
-and	I-Skill	O
-systems	I-Skill	O
-governance	I-Skill	O
-organizations	I-Skill	O
+main	O	O
+interface	O	O
+between	O	O
+PLM	O	B-Knowledge
+data	O	O
+and	O	O
+systems	O	O
+governance	O	O
+organizations	O	O
 across	O	O
 <ORGANIZATION>	O	O
 and	O	O
@@ -22182,29 +21937,29 @@ and	I-Skill	O
 coach	I-Skill	O
 a	I-Skill	O
 team	I-Skill	O
-of	O	O
-internal	O	O
-and	O	O
-external	O	O
-solution	O	O
-architect	O	O
+of	I-Skill	O
+internal	I-Skill	O
+and	I-Skill	O
+external	I-Skill	O
+solution	I-Skill	O
+architect	I-Skill	O
 in	O	O
 the	O	O
 PLM	O	O
 department	O	O
 .	O	O
 
-Model	B-Skill	O
-and	I-Skill	O
-control	I-Skill	O
-enterprise	I-Skill	O
-PLM	I-Skill	B-Knowledge
-architecture	I-Skill	O
-(	I-Skill	O
-data	I-Skill	O
-and	I-Skill	O
-systems	I-Skill	O
-)	I-Skill	O
+Model	O	O
+and	O	O
+control	O	O
+enterprise	O	O
+PLM	O	B-Knowledge
+architecture	O	O
+(	O	O
+data	O	O
+and	O	O
+systems	O	O
+)	O	O
 as	O	O
 pr	O	O
 .	O	O
@@ -22221,9 +21976,9 @@ propositions	I-Skill	O
 of	I-Skill	O
 project	I-Skill	O
 proposals	I-Skill	O
-and	O	O
-strategic	O	O
-fit	O	O
+and	I-Skill	O
+strategic	I-Skill	O
+fit	I-Skill	O
 .	O	O
 
 About	O	O
@@ -22273,8 +22028,6 @@ execution	O	I-Knowledge
 systems	O	I-Knowledge
 .	O	O
 
-
-
 You	O	O
 have	O	O
 a	O	O
@@ -22305,7 +22058,7 @@ organizations	I-Skill	O
 and	O	O
 architecting	B-Skill	O
 value	I-Skill	O
-creating	I-Skill	O
+creating	B-Skill	O
 solutions	I-Skill	O
 for	I-Skill	O
 the	I-Skill	O
@@ -22328,9 +22081,9 @@ software	I-Skill	O
 to	I-Skill	O
 create	I-Skill	O
 value	I-Skill	O
-in	O	O
-the	O	O
-organization	O	O
+in	I-Skill	O
+the	I-Skill	O
+organization	I-Skill	O
 as	O	O
 well	O	O
 as	O	O
@@ -22361,13 +22114,13 @@ communicate	B-Skill	O
 on	I-Skill	O
 all	I-Skill	O
 levels	I-Skill	O
-of	O	O
-the	O	O
-organization	O	O
-and	O	O
-with	O	O
-many	O	O
-stakeholders	O	O
+of	I-Skill	O
+the	I-Skill	O
+organization	I-Skill	O
+and	I-Skill	O
+with	I-Skill	O
+many	I-Skill	O
+stakeholders	I-Skill	O
 within	O	O
 IT	O	O
 and	O	O
@@ -22378,7 +22131,7 @@ an	O	O
 excellent	O	O
 and	O	O
 persuasive	B-Skill	O
-communicator	I-Skill	O
+communicator	B-Skill	O
 and	O	O
 fluent	O	O
 in	O	O
@@ -22676,8 +22429,8 @@ The	O	O
 position	O	O
 includes	O	O
 teaching	B-Skill	O
-and	O	O
-research	B-Skill	O
+and	I-Skill	O
+research	I-Skill	O
 in	O	O
 basic	O	B-Knowledge
 and	O	I-Knowledge
@@ -22693,24 +22446,22 @@ dairy	O	B-Knowledge
 cattle	O	I-Knowledge
 .	O	O
 
-
-
 Qualifications	O	O
 within	O	O
 dairy	O	B-Knowledge
 production	O	I-Knowledge
-data	B-Skill	O
-modelling	I-Skill	O
-evaluation	B-Skill	O
-of	I-Skill	O
-feed	I-Skill	O
-quality	I-Skill	O
-and	I-Skill	O
-feed	I-Skill	O
-intake	I-Skill	O
-in	I-Skill	O
-dairy	I-Skill	O
-cattle	I-Skill	O
+data	O	O
+modelling	O	O
+evaluation	O	O
+of	O	O
+feed	O	O
+quality	O	O
+and	O	O
+feed	O	O
+intake	O	O
+in	O	O
+dairy	O	O
+cattle	O	O
 and	O	O
 good	O	O
 knowledge	O	O
@@ -22761,8 +22512,6 @@ and	O	O
 product	O	B-Knowledge
 quality	O	I-Knowledge
 .	O	O
-
-
 
 The	O	O
 Tenure	O	O
@@ -22884,7 +22633,7 @@ the	O	O
 above	O	O
 subject	O	O
 area	O	O
-research	B-Skill	O
+research	O	O
 and	O	O
 teaching	B-Skill	O
 experience	O	O
@@ -22910,8 +22659,6 @@ good	O	O
 interpersonal	B-Skill	O
 skills	I-Skill	O
 .	O	O
-
-
 
 Terms	O	O
 of	O	O
@@ -23082,7 +22829,7 @@ the	O	O
 assessment	O	O
 Documentation	O	O
 of	O	O
-teaching	O	O
+teaching	B-Skill	O
 skills	O	O
 if	O	O
 applicable	O	O
@@ -23394,3 +23141,4 @@ regardless	O	O
 of	O	O
 personal	O	O
 background.	O	O
+

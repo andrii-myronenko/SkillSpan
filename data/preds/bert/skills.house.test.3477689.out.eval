@@ -1,0 +1,12 @@
+{
+    "skill_extraction": {
+        "optimization_metrics": "span_f1",
+        "span_f1": {
+            "precision": 0.5008291873963516,
+            "recall": 0.47634069400630913,
+            "span_f1": 0.48827809215844786,
+            "sum": "span_f1"
+        }
+    },
+    "sum": 0.48827809215844786
+}

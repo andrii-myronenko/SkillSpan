@@ -1,0 +1,12 @@
+{
+    "knowledge_extraction": {
+        "optimization_metrics": "span_f1",
+        "span_f1": {
+            "precision": 0.6709451575262544,
+            "recall": 0.6936067551266586,
+            "span_f1": 0.6820877817319099,
+            "sum": "span_f1"
+        }
+    },
+    "sum": 0.6820877817319099
+}
