@@ -14,14 +14,11 @@ def evaluate(
     for i, pred_file in enumerate(pred_files):
         # Merge predictions and gold
         merged_file = merge_pred_gold(pred_file, gold_file, i)
-        
+
         out = os.popen(
-            f"perl scripts/nereval.perl < {merged_file}.{i}.merged.conll"
+            f"perl scripts/evaluation/nereval.perl < {merged_file}.{i}.merged.conll"
         ).read()
-        #os.system(f"rm {merged_file}.{i}.merged.conll")
-
-        print(out)
-
+        os.system(f"rm {merged_file}.{i}.merged.conll")
         outputs.append(
             {
                 out.strip().split("\n")[3]: out.strip().split("\n")[4:8],
@@ -34,7 +31,7 @@ def evaluate(
     metrics = defaultdict(lambda: defaultdict(list))
 
     for i, output in enumerate(outputs):
-        for k, v in output.items():\
+        for k, v in output.items():
             acc = float(v[0][11:-2])  # Accuracy:  99.75%;
             metrics[k]["Accuracy"].append(acc)
             prec = float(v[1][12:-2])  # Precision:  59.57%;
@@ -44,10 +41,10 @@ def evaluate(
             FB1 = float(v[3][6:])  # FB1:  60.89
             metrics[k]["FB1"].append(FB1)
 
-    model_name = pred_files[0].split("/")[6]
-    method = pred_files[0].split("/")[-1].split(".")[0]
-    eval_set = pred_files[0].split("/")[-1].split(".")[2]
-    split = pred_files[0].split("/")[-1].split(".")[1]
+    model_name = pred_files[1].split("/")[1]
+    method = pred_files[1].split("/")[-1].split(".")[0]
+    eval_set = pred_files[1].split("/")[-1].split(".")[2]
+    split = pred_files[1].split("/")[-1].split(".")[1]
     json.dump(
         metrics, open(f"metrics/{eval_set}.{method}.{model_name}.{split}.json", "w")
     )
@@ -62,7 +59,7 @@ def merge_pred_gold(pred_path: str, gold_path: str, i: int) -> str:
         for pred_line in pred_fp:
             gold_line = gold_fp.readline().strip().split("\t")
             pred_line = pred_line.strip().split("\t")
-            
+
             if len(gold_line) < 3 and len(pred_line) < 3:
                 outfile.write("\n")
                 continue

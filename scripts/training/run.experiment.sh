@@ -3,7 +3,8 @@
 MODEL=$1 # e.g., bert
 PARAMETERS=$2 # e.g., skill knowledge multi
 
-for c in 3477689 4213916 8749520 6828303 9364029
+# for c in 8679308 9979325
+for c in 3044792 4236855 6676809 8679308 9979325
 do
 
     echo "Training $MODEL on $PARAMETERS using seed $c"

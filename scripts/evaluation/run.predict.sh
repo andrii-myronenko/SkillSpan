@@ -12,5 +12,5 @@ do
 
     python3 ~/SkillSpan/machamp/predict.py logs/skill.$MODEL.$TYPE.$seed/*/model.pt data/conll/corpus_tech_$SET.conll data/preds/$MODEL/$TYPE.tech.$SET.$seed.out \
     --dataset tech
-    
+
 done
